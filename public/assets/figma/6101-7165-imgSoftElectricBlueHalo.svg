@@ -1,0 +1,12 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="1458.68" height="243.511" viewBox="0 0 1458.68 243.511" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Soft electric-blue halo" opacity="0.65" filter="url(#filter0_f_0_250)">
+<path d="M9.13379 9.13379H1406.29L1449.55 47.7924V212.897H279.67L247.435 234.377H34.898L9.13379 208.605V9.13379Z" stroke-width="5.48027" stroke="#0648E8"/>
+</g>
+<defs>
+<filter id="filter0_f_0_250" x="4.76837e-07" y="4.76837e-07" width="1458.68" height="243.511" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="3.19683" result="effect1_foregroundBlur_0_250"/>
+</filter>
+</defs>
+</svg>

@@ -1,0 +1,150 @@
+{
+  "id": "puzzle-032",
+  "category": "security_count",
+  "title": "Count the security symbols",
+  "instruction": "Count only the symbols inside the frame. Use the order below, then add #.",
+  "inputMode": "text",
+  "inputCharacters": "0123456789!#@",
+  "difficulty": "medium",
+  "canvas": {
+    "width": 1460,
+    "height": 1793
+  },
+  "screenPlacement": {
+    "x": 350,
+    "y": 1010
+  },
+  "components": [
+    {
+      "component": "security-icon",
+      "assetId": "key",
+      "x": 123.435,
+      "y": 117.001,
+      "width": 255.0,
+      "height": 255.0
+    },
+    {
+      "component": "security-icon",
+      "assetId": "key",
+      "x": 450.613,
+      "y": 116.35,
+      "width": 255.0,
+      "height": 255.0
+    },
+    {
+      "component": "security-icon",
+      "assetId": "key",
+      "x": 773.147,
+      "y": 112.365,
+      "width": 255.0,
+      "height": 255.0
+    },
+    {
+      "component": "security-icon",
+      "assetId": "shield",
+      "x": 1095.276,
+      "y": 118.62,
+      "width": 255.0,
+      "height": 255.0
+    },
+    {
+      "component": "security-icon",
+      "assetId": "lock",
+      "x": 125.286,
+      "y": 432.616,
+      "width": 255.0,
+      "height": 255.0
+    },
+    {
+      "component": "security-icon",
+      "assetId": "shield",
+      "x": 437.936,
+      "y": 440.788,
+      "width": 255.0,
+      "height": 255.0
+    },
+    {
+      "component": "security-icon",
+      "assetId": "key",
+      "x": 767.852,
+      "y": 437.114,
+      "width": 255.0,
+      "height": 255.0
+    },
+    {
+      "component": "security-icon",
+      "assetId": "shield",
+      "x": 1083.45,
+      "y": 447.242,
+      "width": 255.0,
+      "height": 255.0
+    },
+    {
+      "component": "security-icon",
+      "assetId": "lock",
+      "x": 109.354,
+      "y": 762.299,
+      "width": 255.0,
+      "height": 255.0
+    },
+    {
+      "component": "security-icon",
+      "assetId": "lock",
+      "x": 445.486,
+      "y": 761.676,
+      "width": 255.0,
+      "height": 255.0
+    },
+    {
+      "component": "security-icon",
+      "assetId": "lock",
+      "x": 760.592,
+      "y": 754.457,
+      "width": 255.0,
+      "height": 255.0
+    },
+    {
+      "component": "security-icon",
+      "assetId": "lock",
+      "x": 1080.99,
+      "y": 757.186,
+      "width": 255.0,
+      "height": 255.0
+    },
+    {
+      "component": "security-icon",
+      "assetId": "key",
+      "x": 431.243,
+      "y": 1082.725,
+      "width": 255.0,
+      "height": 255.0
+    },
+    {
+      "component": "security-icon",
+      "assetId": "lock",
+      "x": 767.454,
+      "y": 1075.677,
+      "width": 255.0,
+      "height": 255.0
+    }
+  ],
+  "countFrame": {
+    "x": 0,
+    "y": 0,
+    "width": 1460,
+    "height": 1450,
+    "radius": 42
+  },
+  "legend": {
+    "x": 0,
+    "y": 1670,
+    "width": 1460,
+    "height": 123,
+    "order": [
+      "shield",
+      "lock",
+      "key"
+    ],
+    "suffix": "#"
+  }
+}

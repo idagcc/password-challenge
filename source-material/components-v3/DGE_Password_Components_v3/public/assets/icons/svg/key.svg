@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" height="256" viewBox="64.8148 62.8148 130.3704 130.3704">
+<path fill="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(100%, 80.783081%, 39.99939%)" stroke-opacity="1" stroke-miterlimit="10" d="M -6.998922 0 C -6.998922 7.179418 -12.820582 13.001078 -20 13.001078 C -27.179418 13.001078 -33.001078 7.179418 -33.001078 0 C -33.001078 -7.179418 -27.179418 -13.001078 -20 -13.001078 C -12.820582 -13.001078 -6.998922 -7.179418 -6.998922 0 " transform="matrix(1.45, 0, 0, -1.45, 128, 128)"/>
+<path fill="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(100%, 80.783081%, 39.99939%)" stroke-opacity="1" stroke-miterlimit="10" d="M -5.999461 0 L 35.999461 0 " transform="matrix(1.45, 0, 0, -1.45, 128, 128)"/>
+<path fill="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(100%, 80.783081%, 39.99939%)" stroke-opacity="1" stroke-miterlimit="10" d="M 23.001078 0 L 23.001078 -11.998922 " transform="matrix(1.45, 0, 0, -1.45, 128, 128)"/>
+<path fill="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(100%, 80.783081%, 39.99939%)" stroke-opacity="1" stroke-miterlimit="10" d="M 35 0 L 35 -9.000539 " transform="matrix(1.45, 0, 0, -1.45, 128, 128)"/>
+</svg>

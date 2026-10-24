@@ -1,0 +1,955 @@
+{
+  "schemaVersion": "1.0.0",
+  "packId": "dge-password-puzzles-50-v1",
+  "normalization": {
+    "trim": true,
+    "removeWhitespace": true,
+    "uppercase": true,
+    "preserveDigitsAndSymbols": true
+  },
+  "puzzles": [
+    {
+      "id": "puzzle-001",
+      "category": "picture_password",
+      "answer": "SUNFLOWER7!",
+      "acceptedAnswers": [
+        "SUNFLOWER7!"
+      ],
+      "clues": [
+        "sun",
+        "flower",
+        "7",
+        "!"
+      ],
+      "hint": "The pictures represent SUN and FLOWER. Join the words, then add the digit and symbol.",
+      "explanation": "SUN + FLOWER + 7 + !"
+    },
+    {
+      "id": "puzzle-002",
+      "category": "picture_password",
+      "answer": "FIREWALL4!",
+      "acceptedAnswers": [
+        "FIREWALL4!"
+      ],
+      "clues": [
+        "fire",
+        "wall",
+        "4",
+        "!"
+      ],
+      "hint": "The pictures represent FIRE and WALL. Join the words, then add the digit and symbol.",
+      "explanation": "FIRE + WALL + 4 + !"
+    },
+    {
+      "id": "puzzle-003",
+      "category": "picture_password",
+      "answer": "STARFISH3#",
+      "acceptedAnswers": [
+        "STARFISH3#"
+      ],
+      "clues": [
+        "star",
+        "fish",
+        "3",
+        "#"
+      ],
+      "hint": "The pictures represent STAR and FISH. Join the words, then add the digit and symbol.",
+      "explanation": "STAR + FISH + 3 + #"
+    },
+    {
+      "id": "puzzle-004",
+      "category": "picture_password",
+      "answer": "KEYBOARD6@",
+      "acceptedAnswers": [
+        "KEYBOARD6@"
+      ],
+      "clues": [
+        "key",
+        "board",
+        "6",
+        "@"
+      ],
+      "hint": "The pictures represent KEY and BOARD. Join the words, then add the digit and symbol.",
+      "explanation": "KEY + BOARD + 6 + @"
+    },
+    {
+      "id": "puzzle-005",
+      "category": "picture_password",
+      "answer": "SNOWBALL2#",
+      "acceptedAnswers": [
+        "SNOWBALL2#"
+      ],
+      "clues": [
+        "snow",
+        "ball",
+        "2",
+        "#"
+      ],
+      "hint": "The pictures represent SNOW and BALL. Join the words, then add the digit and symbol.",
+      "explanation": "SNOW + BALL + 2 + #"
+    },
+    {
+      "id": "puzzle-006",
+      "category": "picture_password",
+      "answer": "SUNGLASSES8!",
+      "acceptedAnswers": [
+        "SUNGLASSES8!"
+      ],
+      "clues": [
+        "sun",
+        "glasses",
+        "8",
+        "!"
+      ],
+      "hint": "The pictures represent SUN and GLASSES. Join the words, then add the digit and symbol.",
+      "explanation": "SUN + GLASSES + 8 + !"
+    },
+    {
+      "id": "puzzle-007",
+      "category": "picture_password",
+      "answer": "FOOTBALL5@",
+      "acceptedAnswers": [
+        "FOOTBALL5@"
+      ],
+      "clues": [
+        "foot",
+        "ball",
+        "5",
+        "@"
+      ],
+      "hint": "The pictures represent FOOT and BALL. Join the words, then add the digit and symbol.",
+      "explanation": "FOOT + BALL + 5 + @"
+    },
+    {
+      "id": "puzzle-008",
+      "category": "picture_password",
+      "answer": "TOOTHBRUSH9#",
+      "acceptedAnswers": [
+        "TOOTHBRUSH9#"
+      ],
+      "clues": [
+        "tooth",
+        "brush",
+        "9",
+        "#"
+      ],
+      "hint": "The pictures represent TOOTH and BRUSH. Join the words, then add the digit and symbol.",
+      "explanation": "TOOTH + BRUSH + 9 + #"
+    },
+    {
+      "id": "puzzle-009",
+      "category": "picture_password",
+      "answer": "CUPCAKE4@",
+      "acceptedAnswers": [
+        "CUPCAKE4@"
+      ],
+      "clues": [
+        "cup",
+        "cake",
+        "4",
+        "@"
+      ],
+      "hint": "The pictures represent CUP and CAKE. Join the words, then add the digit and symbol.",
+      "explanation": "CUP + CAKE + 4 + @"
+    },
+    {
+      "id": "puzzle-010",
+      "category": "picture_password",
+      "answer": "BOOKWORM6!",
+      "acceptedAnswers": [
+        "BOOKWORM6!"
+      ],
+      "clues": [
+        "book",
+        "worm",
+        "6",
+        "!"
+      ],
+      "hint": "The pictures represent BOOK and WORM. Join the words, then add the digit and symbol.",
+      "explanation": "BOOK + WORM + 6 + !"
+    },
+    {
+      "id": "puzzle-011",
+      "category": "picture_password",
+      "answer": "RAINBOW8#",
+      "acceptedAnswers": [
+        "RAINBOW8#"
+      ],
+      "clues": [
+        "rain",
+        "bow",
+        "8",
+        "#"
+      ],
+      "hint": "The pictures represent RAIN and BOW. Join the words, then add the digit and symbol.",
+      "explanation": "RAIN + BOW + 8 + #"
+    },
+    {
+      "id": "puzzle-012",
+      "category": "picture_password",
+      "answer": "DOORBELL2@",
+      "acceptedAnswers": [
+        "DOORBELL2@"
+      ],
+      "clues": [
+        "door",
+        "bell",
+        "2",
+        "@"
+      ],
+      "hint": "The pictures represent DOOR and BELL. Join the words, then add the digit and symbol.",
+      "explanation": "DOOR + BELL + 2 + @"
+    },
+    {
+      "id": "puzzle-013",
+      "category": "picture_password",
+      "answer": "FIRETRUCK7#",
+      "acceptedAnswers": [
+        "FIRETRUCK7#"
+      ],
+      "clues": [
+        "fire",
+        "truck",
+        "7",
+        "#"
+      ],
+      "hint": "The pictures represent FIRE and TRUCK. Join the words, then add the digit and symbol.",
+      "explanation": "FIRE + TRUCK + 7 + #"
+    },
+    {
+      "id": "puzzle-014",
+      "category": "picture_password",
+      "answer": "EARPHONE5!",
+      "acceptedAnswers": [
+        "EARPHONE5!"
+      ],
+      "clues": [
+        "ear",
+        "phone",
+        "5",
+        "!"
+      ],
+      "hint": "The pictures represent EAR and PHONE. Join the words, then add the digit and symbol.",
+      "explanation": "EAR + PHONE + 5 + !"
+    },
+    {
+      "id": "puzzle-015",
+      "category": "picture_password",
+      "answer": "NOTEBOOK3@",
+      "acceptedAnswers": [
+        "NOTEBOOK3@"
+      ],
+      "clues": [
+        "note",
+        "book",
+        "3",
+        "@"
+      ],
+      "hint": "The pictures represent NOTE and BOOK. Join the words, then add the digit and symbol.",
+      "explanation": "NOTE + BOOK + 3 + @"
+    },
+    {
+      "id": "puzzle-016",
+      "category": "picture_password",
+      "answer": "HONEYBEE9!",
+      "acceptedAnswers": [
+        "HONEYBEE9!"
+      ],
+      "clues": [
+        "honey",
+        "bee",
+        "9",
+        "!"
+      ],
+      "hint": "The pictures represent HONEY and BEE. Join the words, then add the digit and symbol.",
+      "explanation": "HONEY + BEE + 9 + !"
+    },
+    {
+      "id": "puzzle-017",
+      "category": "picture_password",
+      "answer": "SHELLFISH6#",
+      "acceptedAnswers": [
+        "SHELLFISH6#"
+      ],
+      "clues": [
+        "shell",
+        "fish",
+        "6",
+        "#"
+      ],
+      "hint": "The pictures represent SHELL and FISH. Join the words, then add the digit and symbol.",
+      "explanation": "SHELL + FISH + 6 + #"
+    },
+    {
+      "id": "puzzle-018",
+      "category": "picture_password",
+      "answer": "GOLDFISH4!",
+      "acceptedAnswers": [
+        "GOLDFISH4!"
+      ],
+      "clues": [
+        "gold",
+        "fish",
+        "4",
+        "!"
+      ],
+      "hint": "The pictures represent GOLD and FISH. Join the words, then add the digit and symbol.",
+      "explanation": "GOLD + FISH + 4 + !"
+    },
+    {
+      "id": "puzzle-019",
+      "category": "picture_password",
+      "answer": "CUPBOARD7@",
+      "acceptedAnswers": [
+        "CUPBOARD7@"
+      ],
+      "clues": [
+        "cup",
+        "board",
+        "7",
+        "@"
+      ],
+      "hint": "The pictures represent CUP and BOARD. Join the words, then add the digit and symbol.",
+      "explanation": "CUP + BOARD + 7 + @"
+    },
+    {
+      "id": "puzzle-020",
+      "category": "picture_password",
+      "answer": "PINWHEEL2!",
+      "acceptedAnswers": [
+        "PINWHEEL2!"
+      ],
+      "clues": [
+        "pin",
+        "wheel",
+        "2",
+        "!"
+      ],
+      "hint": "The pictures represent PIN and WHEEL. Join the words, then add the digit and symbol.",
+      "explanation": "PIN + WHEEL + 2 + !"
+    },
+    {
+      "id": "puzzle-021",
+      "category": "picture_password",
+      "answer": "HOUSEBOAT8@",
+      "acceptedAnswers": [
+        "HOUSEBOAT8@"
+      ],
+      "clues": [
+        "house",
+        "boat",
+        "8",
+        "@"
+      ],
+      "hint": "The pictures represent HOUSE and BOAT. Join the words, then add the digit and symbol.",
+      "explanation": "HOUSE + BOAT + 8 + @"
+    },
+    {
+      "id": "puzzle-022",
+      "category": "picture_password",
+      "answer": "WATERMELON5#",
+      "acceptedAnswers": [
+        "WATERMELON5#"
+      ],
+      "clues": [
+        "water",
+        "melon",
+        "5",
+        "#"
+      ],
+      "hint": "The pictures represent WATER and MELON. Join the words, then add the digit and symbol.",
+      "explanation": "WATER + MELON + 5 + #"
+    },
+    {
+      "id": "puzzle-023",
+      "category": "picture_password",
+      "answer": "RAINCOAT3!",
+      "acceptedAnswers": [
+        "RAINCOAT3!"
+      ],
+      "clues": [
+        "rain",
+        "coat",
+        "3",
+        "!"
+      ],
+      "hint": "The pictures represent RAIN and COAT. Join the words, then add the digit and symbol.",
+      "explanation": "RAIN + COAT + 3 + !"
+    },
+    {
+      "id": "puzzle-024",
+      "category": "picture_password",
+      "answer": "SNOWMAN9@",
+      "acceptedAnswers": [
+        "SNOWMAN9@"
+      ],
+      "clues": [
+        "snow",
+        "man",
+        "9",
+        "@"
+      ],
+      "hint": "The pictures represent SNOW and MAN. Join the words, then add the digit and symbol.",
+      "explanation": "SNOW + MAN + 9 + @"
+    },
+    {
+      "id": "puzzle-025",
+      "category": "picture_password",
+      "answer": "LIGHTHOUSE6@",
+      "acceptedAnswers": [
+        "LIGHTHOUSE6@"
+      ],
+      "clues": [
+        "light",
+        "house",
+        "6",
+        "@"
+      ],
+      "hint": "The pictures represent LIGHT and HOUSE. Join the words, then add the digit and symbol.",
+      "explanation": "LIGHT + HOUSE + 6 + @"
+    },
+    {
+      "id": "puzzle-026",
+      "category": "security_count",
+      "answer": "423#",
+      "acceptedAnswers": [
+        "423#"
+      ],
+      "legendOrder": [
+        "key",
+        "shield",
+        "lock"
+      ],
+      "counts": {
+        "key": 4,
+        "shield": 2,
+        "lock": 3
+      },
+      "suffix": "#",
+      "hint": "Count each type separately. Ignore the small symbols in the entry-order strip.",
+      "explanation": "4 key, 2 shield, 3 lock; append #."
+    },
+    {
+      "id": "puzzle-027",
+      "category": "security_count",
+      "answer": "534!",
+      "acceptedAnswers": [
+        "534!"
+      ],
+      "legendOrder": [
+        "lock",
+        "key",
+        "shield"
+      ],
+      "counts": {
+        "lock": 5,
+        "key": 3,
+        "shield": 4
+      },
+      "suffix": "!",
+      "hint": "Count each type separately. Ignore the small symbols in the entry-order strip.",
+      "explanation": "5 lock, 3 key, 4 shield; append !."
+    },
+    {
+      "id": "puzzle-028",
+      "category": "security_count",
+      "answer": "435@",
+      "acceptedAnswers": [
+        "435@"
+      ],
+      "legendOrder": [
+        "usb",
+        "lock",
+        "key"
+      ],
+      "counts": {
+        "usb": 4,
+        "lock": 3,
+        "key": 5
+      },
+      "suffix": "@",
+      "hint": "Count each type separately. Ignore the small symbols in the entry-order strip.",
+      "explanation": "4 usb, 3 lock, 5 key; append @."
+    },
+    {
+      "id": "puzzle-029",
+      "category": "security_count",
+      "answer": "624#",
+      "acceptedAnswers": [
+        "624#"
+      ],
+      "legendOrder": [
+        "shield",
+        "usb",
+        "lock"
+      ],
+      "counts": {
+        "shield": 6,
+        "usb": 2,
+        "lock": 4
+      },
+      "suffix": "#",
+      "hint": "Count each type separately. Ignore the small symbols in the entry-order strip.",
+      "explanation": "6 shield, 2 usb, 4 lock; append #."
+    },
+    {
+      "id": "puzzle-030",
+      "category": "security_count",
+      "answer": "362!",
+      "acceptedAnswers": [
+        "362!"
+      ],
+      "legendOrder": [
+        "laptop",
+        "key",
+        "shield"
+      ],
+      "counts": {
+        "laptop": 3,
+        "key": 6,
+        "shield": 2
+      },
+      "suffix": "!",
+      "hint": "Count each type separately. Ignore the small symbols in the entry-order strip.",
+      "explanation": "3 laptop, 6 key, 2 shield; append !."
+    },
+    {
+      "id": "puzzle-031",
+      "category": "security_count",
+      "answer": "543@",
+      "acceptedAnswers": [
+        "543@"
+      ],
+      "legendOrder": [
+        "key",
+        "usb",
+        "laptop"
+      ],
+      "counts": {
+        "key": 5,
+        "usb": 4,
+        "laptop": 3
+      },
+      "suffix": "@",
+      "hint": "Count each type separately. Ignore the small symbols in the entry-order strip.",
+      "explanation": "5 key, 4 usb, 3 laptop; append @."
+    },
+    {
+      "id": "puzzle-032",
+      "category": "security_count",
+      "answer": "365#",
+      "acceptedAnswers": [
+        "365#"
+      ],
+      "legendOrder": [
+        "shield",
+        "lock",
+        "key"
+      ],
+      "counts": {
+        "shield": 3,
+        "lock": 6,
+        "key": 5
+      },
+      "suffix": "#",
+      "hint": "Count each type separately. Ignore the small symbols in the entry-order strip.",
+      "explanation": "3 shield, 6 lock, 5 key; append #."
+    },
+    {
+      "id": "puzzle-033",
+      "category": "security_count",
+      "answer": "642!",
+      "acceptedAnswers": [
+        "642!"
+      ],
+      "legendOrder": [
+        "usb",
+        "shield",
+        "laptop"
+      ],
+      "counts": {
+        "usb": 6,
+        "shield": 4,
+        "laptop": 2
+      },
+      "suffix": "!",
+      "hint": "Count each type separately. Ignore the small symbols in the entry-order strip.",
+      "explanation": "6 usb, 4 shield, 2 laptop; append !."
+    },
+    {
+      "id": "puzzle-034",
+      "category": "security_count",
+      "answer": "453@",
+      "acceptedAnswers": [
+        "453@"
+      ],
+      "legendOrder": [
+        "lock",
+        "laptop",
+        "usb"
+      ],
+      "counts": {
+        "lock": 4,
+        "laptop": 5,
+        "usb": 3
+      },
+      "suffix": "@",
+      "hint": "Count each type separately. Ignore the small symbols in the entry-order strip.",
+      "explanation": "4 lock, 5 laptop, 3 usb; append @."
+    },
+    {
+      "id": "puzzle-035",
+      "category": "security_count",
+      "answer": "635#",
+      "acceptedAnswers": [
+        "635#"
+      ],
+      "legendOrder": [
+        "key",
+        "shield",
+        "usb"
+      ],
+      "counts": {
+        "key": 6,
+        "shield": 3,
+        "usb": 5
+      },
+      "suffix": "#",
+      "hint": "Count each type separately. Ignore the small symbols in the entry-order strip.",
+      "explanation": "6 key, 3 shield, 5 usb; append #."
+    },
+    {
+      "id": "puzzle-036",
+      "category": "security_count",
+      "answer": "456!",
+      "acceptedAnswers": [
+        "456!"
+      ],
+      "legendOrder": [
+        "laptop",
+        "lock",
+        "shield"
+      ],
+      "counts": {
+        "laptop": 4,
+        "lock": 5,
+        "shield": 6
+      },
+      "suffix": "!",
+      "hint": "Count each type separately. Ignore the small symbols in the entry-order strip.",
+      "explanation": "4 laptop, 5 lock, 6 shield; append !."
+    },
+    {
+      "id": "puzzle-037",
+      "category": "security_count",
+      "answer": "374@",
+      "acceptedAnswers": [
+        "374@"
+      ],
+      "legendOrder": [
+        "usb",
+        "key",
+        "lock"
+      ],
+      "counts": {
+        "usb": 3,
+        "key": 7,
+        "lock": 4
+      },
+      "suffix": "@",
+      "hint": "Count each type separately. Ignore the small symbols in the entry-order strip.",
+      "explanation": "3 usb, 7 key, 4 lock; append @."
+    },
+    {
+      "id": "puzzle-038",
+      "category": "security_count",
+      "answer": "536#",
+      "acceptedAnswers": [
+        "536#"
+      ],
+      "legendOrder": [
+        "shield",
+        "laptop",
+        "key"
+      ],
+      "counts": {
+        "shield": 5,
+        "laptop": 3,
+        "key": 6
+      },
+      "suffix": "#",
+      "hint": "Count each type separately. Ignore the small symbols in the entry-order strip.",
+      "explanation": "5 shield, 3 laptop, 6 key; append #."
+    },
+    {
+      "id": "puzzle-039",
+      "category": "security_count",
+      "answer": "653!",
+      "acceptedAnswers": [
+        "653!"
+      ],
+      "legendOrder": [
+        "lock",
+        "usb",
+        "shield"
+      ],
+      "counts": {
+        "lock": 6,
+        "usb": 5,
+        "shield": 3
+      },
+      "suffix": "!",
+      "hint": "Count each type separately. Ignore the small symbols in the entry-order strip.",
+      "explanation": "6 lock, 5 usb, 3 shield; append !."
+    },
+    {
+      "id": "puzzle-040",
+      "category": "security_count",
+      "answer": "745@",
+      "acceptedAnswers": [
+        "745@"
+      ],
+      "legendOrder": [
+        "key",
+        "laptop",
+        "lock"
+      ],
+      "counts": {
+        "key": 7,
+        "laptop": 4,
+        "lock": 5
+      },
+      "suffix": "@",
+      "hint": "Count each type separately. Ignore the small symbols in the entry-order strip.",
+      "explanation": "7 key, 4 laptop, 5 lock; append @."
+    },
+    {
+      "id": "puzzle-041",
+      "category": "security_count",
+      "answer": "564#",
+      "acceptedAnswers": [
+        "564#"
+      ],
+      "legendOrder": [
+        "usb",
+        "shield",
+        "key"
+      ],
+      "counts": {
+        "usb": 5,
+        "shield": 6,
+        "key": 4
+      },
+      "suffix": "#",
+      "hint": "Count each type separately. Ignore the small symbols in the entry-order strip.",
+      "explanation": "5 usb, 6 shield, 4 key; append #."
+    },
+    {
+      "id": "puzzle-042",
+      "category": "security_count",
+      "answer": "3542!",
+      "acceptedAnswers": [
+        "3542!"
+      ],
+      "legendOrder": [
+        "lock",
+        "key",
+        "shield",
+        "usb"
+      ],
+      "counts": {
+        "lock": 3,
+        "key": 5,
+        "shield": 4,
+        "usb": 2
+      },
+      "suffix": "!",
+      "hint": "Count each type separately. Ignore the small symbols in the entry-order strip.",
+      "explanation": "3 lock, 5 key, 4 shield, 2 usb; append !."
+    },
+    {
+      "id": "puzzle-043",
+      "category": "security_count",
+      "answer": "4352@",
+      "acceptedAnswers": [
+        "4352@"
+      ],
+      "legendOrder": [
+        "shield",
+        "usb",
+        "laptop",
+        "key"
+      ],
+      "counts": {
+        "shield": 4,
+        "usb": 3,
+        "laptop": 5,
+        "key": 2
+      },
+      "suffix": "@",
+      "hint": "Count each type separately. Ignore the small symbols in the entry-order strip.",
+      "explanation": "4 shield, 3 usb, 5 laptop, 2 key; append @."
+    },
+    {
+      "id": "puzzle-044",
+      "category": "security_count",
+      "answer": "5423#",
+      "acceptedAnswers": [
+        "5423#"
+      ],
+      "legendOrder": [
+        "laptop",
+        "lock",
+        "usb",
+        "shield"
+      ],
+      "counts": {
+        "laptop": 5,
+        "lock": 4,
+        "usb": 2,
+        "shield": 3
+      },
+      "suffix": "#",
+      "hint": "Count each type separately. Ignore the small symbols in the entry-order strip.",
+      "explanation": "5 laptop, 4 lock, 2 usb, 3 shield; append #."
+    },
+    {
+      "id": "puzzle-045",
+      "category": "security_count",
+      "answer": "3546!",
+      "acceptedAnswers": [
+        "3546!"
+      ],
+      "legendOrder": [
+        "key",
+        "usb",
+        "lock",
+        "laptop"
+      ],
+      "counts": {
+        "key": 3,
+        "usb": 5,
+        "lock": 4,
+        "laptop": 6
+      },
+      "suffix": "!",
+      "hint": "Count each type separately. Ignore the small symbols in the entry-order strip.",
+      "explanation": "3 key, 5 usb, 4 lock, 6 laptop; append !."
+    },
+    {
+      "id": "puzzle-046",
+      "category": "security_count",
+      "answer": "2654@",
+      "acceptedAnswers": [
+        "2654@"
+      ],
+      "legendOrder": [
+        "shield",
+        "laptop",
+        "key",
+        "lock"
+      ],
+      "counts": {
+        "shield": 2,
+        "laptop": 6,
+        "key": 5,
+        "lock": 4
+      },
+      "suffix": "@",
+      "hint": "Count each type separately. Ignore the small symbols in the entry-order strip.",
+      "explanation": "2 shield, 6 laptop, 5 key, 4 lock; append @."
+    },
+    {
+      "id": "puzzle-047",
+      "category": "security_count",
+      "answer": "4563#",
+      "acceptedAnswers": [
+        "4563#"
+      ],
+      "legendOrder": [
+        "usb",
+        "lock",
+        "shield",
+        "laptop"
+      ],
+      "counts": {
+        "usb": 4,
+        "lock": 5,
+        "shield": 6,
+        "laptop": 3
+      },
+      "suffix": "#",
+      "hint": "Count each type separately. Ignore the small symbols in the entry-order strip.",
+      "explanation": "4 usb, 5 lock, 6 shield, 3 laptop; append #."
+    },
+    {
+      "id": "puzzle-048",
+      "category": "security_count",
+      "answer": "5364!",
+      "acceptedAnswers": [
+        "5364!"
+      ],
+      "legendOrder": [
+        "lock",
+        "shield",
+        "key",
+        "usb"
+      ],
+      "counts": {
+        "lock": 5,
+        "shield": 3,
+        "key": 6,
+        "usb": 4
+      },
+      "suffix": "!",
+      "hint": "Count each type separately. Ignore the small symbols in the entry-order strip.",
+      "explanation": "5 lock, 3 shield, 6 key, 4 usb; append !."
+    },
+    {
+      "id": "puzzle-049",
+      "category": "security_count",
+      "answer": "6435@",
+      "acceptedAnswers": [
+        "6435@"
+      ],
+      "legendOrder": [
+        "laptop",
+        "usb",
+        "key",
+        "shield"
+      ],
+      "counts": {
+        "laptop": 6,
+        "usb": 4,
+        "key": 3,
+        "shield": 5
+      },
+      "suffix": "@",
+      "hint": "Count each type separately. Ignore the small symbols in the entry-order strip.",
+      "explanation": "6 laptop, 4 usb, 3 key, 5 shield; append @."
+    },
+    {
+      "id": "puzzle-050",
+      "category": "security_count",
+      "answer": "4653#",
+      "acceptedAnswers": [
+        "4653#"
+      ],
+      "legendOrder": [
+        "key",
+        "lock",
+        "laptop",
+        "usb"
+      ],
+      "counts": {
+        "key": 4,
+        "lock": 6,
+        "laptop": 5,
+        "usb": 3
+      },
+      "suffix": "#",
+      "hint": "Count each type separately. Ignore the small symbols in the entry-order strip.",
+      "explanation": "4 key, 6 lock, 5 laptop, 3 usb; append #."
+    }
+  ]
+}

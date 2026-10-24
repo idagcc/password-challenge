@@ -1,0 +1,126 @@
+{
+  "id": "puzzle-030",
+  "category": "security_count",
+  "title": "Count the security symbols",
+  "instruction": "Count only the symbols inside the frame. Use the order below, then add !.",
+  "inputMode": "text",
+  "inputCharacters": "0123456789!#@",
+  "difficulty": "easy",
+  "canvas": {
+    "width": 1460,
+    "height": 1793
+  },
+  "screenPlacement": {
+    "x": 350,
+    "y": 1010
+  },
+  "components": [
+    {
+      "component": "security-icon",
+      "assetId": "shield",
+      "x": 177.11,
+      "y": 113.908,
+      "width": 262.5,
+      "height": 262.5
+    },
+    {
+      "component": "security-icon",
+      "assetId": "key",
+      "x": 587.841,
+      "y": 126.279,
+      "width": 262.5,
+      "height": 262.5
+    },
+    {
+      "component": "security-icon",
+      "assetId": "key",
+      "x": 1021.558,
+      "y": 110.151,
+      "width": 262.5,
+      "height": 262.5
+    },
+    {
+      "component": "security-icon",
+      "assetId": "laptop",
+      "x": 170.139,
+      "y": 439.086,
+      "width": 262.5,
+      "height": 262.5
+    },
+    {
+      "component": "security-icon",
+      "assetId": "key",
+      "x": 600.099,
+      "y": 442.328,
+      "width": 262.5,
+      "height": 262.5
+    },
+    {
+      "component": "security-icon",
+      "assetId": "laptop",
+      "x": 1030.455,
+      "y": 427.697,
+      "width": 262.5,
+      "height": 262.5
+    },
+    {
+      "component": "security-icon",
+      "assetId": "key",
+      "x": 169.243,
+      "y": 753.285,
+      "width": 262.5,
+      "height": 262.5
+    },
+    {
+      "component": "security-icon",
+      "assetId": "shield",
+      "x": 605.924,
+      "y": 746.965,
+      "width": 262.5,
+      "height": 262.5
+    },
+    {
+      "component": "security-icon",
+      "assetId": "laptop",
+      "x": 1041.742,
+      "y": 747.511,
+      "width": 262.5,
+      "height": 262.5
+    },
+    {
+      "component": "security-icon",
+      "assetId": "key",
+      "x": 377.879,
+      "y": 1074.955,
+      "width": 262.5,
+      "height": 262.5
+    },
+    {
+      "component": "security-icon",
+      "assetId": "key",
+      "x": 808.218,
+      "y": 1073.273,
+      "width": 262.5,
+      "height": 262.5
+    }
+  ],
+  "countFrame": {
+    "x": 0,
+    "y": 0,
+    "width": 1460,
+    "height": 1450,
+    "radius": 42
+  },
+  "legend": {
+    "x": 0,
+    "y": 1670,
+    "width": 1460,
+    "height": 123,
+    "order": [
+      "laptop",
+      "key",
+      "shield"
+    ],
+    "suffix": "!"
+  }
+}

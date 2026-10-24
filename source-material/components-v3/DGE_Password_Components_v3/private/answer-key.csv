@@ -1,0 +1,51 @@
+id,category,image,answer,explanation
+puzzle-001,picture_password,images/puzzle-001.png,SUNFLOWER7!,SUN + FLOWER + 7 + !
+puzzle-002,picture_password,images/puzzle-002.png,FIREWALL4!,FIRE + WALL + 4 + !
+puzzle-003,picture_password,images/puzzle-003.png,STARFISH3#,STAR + FISH + 3 + #
+puzzle-004,picture_password,images/puzzle-004.png,KEYBOARD6@,KEY + BOARD + 6 + @
+puzzle-005,picture_password,images/puzzle-005.png,SNOWBALL2#,SNOW + BALL + 2 + #
+puzzle-006,picture_password,images/puzzle-006.png,SUNGLASSES8!,SUN + GLASSES + 8 + !
+puzzle-007,picture_password,images/puzzle-007.png,FOOTBALL5@,FOOT + BALL + 5 + @
+puzzle-008,picture_password,images/puzzle-008.png,TOOTHBRUSH9#,TOOTH + BRUSH + 9 + #
+puzzle-009,picture_password,images/puzzle-009.png,CUPCAKE4@,CUP + CAKE + 4 + @
+puzzle-010,picture_password,images/puzzle-010.png,BOOKWORM6!,BOOK + WORM + 6 + !
+puzzle-011,picture_password,images/puzzle-011.png,RAINBOW8#,RAIN + BOW + 8 + #
+puzzle-012,picture_password,images/puzzle-012.png,DOORBELL2@,DOOR + BELL + 2 + @
+puzzle-013,picture_password,images/puzzle-013.png,FIRETRUCK7#,FIRE + TRUCK + 7 + #
+puzzle-014,picture_password,images/puzzle-014.png,EARPHONE5!,EAR + PHONE + 5 + !
+puzzle-015,picture_password,images/puzzle-015.png,NOTEBOOK3@,NOTE + BOOK + 3 + @
+puzzle-016,picture_password,images/puzzle-016.png,HONEYBEE9!,HONEY + BEE + 9 + !
+puzzle-017,picture_password,images/puzzle-017.png,SHELLFISH6#,SHELL + FISH + 6 + #
+puzzle-018,picture_password,images/puzzle-018.png,GOLDFISH4!,GOLD + FISH + 4 + !
+puzzle-019,picture_password,images/puzzle-019.png,CUPBOARD7@,CUP + BOARD + 7 + @
+puzzle-020,picture_password,images/puzzle-020.png,PINWHEEL2!,PIN + WHEEL + 2 + !
+puzzle-021,picture_password,images/puzzle-021.png,HOUSEBOAT8@,HOUSE + BOAT + 8 + @
+puzzle-022,picture_password,images/puzzle-022.png,WATERMELON5#,WATER + MELON + 5 + #
+puzzle-023,picture_password,images/puzzle-023.png,RAINCOAT3!,RAIN + COAT + 3 + !
+puzzle-024,picture_password,images/puzzle-024.png,SNOWMAN9@,SNOW + MAN + 9 + @
+puzzle-025,picture_password,images/puzzle-025.png,LIGHTHOUSE6@,LIGHT + HOUSE + 6 + @
+puzzle-026,security_count,images/puzzle-026.png,423#,"4 key, 2 shield, 3 lock; append #."
+puzzle-027,security_count,images/puzzle-027.png,534!,"5 lock, 3 key, 4 shield; append !."
+puzzle-028,security_count,images/puzzle-028.png,435@,"4 usb, 3 lock, 5 key; append @."
+puzzle-029,security_count,images/puzzle-029.png,624#,"6 shield, 2 usb, 4 lock; append #."
+puzzle-030,security_count,images/puzzle-030.png,362!,"3 laptop, 6 key, 2 shield; append !."
+puzzle-031,security_count,images/puzzle-031.png,543@,"5 key, 4 usb, 3 laptop; append @."
+puzzle-032,security_count,images/puzzle-032.png,365#,"3 shield, 6 lock, 5 key; append #."
+puzzle-033,security_count,images/puzzle-033.png,642!,"6 usb, 4 shield, 2 laptop; append !."
+puzzle-034,security_count,images/puzzle-034.png,453@,"4 lock, 5 laptop, 3 usb; append @."
+puzzle-035,security_count,images/puzzle-035.png,635#,"6 key, 3 shield, 5 usb; append #."
+puzzle-036,security_count,images/puzzle-036.png,456!,"4 laptop, 5 lock, 6 shield; append !."
+puzzle-037,security_count,images/puzzle-037.png,374@,"3 usb, 7 key, 4 lock; append @."
+puzzle-038,security_count,images/puzzle-038.png,536#,"5 shield, 3 laptop, 6 key; append #."
+puzzle-039,security_count,images/puzzle-039.png,653!,"6 lock, 5 usb, 3 shield; append !."
+puzzle-040,security_count,images/puzzle-040.png,745@,"7 key, 4 laptop, 5 lock; append @."
+puzzle-041,security_count,images/puzzle-041.png,564#,"5 usb, 6 shield, 4 key; append #."
+puzzle-042,security_count,images/puzzle-042.png,3542!,"3 lock, 5 key, 4 shield, 2 usb; append !."
+puzzle-043,security_count,images/puzzle-043.png,4352@,"4 shield, 3 usb, 5 laptop, 2 key; append @."
+puzzle-044,security_count,images/puzzle-044.png,5423#,"5 laptop, 4 lock, 2 usb, 3 shield; append #."
+puzzle-045,security_count,images/puzzle-045.png,3546!,"3 key, 5 usb, 4 lock, 6 laptop; append !."
+puzzle-046,security_count,images/puzzle-046.png,2654@,"2 shield, 6 laptop, 5 key, 4 lock; append @."
+puzzle-047,security_count,images/puzzle-047.png,4563#,"4 usb, 5 lock, 6 shield, 3 laptop; append #."
+puzzle-048,security_count,images/puzzle-048.png,5364!,"5 lock, 3 shield, 6 key, 4 usb; append !."
+puzzle-049,security_count,images/puzzle-049.png,6435@,"6 laptop, 4 usb, 3 key, 5 shield; append @."
+puzzle-050,security_count,images/puzzle-050.png,4653#,"4 key, 6 lock, 5 laptop, 3 usb; append #."

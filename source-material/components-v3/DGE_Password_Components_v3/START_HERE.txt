@@ -1,0 +1,48 @@
+DGE PASSWORD CHALLENGE — INDIVIDUAL DEVELOPER COMPONENTS v3
+50 puzzles: 25 picture passwords + 25 security counting puzzles.
+
+This pack replaces the flattened screen-image approach with separate reusable assets.
+The artwork follows the supplied Password Challenge Figma style.
+
+CONTENTS
+public/assets/icons/svg/       43 individual, editable SVG clue icons
+public/assets/icons/png/       The same 43 icons as transparent 512 x 512 PNGs
+public/assets/characters/svg/  13 separate digits, punctuation marks and operators
+public/assets/characters/png/  The same 13 character/operator assets as transparent PNGs
+public/assets/ui/              Separate glass tile, neon panel, tunnel photo and diffusion overlay
+public/puzzles.json            Asset catalogue and all 50 puzzle layouts
+public/puzzles/                One layout JSON per puzzle, IDs puzzle-001 to puzzle-050
+developer/password-puzzle.js   Reusable browser renderer for the puzzle body only
+developer/design-tokens.json   Source colours, dimensions and typography
+developer/validate-answer.mjs  Answer-normalisation and validation helper
+private/                      Answer key and accepted variants for the developer
+review/                       Component inventory and preview screenshots
+index.html                    Interactive preview of all 50 puzzles and individual SVGs
+
+QUICK INTEGRATION
+1. Copy public/assets/ and public/puzzles.json into your app's static assets.
+2. Render each puzzle using its component references, or copy the provided browser module.
+3. Add your app's heading, answer field, timer, score and submit/success behaviour around it.
+4. Validate submissions using private/answers.json on the server. Do not publish private/.
+
+LAYOUT
+The puzzle body has a logical size of 1460 x 1793; scale it proportionally.
+Each component record has its own asset ID and x/y/width/height.
+Picture clues are four separate tile contents; counting clues are separate repeated icons.
+The counting legend uses its own ordered icons and punctuation suffix.
+The clue words, complete solutions and counts are not printed on the artwork.
+
+The SVGs have explicit 256 x 256 slots with padded, tightly fitted artwork.
+Their internal viewBoxes vary to preserve the source vector paths.
+PNG versions are 512 x 512 RGBA with transparent backgrounds.
+The source glass tile is 560 x 722.207 and is separate from its clue artwork.
+Only the tunnel photograph and diffusion texture are raster source material.
+
+PREVIEW
+Serve this folder through your development web server, then open index.html.
+Example: python3 -m http.server 8000
+Open http://localhost:8000 and choose any of the 50 puzzle IDs.
+Opening index.html directly as file:// may block the JSON fetch.
+
+Figma file editing was not performed: this delivery is the developer-assets option requested.
+SVG files can also be dragged into Figma as editable vector artwork if needed later.

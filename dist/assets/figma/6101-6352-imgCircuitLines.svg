@@ -1,0 +1,9 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="272.004" height="131.752" viewBox="0 0 272.004 131.752" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Circuit Lines">
+<path id="Parallel electronic boundary" opacity="0.18" d="M202.003 0.371851L184.86 29.8838H179.146L170.574 42.869L177.717 48.7714L167.717 65.2981L179.146 83.0052L173.431 88.9076L183.431 101.893H189.146L204.86 131.405" stroke-width="0.76699" stroke="#3475BA"/>
+<path id="Central electronic boundary" opacity="0.45" d="M213.432 0.371851L197.717 23.9814H192.003L183.432 39.3276L190.575 46.4104L177.717 65.2981L189.146 84.1857L183.432 91.2685L194.86 107.795H200.575L214.86 131.405" stroke-width="1.34223" stroke="#3475BA"/>
+<path id="Connector branch" opacity="0.48" d="M189.147 36.9669L199.147 19.2597H226.289L239.147 25.1621H272.004" stroke-width="0.830906" stroke="#3475BA"/>
+<path id="Parallel electronic boundary_2" opacity="0.18" d="M13.4317 0.371851L30.5745 29.8838H36.2888L44.8602 42.869L37.7173 48.7714L47.7173 65.2981L36.2888 83.0052L42.003 88.9076L32.0031 101.893H26.2888L10.5746 131.405" stroke-width="0.76699" stroke="#3475BA"/>
+<path id="Central electronic boundary_2" opacity="0.45" d="M2.00275 0.371922L17.717 23.9814H23.4312L32.0026 39.3276L24.8598 46.4105L37.7169 65.2981L26.2884 84.1857L32.0026 91.2686L20.5741 107.795H14.8598L0.574187 131.405" stroke-width="1.34223" stroke="#3475BA"/>
+</g>
+</svg>

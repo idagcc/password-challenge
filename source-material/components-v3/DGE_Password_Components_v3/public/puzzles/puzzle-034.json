@@ -1,0 +1,134 @@
+{
+  "id": "puzzle-034",
+  "category": "security_count",
+  "title": "Count the security symbols",
+  "instruction": "Count only the symbols inside the frame. Use the order below, then add @.",
+  "inputMode": "text",
+  "inputCharacters": "0123456789!#@",
+  "difficulty": "medium",
+  "canvas": {
+    "width": 1460,
+    "height": 1793
+  },
+  "screenPlacement": {
+    "x": 350,
+    "y": 1010
+  },
+  "components": [
+    {
+      "component": "security-icon",
+      "assetId": "laptop",
+      "x": 159.69,
+      "y": 116.424,
+      "width": 262.5,
+      "height": 262.5
+    },
+    {
+      "component": "security-icon",
+      "assetId": "lock",
+      "x": 588.609,
+      "y": 107.983,
+      "width": 262.5,
+      "height": 262.5
+    },
+    {
+      "component": "security-icon",
+      "assetId": "laptop",
+      "x": 1028.129,
+      "y": 113.34,
+      "width": 262.5,
+      "height": 262.5
+    },
+    {
+      "component": "security-icon",
+      "assetId": "lock",
+      "x": 165.894,
+      "y": 436.792,
+      "width": 262.5,
+      "height": 262.5
+    },
+    {
+      "component": "security-icon",
+      "assetId": "lock",
+      "x": 608.896,
+      "y": 444.695,
+      "width": 262.5,
+      "height": 262.5
+    },
+    {
+      "component": "security-icon",
+      "assetId": "usb",
+      "x": 1043.136,
+      "y": 428.659,
+      "width": 262.5,
+      "height": 262.5
+    },
+    {
+      "component": "security-icon",
+      "assetId": "laptop",
+      "x": 164.644,
+      "y": 754.021,
+      "width": 262.5,
+      "height": 262.5
+    },
+    {
+      "component": "security-icon",
+      "assetId": "usb",
+      "x": 591.754,
+      "y": 760.169,
+      "width": 262.5,
+      "height": 262.5
+    },
+    {
+      "component": "security-icon",
+      "assetId": "lock",
+      "x": 1031.831,
+      "y": 759.476,
+      "width": 262.5,
+      "height": 262.5
+    },
+    {
+      "component": "security-icon",
+      "assetId": "laptop",
+      "x": 175.862,
+      "y": 1077.511,
+      "width": 262.5,
+      "height": 262.5
+    },
+    {
+      "component": "security-icon",
+      "assetId": "usb",
+      "x": 587.564,
+      "y": 1067.044,
+      "width": 262.5,
+      "height": 262.5
+    },
+    {
+      "component": "security-icon",
+      "assetId": "laptop",
+      "x": 1039.401,
+      "y": 1079.841,
+      "width": 262.5,
+      "height": 262.5
+    }
+  ],
+  "countFrame": {
+    "x": 0,
+    "y": 0,
+    "width": 1460,
+    "height": 1450,
+    "radius": 42
+  },
+  "legend": {
+    "x": 0,
+    "y": 1670,
+    "width": 1460,
+    "height": 123,
+    "order": [
+      "lock",
+      "laptop",
+      "usb"
+    ],
+    "suffix": "@"
+  }
+}

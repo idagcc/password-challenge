@@ -1,0 +1,108 @@
+{
+  "id": "puzzle-003",
+  "category": "picture_password",
+  "title": "Crack the picture password",
+  "instruction": "Read the top row, then the bottom row. Add the number and symbol.",
+  "inputMode": "text",
+  "inputCharacters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#@",
+  "difficulty": "easy",
+  "canvas": {
+    "width": 1460,
+    "height": 1793
+  },
+  "screenPlacement": {
+    "x": 350,
+    "y": 1010
+  },
+  "components": [
+    {
+      "component": "clue-tile",
+      "x": 0,
+      "y": 20,
+      "width": 560,
+      "height": 722.207,
+      "content": {
+        "type": "icon",
+        "assetId": "star"
+      }
+    },
+    {
+      "component": "clue-tile",
+      "x": 900,
+      "y": 20,
+      "width": 560,
+      "height": 722.207,
+      "content": {
+        "type": "icon",
+        "assetId": "fish"
+      }
+    },
+    {
+      "component": "clue-tile",
+      "x": 0,
+      "y": 920,
+      "width": 560,
+      "height": 722.207,
+      "content": {
+        "type": "character",
+        "value": "3",
+        "assetId": "digit-3"
+      }
+    },
+    {
+      "component": "clue-tile",
+      "x": 900,
+      "y": 920,
+      "width": 560,
+      "height": 722.207,
+      "content": {
+        "type": "character",
+        "value": "#",
+        "assetId": "symbol-hash"
+      }
+    }
+  ],
+  "clues": [
+    {
+      "type": "icon",
+      "assetId": "star"
+    },
+    {
+      "type": "icon",
+      "assetId": "fish"
+    },
+    {
+      "type": "character",
+      "value": "3",
+      "assetId": "digit-3"
+    },
+    {
+      "type": "character",
+      "value": "#",
+      "assetId": "symbol-hash"
+    }
+  ],
+  "operators": [
+    {
+      "value": "+",
+      "x": 670,
+      "y": 335,
+      "width": 120,
+      "height": 120
+    },
+    {
+      "value": "+",
+      "x": 670,
+      "y": 1235,
+      "width": 120,
+      "height": 120
+    },
+    {
+      "value": "+",
+      "x": 680,
+      "y": 780,
+      "width": 100,
+      "height": 100
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="1580" height="1748" viewBox="0 0 1580 1748" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Center box &#194;&#183; 65% opacity" opacity="0.8">
+<rect id="Navy gradient body" width="1580" height="1748" rx="157.143" fill="url(#paint0_linear_0_254)"/>
+<rect id="Quiet navy center" width="1580" height="1748" rx="157.143" fill="url(#paint1_radial_0_254)"/>
+<path id="Edge illumination" d="M0 157.143C0 70.3552 70.3553 0 157.143 0H1422.86C1509.64 0 1580 70.3553 1580 157.143V1590.86C1580 1677.64 1509.64 1748 1422.86 1748H157.143C70.3552 1748 0 1677.64 0 1590.86V157.143Z" fill="url(#paint2_linear_0_254)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_254" x1="790" y1="0" x2="790" y2="1748" gradientUnits="userSpaceOnUse">
+<stop stop-color="#002265"/>
+<stop offset="0.15" stop-color="#00103D"/>
+<stop offset="0.56" stop-color="#00103D"/>
+<stop offset="0.84" stop-color="#002A85"/>
+<stop offset="1" stop-color="#0648E8"/>
+</linearGradient>
+<radialGradient id="paint1_radial_0_254" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(790 734.16) scale(869 1048.8)">
+<stop stop-color="#00103D" stop-opacity="0.752941"/>
+<stop offset="0.6" stop-color="#00103D" stop-opacity="0.501961"/>
+<stop offset="1" stop-color="#00103D" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="paint2_linear_0_254" x1="0" y1="874" x2="1580" y2="874" gradientUnits="userSpaceOnUse">
+<stop stop-color="#006BFF" stop-opacity="0.501961"/>
+<stop offset="0.065" stop-color="#0037BC" stop-opacity="0.188235"/>
+<stop offset="0.25" stop-opacity="0"/>
+<stop offset="0.77" stop-opacity="0"/>
+<stop offset="1" stop-color="#154AFF" stop-opacity="0.376471"/>
+</linearGradient>
+</defs>
+</svg>

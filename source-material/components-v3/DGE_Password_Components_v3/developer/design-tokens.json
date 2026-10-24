@@ -1,0 +1,64 @@
+{
+  "source": {
+    "fileKey": "I4RLsJTWCjKWqFiTlUN2YX",
+    "pageNode": "6101:1562",
+    "screenNodes": [
+      "6101:6352",
+      "6101:6595"
+    ],
+    "url": "https://www.figma.com/design/I4RLsJTWCjKWqFiTlUN2YX/Password-Challenge---UI-Flow?node-id=6101-1562"
+  },
+  "canvas": {
+    "width": 2160,
+    "height": 3840
+  },
+  "fontFamily": "Noto Kufi Arabic",
+  "latinRenderingFont": "Noto Sans",
+  "colors": {
+    "heading": "#FFFFFF",
+    "body": "#D9ECFF",
+    "muted": "#B8D8F1",
+    "accent": "#5BE9FF",
+    "outerNeon": "#00DFFF",
+    "innerNeon": "#8CFBFF",
+    "digit": "#D2F56A",
+    "symbol": "#53DFEE",
+    "glassGradientStart": "#89E8F8",
+    "glassGradientEnd": "#0B2F6B"
+  },
+  "typeSizes": {
+    "label": 48,
+    "heading": 92,
+    "body": 42,
+    "numberAndSymbol": 348,
+    "answerLabel": 52,
+    "answerHint": 34
+  },
+  "uiRegions": {
+    "answerLabel": {
+      "x": 350,
+      "y": 2808,
+      "width": 1460,
+      "height": 99
+    },
+    "answerInput": {
+      "x": 350,
+      "y": 3030,
+      "width": 1460,
+      "height": 170
+    },
+    "statusRow": {
+      "x": 350,
+      "y": 3254,
+      "width": 1460,
+      "height": 68
+    },
+    "submitButton": {
+      "x": 640,
+      "y": 3540,
+      "width": 880,
+      "height": 255
+    }
+  },
+  "integration": "Render individual components from public/puzzles.json. Coordinates are relative to the 1460 x 1793 puzzle body. Do not use full-screen PNGs as UI."
+}

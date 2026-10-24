@@ -1,0 +1,134 @@
+{
+  "id": "puzzle-029",
+  "category": "security_count",
+  "title": "Count the security symbols",
+  "instruction": "Count only the symbols inside the frame. Use the order below, then add #.",
+  "inputMode": "text",
+  "inputCharacters": "0123456789!#@",
+  "difficulty": "easy",
+  "canvas": {
+    "width": 1460,
+    "height": 1793
+  },
+  "screenPlacement": {
+    "x": 350,
+    "y": 1010
+  },
+  "components": [
+    {
+      "component": "security-icon",
+      "assetId": "shield",
+      "x": 161.025,
+      "y": 112.908,
+      "width": 262.5,
+      "height": 262.5
+    },
+    {
+      "component": "security-icon",
+      "assetId": "shield",
+      "x": 594.311,
+      "y": 112.407,
+      "width": 262.5,
+      "height": 262.5
+    },
+    {
+      "component": "security-icon",
+      "assetId": "usb",
+      "x": 1026.138,
+      "y": 115.608,
+      "width": 262.5,
+      "height": 262.5
+    },
+    {
+      "component": "security-icon",
+      "assetId": "shield",
+      "x": 170.64,
+      "y": 436.746,
+      "width": 262.5,
+      "height": 262.5
+    },
+    {
+      "component": "security-icon",
+      "assetId": "usb",
+      "x": 589.515,
+      "y": 440.252,
+      "width": 262.5,
+      "height": 262.5
+    },
+    {
+      "component": "security-icon",
+      "assetId": "lock",
+      "x": 1020.339,
+      "y": 425.012,
+      "width": 262.5,
+      "height": 262.5
+    },
+    {
+      "component": "security-icon",
+      "assetId": "shield",
+      "x": 159.996,
+      "y": 754.789,
+      "width": 262.5,
+      "height": 262.5
+    },
+    {
+      "component": "security-icon",
+      "assetId": "shield",
+      "x": 599.343,
+      "y": 753.759,
+      "width": 262.5,
+      "height": 262.5
+    },
+    {
+      "component": "security-icon",
+      "assetId": "shield",
+      "x": 1039.267,
+      "y": 743.378,
+      "width": 262.5,
+      "height": 262.5
+    },
+    {
+      "component": "security-icon",
+      "assetId": "lock",
+      "x": 154.7,
+      "y": 1069.846,
+      "width": 262.5,
+      "height": 262.5
+    },
+    {
+      "component": "security-icon",
+      "assetId": "lock",
+      "x": 601.392,
+      "y": 1070.612,
+      "width": 262.5,
+      "height": 262.5
+    },
+    {
+      "component": "security-icon",
+      "assetId": "lock",
+      "x": 1042.03,
+      "y": 1077.729,
+      "width": 262.5,
+      "height": 262.5
+    }
+  ],
+  "countFrame": {
+    "x": 0,
+    "y": 0,
+    "width": 1460,
+    "height": 1450,
+    "radius": 42
+  },
+  "legend": {
+    "x": 0,
+    "y": 1670,
+    "width": 1460,
+    "height": 123,
+    "order": [
+      "shield",
+      "usb",
+      "lock"
+    ],
+    "suffix": "#"
+  }
+}

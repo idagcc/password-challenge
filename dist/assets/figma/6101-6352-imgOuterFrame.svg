@@ -1,0 +1,20 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="881.146" height="256.391" viewBox="0 0 881.146 256.391" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Outer Frame">
+<path id="Mechanical shoulder" opacity="0.6" d="M874.857 148.262L810.571 236.798C803.905 247.029 794.381 252.145 782 252.145H766.286" stroke-width="0.830906" stroke="#168BFF"/>
+<path id="Mechanical shoulder_2" opacity="0.6" d="M874.857 108.126L810.571 19.5902C803.905 9.35935 794.381 4.24392 782 4.24392H766.286" stroke-width="0.830906" stroke="#168BFF"/>
+<path id="Shoulder inlay" d="M767.712 254.505L761.998 249.783H629.141L623.427 254.505H767.712Z" fill="#8BDFFF"/>
+<path id="Shoulder inlay_2" d="M767.712 1.88383L761.998 6.60574H629.141L623.427 1.88383H767.712Z" fill="#8BDFFF"/>
+<path id="Diagonal luminous rail" d="M877.714 148.262L816.286 234.437" stroke-width="5.75243" stroke="#8BDFFF"/>
+<path id="Diagonal luminous rail_2" d="M877.714 108.128L816.286 21.9524" stroke-width="5.75243" stroke="#8BDFFF"/>
+<path id="Angular perimeter" d="M880.571 145.903L814.857 239.161C806.286 250.179 794.858 255.688 780.572 255.688H589.144" stroke-width="1.40615" stroke="#8BDFFF"/>
+<path id="Angular perimeter_2" d="M880.571 109.307L814.857 18.4102C806.286 6.60546 794.858 0.703074 780.572 0.703074H589.144" stroke-width="1.40615" stroke="#8BDFFF"/>
+<path id="Mechanical shoulder_3" opacity="0.6" d="M6.28856 148.262L70.5743 236.798C77.241 247.029 86.7648 252.145 99.1458 252.145H114.86" stroke-width="0.830906" stroke="#168BFF"/>
+<path id="Mechanical shoulder_4" opacity="0.6" d="M6.28856 108.126L70.5743 19.5902C77.241 9.35935 86.7648 4.24392 99.1458 4.24392H114.86" stroke-width="0.830906" stroke="#168BFF"/>
+<path id="Shoulder inlay_3" d="M113.431 254.505L119.145 249.783H252.002L257.716 254.505H113.431Z" fill="#8BDFFF"/>
+<path id="Shoulder inlay_4" d="M113.431 1.88383L119.145 6.60574H252.002L257.716 1.88383H113.431Z" fill="#8BDFFF"/>
+<path id="Diagonal luminous rail_3" d="M3.43093 148.262L64.8596 234.437" stroke-width="5.75243" stroke="#8BDFFF"/>
+<path id="Diagonal luminous rail_4" d="M3.43093 108.128L64.8596 21.9524" stroke-width="5.75243" stroke="#8BDFFF"/>
+<path id="Angular perimeter_3" d="M0.574722 145.903L66.2888 239.161C74.8602 250.179 86.2887 255.688 100.574 255.688H292.002" stroke-width="1.40615" stroke="#8BDFFF"/>
+<path id="Angular perimeter_4" d="M0.574737 109.307L66.2888 18.4102C74.8602 6.60546 86.2887 0.703074 100.574 0.703074H292.002" stroke-width="1.40615" stroke="#8BDFFF"/>
+</g>
+</svg>

@@ -1,0 +1,110 @@
+{
+  "id": "puzzle-026",
+  "category": "security_count",
+  "title": "Count the security symbols",
+  "instruction": "Count only the symbols inside the frame. Use the order below, then add #.",
+  "inputMode": "text",
+  "inputCharacters": "0123456789!#@",
+  "difficulty": "easy",
+  "canvas": {
+    "width": 1460,
+    "height": 1793
+  },
+  "screenPlacement": {
+    "x": 350,
+    "y": 1010
+  },
+  "components": [
+    {
+      "component": "security-icon",
+      "assetId": "shield",
+      "x": 146.793,
+      "y": 147.188,
+      "width": 290,
+      "height": 290
+    },
+    {
+      "component": "security-icon",
+      "assetId": "lock",
+      "x": 586.952,
+      "y": 158.852,
+      "width": 290,
+      "height": 290
+    },
+    {
+      "component": "security-icon",
+      "assetId": "key",
+      "x": 1025.096,
+      "y": 158.496,
+      "width": 290,
+      "height": 290
+    },
+    {
+      "component": "security-icon",
+      "assetId": "key",
+      "x": 157.035,
+      "y": 585.058,
+      "width": 290,
+      "height": 290
+    },
+    {
+      "component": "security-icon",
+      "assetId": "shield",
+      "x": 585.6,
+      "y": 573.865,
+      "width": 290,
+      "height": 290
+    },
+    {
+      "component": "security-icon",
+      "assetId": "key",
+      "x": 1018.877,
+      "y": 589.854,
+      "width": 290,
+      "height": 290
+    },
+    {
+      "component": "security-icon",
+      "assetId": "lock",
+      "x": 139.905,
+      "y": 1000.191,
+      "width": 290,
+      "height": 290
+    },
+    {
+      "component": "security-icon",
+      "assetId": "lock",
+      "x": 591.614,
+      "y": 1011.336,
+      "width": 290,
+      "height": 290
+    },
+    {
+      "component": "security-icon",
+      "assetId": "key",
+      "x": 1026.351,
+      "y": 996.369,
+      "width": 290,
+      "height": 290
+    }
+  ],
+  "countFrame": {
+    "x": 0,
+    "y": 0,
+    "width": 1460,
+    "height": 1450,
+    "radius": 42
+  },
+  "legend": {
+    "x": 0,
+    "y": 1670,
+    "width": 1460,
+    "height": 123,
+    "order": [
+      "key",
+      "shield",
+      "lock"
+    ],
+    "suffix": "#"
+  }
+}

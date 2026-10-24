@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DGE · Component handoff</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#081725;color:#fff;font:15px/1.5 system-ui,sans-serif}header{padding:24px 32px;border-bottom:1px solid #28485e;display:flex;align-items:center;gap:24px;flex-wrap:wrap}h1{font-size:22px;margin:0}p{color:#b8d8f1;margin:6px 0}select,button{font:inherit;padding:10px 16px;border-radius:8px;border:1px solid #53dfee;background:#132b3e;color:#fff}main{display:grid;grid-template-columns:minmax(300px,620px) minmax(240px,1fr);gap:40px;padding:32px;max-width:1500px;margin:auto}#body{border:1px dashed #395a83;background:#10253a}h2{font-size:19px}code{color:#d2f56a}#assets{display:grid;grid-template-columns:repeat(auto-fill,minmax(105px,1fr));gap:12px}a.asset{display:block;text-align:center;color:#b8d8f1;text-decoration:none;padding:10px;background:#10253a;border-radius:8px;font-size:12px}a.asset img{display:block;width:72px;height:72px;object-fit:contain;margin:0 auto 8px}#error{color:#ff9270}#instruction{max-width:560px}.note{max-width:560px}#download{display:inline-block;color:#53dfee;margin-top:12px}@media(max-width:800px){main{grid-template-columns:1fr;padding:20px}header{padding:20px}}
+</style>
+<header><div><h1>DGE · Individual puzzle components</h1><p>43 clue icons · 13 characters/operators · 50 editable layouts</p></div><select id="picker" aria-label="Select puzzle"></select></header>
+<main><section><h2 id="title">Puzzle body preview</h2><p id="instruction"></p><div id="body"></div><p class="note">This preview renders the puzzle body from separate SVG files. Add your app’s heading, answer field, timer and submit button around it.</p><a id="download">Open this puzzle’s layout JSON</a><p id="error"></p></section><section><h2>Separate assets</h2><p>Click any component to open its transparent SVG. PNG versions are also included in the pack.</p><div id="assets"></div></section></main>
+<script type="module">
+import{renderPasswordPuzzle,loadPasswordPuzzles}from'./developer/password-puzzle.js';
+try{
+ const bank=await loadPasswordPuzzles('./public/puzzles.json');
+ const picker=document.querySelector('#picker');
+ for(const puzzle of bank.puzzles){const option=document.createElement('option');option.value=puzzle.id;option.textContent=`${puzzle.id} · ${puzzle.category==='picture_password'?'Picture password':'Security count'}`;picker.append(option);}
+ const show=()=>{const puzzle=bank.puzzles.find(p=>p.id===picker.value);document.querySelector('#title').textContent=puzzle.id+' · '+puzzle.title;document.querySelector('#instruction').textContent=puzzle.instruction;renderPasswordPuzzle(document.querySelector('#body'),puzzle,{assetBaseUrl:'./public/',assets:bank.assets});const download=document.querySelector('#download');download.href='./public/puzzles/'+puzzle.id+'.json';};
+ picker.addEventListener('change',show);show();
+ for(const asset of bank.assets){const link=document.createElement('a');link.className='asset';link.href='./public/'+asset.svg;link.target='_blank';const img=document.createElement('img');img.src=link.href;img.alt='';const name=document.createElement('span');name.textContent=asset.id;link.append(img,name);document.querySelector('#assets').append(link);}
+}catch(e){document.querySelector('#error').textContent='Open this folder through a local web server to preview it. '+e.message;}
+</script></html>

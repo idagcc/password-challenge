@@ -1,0 +1,175 @@
+{
+  "id": "puzzle-046",
+  "category": "security_count",
+  "title": "Count the security symbols",
+  "instruction": "Count only the symbols inside the frame. Use the order below, then add @.",
+  "inputMode": "text",
+  "inputCharacters": "0123456789!#@",
+  "difficulty": "hard",
+  "canvas": {
+    "width": 1460,
+    "height": 1793
+  },
+  "screenPlacement": {
+    "x": 350,
+    "y": 1010
+  },
+  "components": [
+    {
+      "component": "security-icon",
+      "assetId": "key",
+      "x": 136.15,
+      "y": 116.896,
+      "width": 199.0,
+      "height": 199.0
+    },
+    {
+      "component": "security-icon",
+      "assetId": "shield",
+      "x": 474.896,
+      "y": 108.278,
+      "width": 199.0,
+      "height": 199.0
+    },
+    {
+      "component": "security-icon",
+      "assetId": "key",
+      "x": 798.509,
+      "y": 126.373,
+      "width": 199.0,
+      "height": 199.0
+    },
+    {
+      "component": "security-icon",
+      "assetId": "key",
+      "x": 1114.66,
+      "y": 114.382,
+      "width": 199.0,
+      "height": 199.0
+    },
+    {
+      "component": "security-icon",
+      "assetId": "laptop",
+      "x": 136.738,
+      "y": 374.327,
+      "width": 199.0,
+      "height": 199.0
+    },
+    {
+      "component": "security-icon",
+      "assetId": "lock",
+      "x": 471.737,
+      "y": 377.742,
+      "width": 199.0,
+      "height": 199.0
+    },
+    {
+      "component": "security-icon",
+      "assetId": "lock",
+      "x": 781.139,
+      "y": 371.844,
+      "width": 199.0,
+      "height": 199.0
+    },
+    {
+      "component": "security-icon",
+      "assetId": "key",
+      "x": 1115.513,
+      "y": 370.122,
+      "width": 199.0,
+      "height": 199.0
+    },
+    {
+      "component": "security-icon",
+      "assetId": "laptop",
+      "x": 147.329,
+      "y": 621.442,
+      "width": 199.0,
+      "height": 199.0
+    },
+    {
+      "component": "security-icon",
+      "assetId": "lock",
+      "x": 461.018,
+      "y": 622.144,
+      "width": 199.0,
+      "height": 199.0
+    },
+    {
+      "component": "security-icon",
+      "assetId": "lock",
+      "x": 799.259,
+      "y": 629.577,
+      "width": 199.0,
+      "height": 199.0
+    },
+    {
+      "component": "security-icon",
+      "assetId": "laptop",
+      "x": 1120.215,
+      "y": 634.271,
+      "width": 199.0,
+      "height": 199.0
+    },
+    {
+      "component": "security-icon",
+      "assetId": "key",
+      "x": 141.18,
+      "y": 880.743,
+      "width": 199.0,
+      "height": 199.0
+    },
+    {
+      "component": "security-icon",
+      "assetId": "laptop",
+      "x": 457.966,
+      "y": 885.212,
+      "width": 199.0,
+      "height": 199.0
+    },
+    {
+      "component": "security-icon",
+      "assetId": "laptop",
+      "x": 781.568,
+      "y": 872.353,
+      "width": 199.0,
+      "height": 199.0
+    },
+    {
+      "component": "security-icon",
+      "assetId": "laptop",
+      "x": 1116.004,
+      "y": 883.972,
+      "width": 199.0,
+      "height": 199.0
+    },
+    {
+      "component": "security-icon",
+      "assetId": "shield",
+      "x": 621.428,
+      "y": 1127.258,
+      "width": 199.0,
+      "height": 199.0
+    }
+  ],
+  "countFrame": {
+    "x": 0,
+    "y": 0,
+    "width": 1460,
+    "height": 1450,
+    "radius": 42
+  },
+  "legend": {
+    "x": 0,
+    "y": 1670,
+    "width": 1460,
+    "height": 123,
+    "order": [
+      "shield",
+      "laptop",
+      "key",
+      "lock"
+    ],
+    "suffix": "@"
+  }
+}

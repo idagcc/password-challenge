@@ -1,0 +1,13 @@
+node_modules/
+data/
+release/
+.source-download.json
+*.log
+.DS_Store
+.env
+.env.*
+!.env.example
+exports/
+*.sqlite
+*.sqlite-*
+**/operator-key.txt

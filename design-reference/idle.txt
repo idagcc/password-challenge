@@ -1,0 +1,316 @@
+const imgImage3 = "https://www.figma.com/api/mcp/asset/362ad738-f942-485f-a0d4-d51bd136028b.png";
+const imgRectangle3 = "https://www.figma.com/api/mcp/asset/8d541f3c-04b5-4835-b793-2e91ca0cf8ac.png";
+const imgCenterBox65Opacity = "https://www.figma.com/api/mcp/asset/1898dd73-680e-43c4-a239-096112fe683a.svg";
+const imgInteriorSubtleDarkBlueGradient = "https://www.figma.com/api/mcp/asset/fd87a1c8-cde3-40a9-aeef-d4475d9ab0e1.svg";
+const imgIndicators = "https://www.figma.com/api/mcp/asset/489e7060-0e4f-4bdd-817e-55d51ff6b718.svg";
+const imgStatusCluster = "https://www.figma.com/api/mcp/asset/6ede31a9-ceff-4387-bde8-3de53afe81e9.svg";
+const imgStatusCluster1 = "https://www.figma.com/api/mcp/asset/9b68673f-a0f6-4eff-a0ce-043e9ac5ca23.svg";
+const imgStatusCluster2 = "https://www.figma.com/api/mcp/asset/ae6188f2-ee57-4223-9e6d-63490bb7b21b.svg";
+const imgStatusCluster3 = "https://www.figma.com/api/mcp/asset/20ba0fd7-f3cb-4fcc-a785-b4570108eeed.svg";
+const imgCircuitLines = "https://www.figma.com/api/mcp/asset/aafca433-230a-4aec-9a25-e5491facdc64.svg";
+const imgInnerBorders = "https://www.figma.com/api/mcp/asset/e2cdc061-53ac-4e83-b357-df3a0ae9d10d.svg";
+const imgOuterFrame = "https://www.figma.com/api/mcp/asset/205d70c1-ad4b-4862-ae25-4174f45772bf.svg";
+const imgHexagonalGrid = "https://www.figma.com/api/mcp/asset/bd90deb3-39b5-458d-9a5b-b001d02f10bf.svg";
+const imgPerimeterLightDiffusion = "https://www.figma.com/api/mcp/asset/e2816c8b-6227-4f17-a86c-98d96544eb78.svg";
+const imgPerimeterLightDiffusion1 = "https://www.figma.com/api/mcp/asset/49e17c56-26da-4209-9111-263b786252ba.svg";
+const imgFrame = "https://www.figma.com/api/mcp/asset/005af9dc-93d2-462b-bd6f-0feb67abce83.svg";
+const imgVector = "https://www.figma.com/api/mcp/asset/e6ce2be1-e2c8-4f00-8ebf-1bd1b1c8fa9c.svg";
+const imgVector1 = "https://www.figma.com/api/mcp/asset/9e802147-f18e-48b7-a6fa-9d854f9adaa1.svg";
+
+export default function Pt00IdleAndLeaderboard4KPortrait() {
+  return (
+    <div className="relative size-full" data-node-id="6101:6394" data-name="PT00 · Idle and leaderboard · 4K Portrait">
+      <div className="absolute bg-white h-[3840px] left-0 overflow-clip top-0 w-[2160px]" data-node-id="6101:1563" data-name="PT00 · Idle and leaderboard · 4K Portrait · Brand">
+        <div className="absolute h-[3840px] left-0 top-0 w-[2160px]" data-node-id="6101:1564" data-name="image 3">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage3} />
+        </div>
+        <div className="absolute h-[3840px] left-0 top-0 w-[2160px]" data-node-id="6101:1568">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" height="3840" src={imgRectangle3} width="2160" />
+        </div>
+        <div className="absolute contents h-[2300px] left-[206px] top-[575px] w-[1748px]" data-node-id="6101:1569" data-name="Instruction panel · original brand artwork">
+          <div className="absolute flex h-[2300px] items-center justify-center left-[206px] top-[575px] w-[1748px]" data-node-id="6101:1570">
+            <div className="-rotate-90 flex-none">
+              <div className="h-[1748px] relative w-[2300px]" data-name="Center box · 65% opacity">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCenterBox65Opacity} />
+              </div>
+            </div>
+          </div>
+          <div className="absolute flex h-[2300px] items-center justify-center left-[206px] top-[575px] w-[1748px]" data-node-id="6101:1574">
+            <div className="-rotate-90 flex-none">
+              <div className="blur-[17.143px] border-[#8cfbff] border-[17.143px] border-solid h-[1748px] relative rounded-[157.143px] w-[2300px]" data-name="Cyan light bloom" />
+            </div>
+          </div>
+          <div className="absolute flex h-[2300px] items-center justify-center left-[206px] top-[575px] w-[1748px]" data-node-id="6101:1575">
+            <div className="-rotate-90 flex-none">
+              <div className="blur-[34.286px] border-[#8cfbff] border-[28.571px] border-solid h-[1748px] opacity-85 relative rounded-[157.143px] w-[2300px]" data-name="Diffused electric halo" />
+            </div>
+          </div>
+          <div className="absolute flex h-[2172.47px] items-center justify-center left-[262.07px] top-[638.77px] w-[1635.863px]" data-node-id="6101:1576">
+            <div className="-rotate-90 flex-none">
+              <div className="blur-[11.429px] border-[#8cfbff] border-[14.286px] border-solid h-[1635.863px] relative rounded-[105.714px] w-[2172.47px]" data-name="Inner light diffusion" />
+            </div>
+          </div>
+          <div className="absolute flex h-[2172.47px] items-center justify-center left-[262.07px] top-[638.77px] w-[1635.863px]" data-node-id="6101:1577">
+            <div className="-rotate-90 flex-none">
+              <div className="bg-[rgba(0,0,0,0)] border-[#8cfbff] border-[7.143px] border-solid h-[1635.863px] relative rounded-[105.714px] w-[2172.47px]" data-name="Inner crisp light" />
+            </div>
+          </div>
+          <div className="absolute flex h-[2300px] items-center justify-center left-[206px] top-[575px] w-[1748px]" data-node-id="6101:1578">
+            <div className="-rotate-90 flex-none">
+              <div className="bg-[rgba(0,0,0,0)] border-[#00dfff] border-[8.571px] border-solid h-[1748px] relative rounded-[157.143px] w-[2300px]" data-name="Outer crisp light" />
+            </div>
+          </div>
+        </div>
+        <a className="absolute block cursor-pointer h-[255px] left-[640px] top-[3000px] w-[880.051px]" data-node-id="6101:1585" data-name="Next · approved button">
+          <div className="absolute contents left-0 top-0" data-node-id="I6101:1585;13:33" data-name="Approved button artwork · unchanged">
+            <div className="absolute flex h-[208.944px] items-center justify-center left-[27.14px] top-[22.43px] w-[825.712px]" data-node-id="I6101:1585;13:34">
+              <div className="-scale-y-100 flex-none rotate-180">
+                <div className="h-[208.944px] relative w-[825.712px]" data-name="Interior · subtle dark-blue gradient">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgInteriorSubtleDarkBlueGradient} />
+                </div>
+              </div>
+            </div>
+            <div className="absolute flex h-[213.666px] items-center justify-center left-[2.86px] top-[22.43px] w-[874.284px]" data-node-id="I6101:1585;13:35">
+              <div className="-scale-y-100 flex-none rotate-180">
+                <div className="h-[213.666px] relative w-[874.284px]" data-name="Indicators">
+                  <div className="absolute inset-[-0.19%_-0.1%]">
+                    <img alt="" className="block max-w-none size-full" src={imgIndicators} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute contents left-[214.42px] top-[21.38px]" data-node-id="I6101:1585;13:49" data-name="Nodes">
+              <div className="absolute contents left-[214.42px] top-[21.38px]" data-node-id="I6101:1585;13:50" data-name="Terminal status dots">
+                <div className="absolute flex h-[2.125px] items-center justify-center left-[214.42px] top-[231.5px] w-[25.428px]" data-node-id="I6101:1585;13:51">
+                  <div className="-scale-y-100 flex-none rotate-180">
+                    <div className="h-[2.125px] relative w-[25.428px]" data-name="Status cluster">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStatusCluster} />
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute flex h-[2.125px] items-center justify-center left-[214.42px] top-[21.38px] w-[25.428px]" data-node-id="I6101:1585;13:55">
+                  <div className="-scale-y-100 flex-none rotate-180">
+                    <div className="h-[2.125px] relative w-[25.428px]" data-name="Status cluster">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStatusCluster1} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="absolute contents left-[640.13px] top-[21.38px]" data-node-id="I6101:1585;13:59" data-name="Terminal status dots">
+                <div className="absolute flex h-[2.125px] items-center justify-center left-[640.13px] top-[231.5px] w-[25.427px]" data-node-id="I6101:1585;13:60">
+                  <div className="-scale-y-100 flex-none rotate-180">
+                    <div className="h-[2.125px] relative w-[25.427px]" data-name="Status cluster">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStatusCluster2} />
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute flex h-[2.125px] items-center justify-center left-[640.13px] top-[21.38px] w-[25.427px]" data-node-id="I6101:1585;13:64">
+                  <div className="-scale-y-100 flex-none rotate-180">
+                    <div className="h-[2.125px] relative w-[25.427px]" data-name="Status cluster">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStatusCluster3} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute flex h-[131.033px] items-center justify-center left-[275.71px] top-[61.38px] w-[271.429px]" data-node-id="I6101:1585;13:68">
+              <div className="-scale-y-100 flex-none rotate-180">
+                <div className="h-[131.033px] relative w-[271.429px]" data-name="Circuit Lines">
+                  <div className="absolute inset-[-0.28%_0_-0.27%_-0.21%]">
+                    <img alt="" className="block max-w-none size-full" src={imgCircuitLines} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute flex h-[243.178px] items-center justify-center left-[27.15px] top-[5.9px] w-[825.711px]" data-node-id="I6101:1585;13:74">
+              <div className="-scale-y-100 flex-none rotate-180">
+                <div className="h-[243.178px] relative w-[825.711px]" data-name="Inner Borders">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgInnerBorders} />
+                </div>
+              </div>
+            </div>
+            <div className="absolute flex h-[254.985px] items-center justify-center left-0 top-0 w-[879.997px]" data-node-id="I6101:1585;13:89">
+              <div className="-scale-y-100 flex-none rotate-180">
+                <div className="h-[254.985px] relative w-[879.997px]" data-name="Outer Frame">
+                  <div className="absolute inset-[-0.28%_0]">
+                    <img alt="" className="block max-w-none size-full" src={imgOuterFrame} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute flex h-[198.3px] items-center justify-center left-[34.29px] top-[33.08px] w-[811.424px]" data-node-id="I6101:1585;13:106">
+              <div className="-scale-y-100 flex-none rotate-180">
+                <div className="h-[198.3px] relative w-[811.424px]" data-name="Hexagonal Grid">
+                  <div className="absolute inset-[-0.27%_0_-0.14%_0]">
+                    <img alt="" className="block max-w-none size-full" src={imgHexagonalGrid} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute contents left-0 top-0" data-node-id="I6101:1585;13:137" data-name="Neon Glow">
+              <div className="absolute flex h-[254.985px] items-center justify-center left-[445.71px] top-0 w-[434.283px]" data-node-id="I6101:1585;13:138">
+                <div className="-scale-y-100 flex-none rotate-180">
+                  <div className="h-[254.985px] relative w-[434.283px]" data-name="Perimeter light diffusion">
+                    <div className="absolute inset-[-2.43%_-0.91%_-2.43%_-1.33%]">
+                      <img alt="" className="block max-w-none size-full" src={imgPerimeterLightDiffusion} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="absolute flex h-[254.985px] items-center justify-center left-0 top-0 w-[434.285px]" data-node-id="I6101:1585;13:150">
+                <div className="-scale-y-100 flex-none rotate-180">
+                  <div className="h-[254.985px] relative w-[434.285px]" data-name="Perimeter light diffusion">
+                    <div className="absolute inset-[-2.43%_-1.33%_-2.43%_-0.91%]">
+                      <img alt="" className="block max-w-none size-full" src={imgPerimeterLightDiffusion1} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Noto_Kufi_Arabic:Medium'] h-[80px] justify-center leading-[0] left-[440px] not-italic text-[72px] text-center text-white top-[127.49px] w-[650px]" data-node-id="I6101:1585;13:162">
+            <p className="leading-[normal]">Start</p>
+          </div>
+        </a>
+      </div>
+      <div className="absolute h-[3840px] left-0 overflow-clip top-0 w-[2160px]" data-node-id="6101:6353" data-name="PT00 · Idle and leaderboard · 4K Portrait · Content">
+        <div className="absolute h-[3840px] left-0 overflow-clip top-0 w-[2160px]" data-node-id="6129:8709" data-name="Frame">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame} />
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Bold'] inset-[18.07%_36.44%_76.69%_36.44%] leading-[normal] not-italic text-[106px] text-center text-white whitespace-nowrap" data-node-id="6129:8711">
+            PASSWORD
+          </p>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Bold'] inset-[22.24%_35.56%_72.53%_35.56%] leading-[normal] not-italic text-[106px] text-center text-white whitespace-nowrap" data-node-id="6129:8712">
+            CHALLENGE
+          </p>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Regular'] inset-[28.49%_40.42%_69.74%_40.42%] leading-[normal] not-italic text-[#b8d8f1] text-[36px] text-center whitespace-nowrap" data-node-id="6129:8713">
+            PLAY SMART. STAY SAFE.
+          </p>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Bold'] inset-[33.85%_38.22%_62.19%_38.22%] leading-[normal] not-italic text-[80px] text-center text-white whitespace-nowrap" data-node-id="6129:8714">
+            Leaderboard
+          </p>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Bold'] inset-[39.43%_78.89%_58.8%_16.85%] leading-[normal] not-italic text-[#5be9ff] text-[36px] text-center whitespace-nowrap" data-node-id="6129:8715">
+            Rank
+          </p>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Bold'] inset-[39.43%_66.25%_58.8%_28.7%] leading-[normal] not-italic text-[#5be9ff] text-[36px] whitespace-nowrap" data-node-id="6129:8716">
+            Agent
+          </p>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Bold'] inset-[39.43%_31.18%_58.8%_62.66%] leading-[normal] not-italic text-[#5be9ff] text-[36px] text-center whitespace-nowrap" data-node-id="6129:8717">
+            Correct
+          </p>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Bold'] inset-[39.43%_18.77%_58.8%_77.11%] leading-[normal] not-italic text-[#5be9ff] text-[36px] text-center whitespace-nowrap" data-node-id="6129:8718">
+            Time
+          </p>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Bold'] inset-[44.69%_80.42%_53.15%_18.38%] leading-[normal] not-italic text-[44px] text-center text-white whitespace-nowrap" data-node-id="6129:8719">
+            1
+          </p>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Regular'] inset-[44.74%_60.93%_53.18%_28.7%] leading-[normal] not-italic text-[42px] text-white whitespace-nowrap" data-node-id="6129:8720">
+            Aisha Khan
+          </p>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Bold'] inset-[44.64%_33.63%_53.1%_65.12%] leading-[normal] not-italic text-[46px] text-center text-white whitespace-nowrap" data-node-id="6129:8721">
+            4
+          </p>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Regular'] inset-[44.84%_18.56%_53.28%_76.9%] leading-[normal] not-italic text-[38px] text-center text-white whitespace-nowrap" data-node-id="6129:8722">
+            00:42
+          </p>
+          <div className="absolute inset-[47.27%_16.2%_52.73%_16.2%]" data-node-id="6129:8723" data-name="Vector">
+            <div className="absolute inset-[-1px_0]">
+              <img alt="" className="block max-w-none size-full" src={imgVector} />
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Bold'] inset-[49.51%_80.42%_48.33%_18.38%] leading-[normal] not-italic text-[44px] text-center text-white whitespace-nowrap" data-node-id="6129:8724">
+            2
+          </p>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Regular'] inset-[49.56%_61.44%_48.36%_28.7%] leading-[normal] not-italic text-[42px] text-white whitespace-nowrap" data-node-id="6129:8725">
+            Jordan Lee
+          </p>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Bold'] inset-[49.45%_33.63%_48.28%_65.12%] leading-[normal] not-italic text-[46px] text-center text-white whitespace-nowrap" data-node-id="6129:8726">
+            4
+          </p>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Regular'] inset-[49.66%_18.56%_48.46%_76.9%] leading-[normal] not-italic text-[38px] text-center text-white whitespace-nowrap" data-node-id="6129:8727">
+            00:48
+          </p>
+          <div className="absolute inset-[52.08%_16.2%_47.92%_16.2%]" data-node-id="6129:8728" data-name="Vector">
+            <div className="absolute inset-[-1px_0]">
+              <img alt="" className="block max-w-none size-full" src={imgVector} />
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Bold'] inset-[54.32%_80.42%_43.52%_18.38%] leading-[normal] not-italic text-[44px] text-center text-white whitespace-nowrap" data-node-id="6129:8729">
+            3
+          </p>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Regular'] inset-[54.37%_60.93%_43.54%_28.7%] leading-[normal] not-italic text-[42px] text-white whitespace-nowrap" data-node-id="6129:8730">
+            Maya Chen
+          </p>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Bold'] inset-[54.27%_33.63%_43.46%_65.12%] leading-[normal] not-italic text-[46px] text-center text-white whitespace-nowrap" data-node-id="6129:8731">
+            3
+          </p>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Regular'] inset-[54.48%_18.56%_43.65%_76.9%] leading-[normal] not-italic text-[38px] text-center text-white whitespace-nowrap" data-node-id="6129:8732">
+            00:45
+          </p>
+          <div className="absolute inset-[56.9%_16.2%_43.1%_16.2%]" data-node-id="6129:8733" data-name="Vector">
+            <div className="absolute inset-[-1px_0]">
+              <img alt="" className="block max-w-none size-full" src={imgVector} />
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Bold'] inset-[59.14%_80.42%_38.7%_18.38%] leading-[normal] not-italic text-[44px] text-center text-white whitespace-nowrap" data-node-id="6129:8734">
+            4
+          </p>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Regular'] inset-[59.19%_63.15%_38.72%_28.7%] leading-[normal] not-italic text-[42px] text-white whitespace-nowrap" data-node-id="6129:8735">
+            Omar Ali
+          </p>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Bold'] inset-[59.09%_33.63%_38.65%_65.12%] leading-[normal] not-italic text-[46px] text-center text-white whitespace-nowrap" data-node-id="6129:8736">
+            3
+          </p>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Regular'] inset-[59.3%_18.56%_38.83%_76.9%] leading-[normal] not-italic text-[38px] text-center text-white whitespace-nowrap" data-node-id="6129:8737">
+            00:53
+          </p>
+          <div className="absolute inset-[61.72%_16.2%_38.28%_16.2%]" data-node-id="6129:8738" data-name="Vector">
+            <div className="absolute inset-[-1px_0]">
+              <img alt="" className="block max-w-none size-full" src={imgVector} />
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Bold'] inset-[63.96%_80.42%_33.88%_18.38%] leading-[normal] not-italic text-[44px] text-center text-white whitespace-nowrap" data-node-id="6129:8739">
+            5
+          </p>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Regular'] inset-[64.01%_61.11%_33.91%_28.7%] leading-[normal] not-italic text-[42px] text-white whitespace-nowrap" data-node-id="6129:8740">
+            Alex Rivera
+          </p>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Bold'] inset-[63.91%_33.63%_33.83%_65.12%] leading-[normal] not-italic text-[46px] text-center text-white whitespace-nowrap" data-node-id="6129:8741">
+            2
+          </p>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Regular'] inset-[64.11%_18.56%_34.01%_76.9%] leading-[normal] not-italic text-[38px] text-center text-white whitespace-nowrap" data-node-id="6129:8742">
+            00:51
+          </p>
+          <div className="absolute inset-[66.54%_16.2%_33.46%_16.2%]" data-node-id="6129:8743" data-name="Vector">
+            <div className="absolute inset-[-1px_0]">
+              <img alt="" className="block max-w-none size-full" src={imgVector} />
+            </div>
+          </div>
+          <div className="absolute bottom-[32.81%] left-1/4 right-3/4 top-[41.67%]" data-node-id="6129:8744" data-name="Vector">
+            <div className="absolute inset-[0_-1px]">
+              <img alt="" className="block max-w-none size-full" src={imgVector1} />
+            </div>
+          </div>
+          <div className="absolute inset-[41.67%_39.81%_32.81%_60.19%]" data-node-id="6129:8745" data-name="Vector">
+            <div className="absolute inset-[0_-1px]">
+              <img alt="" className="block max-w-none size-full" src={imgVector1} />
+            </div>
+          </div>
+          <div className="absolute inset-[41.67%_26.85%_32.81%_73.15%]" data-node-id="6129:8746" data-name="Vector">
+            <div className="absolute inset-[0_-1px]">
+              <img alt="" className="block max-w-none size-full" src={imgVector1} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

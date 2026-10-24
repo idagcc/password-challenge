@@ -1,0 +1,9 @@
+export { default as Idle } from "./Idle";
+export { default as Registration } from "./Registration";
+export { default as Instructions } from "./Instructions";
+export { default as PictureOne } from "./PictureOne";
+export { default as PictureTwo } from "./PictureTwo";
+export { default as Counting } from "./Counting";
+export { default as Maze } from "./Maze";
+export { default as Result } from "./Result";
+export { default as Validation } from "./Validation";

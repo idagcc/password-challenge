@@ -1,0 +1,19 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="876.087" height="214.497" viewBox="0 0 876.087 214.497" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Indicators">
+<path id="Crosshair bracket" opacity="0.9" d="M813.757 134.99L824.07 136.055M824.07 136.055L836.614 137.351M824.07 136.055L826.614 125.546M824.07 136.055L822.328 143.253" stroke-width="1.02265" stroke="#8BDFFF"/>
+<g id="Interface markings">
+<path id="Fine horizontal segment" opacity="0.5" d="M689.471 2.77561H678.043M689.471 211.72H678.043" stroke-width="0.639158" stroke="#3475BA"/>
+<path id="Terminal marking" opacity="0.7" d="M719.472 0.415515H700.901M719.472 5.13742H708.044M719.472 209.36H700.901M719.472 214.082H708.044" stroke-width="0.830906" stroke="#8BDFFF"/>
+<path id="Directional chevron" opacity="0.35" d="M846.615 94.8561L839.472 105.481L846.615 116.105" stroke-width="1.27832" stroke="#168BFF"/>
+<path id="Directional chevron_2" opacity="0.75" d="M860.899 94.8561L853.756 105.481L860.899 116.105" stroke-width="1.78964" stroke="#8BDFFF"/>
+<path id="Directional chevron_3" d="M875.185 94.8561L868.042 105.481L875.185 116.105" stroke-width="2.17314" stroke="#00DFFF"/>
+</g>
+<g id="Interface markings_2">
+<path id="Fine horizontal segment_2" opacity="0.5" d="M186.616 2.77555H198.045M186.616 211.72H198.045" stroke-width="0.639158" stroke="#3475BA"/>
+<path id="Terminal marking_2" opacity="0.7" d="M156.617 0.415453H175.188M156.617 5.13736H168.045M156.617 209.36H175.188M156.617 214.082H168.045" stroke-width="0.830906" stroke="#8BDFFF"/>
+<path id="Directional chevron_4" opacity="0.35" d="M29.4723 94.8561L36.6153 105.481L29.4723 116.105" stroke-width="1.27832" stroke="#168BFF"/>
+<path id="Directional chevron_5" opacity="0.75" d="M15.1884 94.8561L22.3314 105.481L15.1884 116.105" stroke-width="1.78964" stroke="#8BDFFF"/>
+<path id="Directional chevron_6" d="M0.901724 94.8561L8.04465 105.481L0.901724 116.105" stroke-width="2.17314" stroke="#00DFFF"/>
+</g>
+</g>
+</svg>

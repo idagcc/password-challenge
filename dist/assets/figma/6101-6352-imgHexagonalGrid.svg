@@ -1,0 +1,36 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="811.424" height="199.12" viewBox="0 0 811.424 199.12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Hexagonal Grid" opacity="0.35">
+<path id="Highlighted honeycomb edges" opacity="0.85" d="M97.1426 94.9599L117.143 125.652H161.428L182.857 94.9599H225.714" stroke-width="1.34223" stroke="#8BDFFF"/>
+<path id="Isolated central hexagon" opacity="0.4" d="M362.857 93.7776L384.285 63.1079H427.142L448.571 93.7776L427.142 124.448H384.285L362.857 93.7776Z" stroke-width="1.08657" stroke="#3475BA"/>
+<g id="Honeycomb field">
+<path id="Clipped honeycomb cell" opacity="0.5" d="M647.141 183.497L628.57 153.985H585.712L572.855 171.692" stroke-width="0.958737" stroke="#3475BA"/>
+<path id="Clipped honeycomb cell_2" opacity="0.5" d="M647.139 4.06004L628.568 31.2111H585.71L569.996 9.96245" stroke-width="0.958737" stroke="#3475BA"/>
+<path id="Clipped honeycomb cell_3" opacity="0.5" d="M772.853 156.346L757.139 153.985H714.282L692.853 184.677L702.853 198.843" stroke-width="0.958737" stroke="#3475BA"/>
+<path id="Clipped honeycomb cell_4" opacity="0.4" d="M811.425 96.1406H799.996L778.568 125.652L789.996 143.36" stroke-width="0.958737" stroke="#3475BA"/>
+<path id="Clipped honeycomb cell_5" opacity="0.4" d="M788.567 44.2001L778.568 61.9072L799.996 92.5996H811.425" stroke-width="0.958737" stroke="#3475BA"/>
+<path id="Hexagonal cell" opacity="0.43" d="M499.997 92.5982L521.426 61.9284H564.283L585.711 92.5982L564.283 123.268H521.426L499.997 92.5982Z" stroke-width="1.08657" stroke="#3475BA"/>
+<path id="Hexagonal cell_2" opacity="0.43" d="M564.282 123.292L585.711 92.6224H628.568L649.997 123.292L628.568 153.962H585.711L564.282 123.292Z" stroke-width="1.08657" stroke="#3475BA"/>
+<path id="Hexagonal cell_3" opacity="0.43" d="M564.282 61.9056L585.711 31.2359H628.568L649.997 61.9056L628.568 92.5756H585.711L564.282 61.9056Z" stroke-width="1.08657" stroke="#3475BA"/>
+<path id="Hexagonal cell_4" opacity="0.43" d="M628.568 153.982L649.996 123.312H692.853L714.282 153.982L692.853 184.652H649.996L628.568 153.982Z" stroke-width="1.08657" stroke="#3475BA"/>
+<path id="Hexagonal cell_5" opacity="0.43" d="M628.568 92.5982L649.996 61.9284H692.853L714.282 92.5982L692.853 123.268H649.996L628.568 92.5982Z" stroke-width="1.08657" stroke="#3475BA"/>
+<path id="Hexagonal cell_6" opacity="0.43" d="M628.568 31.213L649.996 0.543285H692.853L714.282 31.213L692.853 61.883H649.996L628.568 31.213Z" stroke-width="1.08657" stroke="#3475BA"/>
+<path id="Hexagonal cell_7" opacity="0.43" d="M692.853 123.292L714.282 92.6224H757.139L778.567 123.292L757.139 153.962H714.282L692.853 123.292Z" stroke-width="1.08657" stroke="#3475BA"/>
+<path id="Hexagonal cell_8" opacity="0.43" d="M692.853 61.9056L714.282 31.2359H757.139L778.567 61.9056L757.139 92.5756H714.282L692.853 61.9056Z" stroke-width="1.08657" stroke="#3475BA"/>
+</g>
+<g id="Honeycomb field_2">
+<path id="Clipped honeycomb cell_6" opacity="0.5" d="M164.285 183.497L182.857 153.985H225.714L238.571 171.692" stroke-width="0.958737" stroke="#3475BA"/>
+<path id="Clipped honeycomb cell_7" opacity="0.5" d="M164.285 4.06023L182.857 31.2113H225.714L241.428 9.96263" stroke-width="0.958737" stroke="#3475BA"/>
+<path id="Clipped honeycomb cell_8" opacity="0.5" d="M38.5709 156.346L54.2852 153.985H97.1424L118.571 184.678L108.571 198.843" stroke-width="0.958737" stroke="#3475BA"/>
+<path id="Clipped honeycomb cell_9" opacity="0.4" d="M0 96.1408H11.4285L32.857 125.653L21.4285 143.36" stroke-width="0.958737" stroke="#3475BA"/>
+<path id="Clipped honeycomb cell_10" opacity="0.4" d="M22.8571 44.2003L32.857 61.9074L11.4285 92.5998H0" stroke-width="0.958737" stroke="#3475BA"/>
+<path id="Hexagonal cell_9" opacity="0.43" d="M225.716 92.5984L247.144 61.9286H290.002L311.43 92.5984L290.002 123.268H247.144L225.716 92.5984Z" stroke-width="1.08657" stroke="#3475BA"/>
+<path id="Hexagonal cell_10" opacity="0.43" d="M161.428 123.292L182.856 92.6226H225.713L247.142 123.292L225.713 153.962H182.856L161.428 123.292Z" stroke-width="1.08657" stroke="#3475BA"/>
+<path id="Hexagonal cell_11" opacity="0.43" d="M161.428 61.9058L182.856 31.236H225.713L247.142 61.9058L225.713 92.5758H182.856L161.428 61.9058Z" stroke-width="1.08657" stroke="#3475BA"/>
+<path id="Hexagonal cell_12" opacity="0.43" d="M97.1423 153.982L118.571 123.312H161.428L182.857 153.982L161.428 184.652H118.571L97.1423 153.982Z" stroke-width="1.08657" stroke="#3475BA"/>
+<path id="Hexagonal cell_13" opacity="0.43" d="M97.1423 92.5984L118.571 61.9286H161.428L182.857 92.5984L161.428 123.268H118.571L97.1423 92.5984Z" stroke-width="1.08657" stroke="#3475BA"/>
+<path id="Hexagonal cell_14" opacity="0.43" d="M97.1423 31.2132L118.571 0.543474H161.428L182.857 31.2132L161.428 61.8832H118.571L97.1423 31.2132Z" stroke-width="1.08657" stroke="#3475BA"/>
+<path id="Hexagonal cell_15" opacity="0.43" d="M32.8585 123.292L54.2871 92.6226H97.1442L118.573 123.292L97.1442 153.962H54.2871L32.8585 123.292Z" stroke-width="1.08657" stroke="#3475BA"/>
+<path id="Hexagonal cell_16" opacity="0.43" d="M32.8585 61.9058L54.2871 31.236H97.1442L118.573 61.9058L97.1442 92.5758H54.2871L32.8585 61.9058Z" stroke-width="1.08657" stroke="#3475BA"/>
+</g>
+</g>
+</svg>

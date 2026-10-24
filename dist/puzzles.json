@@ -1,0 +1,7312 @@
+{
+  "schemaVersion": "3.0.0",
+  "packId": "dge-password-components-v3",
+  "totalPuzzles": 50,
+  "categoryCounts": {
+    "picture_password": 25,
+    "security_count": 25
+  },
+  "assets": [
+    {
+      "id": "sun",
+      "kind": "icons",
+      "svg": "assets/icons/svg/sun.svg",
+      "png": "assets/icons/png/sun.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        26.0741,
+        26.0741,
+        203.8519,
+        203.8519
+      ]
+    },
+    {
+      "id": "flower",
+      "kind": "icons",
+      "svg": "assets/icons/svg/flower.svg",
+      "png": "assets/icons/png/flower.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        32.0,
+        41.0,
+        192.0,
+        192.0
+      ]
+    },
+    {
+      "id": "fire",
+      "kind": "icons",
+      "svg": "assets/icons/svg/fire.svg",
+      "png": "assets/icons/png/fire.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        26.8519,
+        23.3519,
+        200.2963,
+        200.2963
+      ]
+    },
+    {
+      "id": "wall",
+      "kind": "icons",
+      "svg": "assets/icons/svg/wall.svg",
+      "png": "assets/icons/png/wall.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        18.963,
+        18.963,
+        218.0741,
+        218.0741
+      ]
+    },
+    {
+      "id": "star",
+      "kind": "icons",
+      "svg": "assets/icons/svg/star.svg",
+      "png": "assets/icons/png/star.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        42.6667,
+        35.1667,
+        170.6667,
+        170.6667
+      ]
+    },
+    {
+      "id": "fish",
+      "kind": "icons",
+      "svg": "assets/icons/svg/fish.svg",
+      "png": "assets/icons/png/fish.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        30.8333,
+        30.8333,
+        181.3333,
+        181.3333
+      ]
+    },
+    {
+      "id": "key",
+      "kind": "icons",
+      "svg": "assets/icons/svg/key.svg",
+      "png": "assets/icons/png/key.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        64.8148,
+        62.8148,
+        130.3704,
+        130.3704
+      ]
+    },
+    {
+      "id": "board",
+      "kind": "icons",
+      "svg": "assets/icons/svg/board.svg",
+      "png": "assets/icons/png/board.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        24.8889,
+        24.8889,
+        206.2222,
+        206.2222
+      ]
+    },
+    {
+      "id": "snow",
+      "kind": "icons",
+      "svg": "assets/icons/svg/snow.svg",
+      "png": "assets/icons/png/snow.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        34.3704,
+        34.3704,
+        187.2593,
+        187.2593
+      ]
+    },
+    {
+      "id": "ball",
+      "kind": "icons",
+      "svg": "assets/icons/svg/ball.svg",
+      "png": "assets/icons/png/ball.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        49.1852,
+        48.6852,
+        157.6296,
+        157.6296
+      ]
+    },
+    {
+      "id": "glasses",
+      "kind": "icons",
+      "svg": "assets/icons/svg/glasses.svg",
+      "png": "assets/icons/png/glasses.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        3.5556,
+        -0.9444,
+        248.8889,
+        248.8889
+      ]
+    },
+    {
+      "id": "foot",
+      "kind": "icons",
+      "svg": "assets/icons/svg/foot.svg",
+      "png": "assets/icons/png/foot.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        52.6296,
+        38.1296,
+        164.7407,
+        164.7407
+      ]
+    },
+    {
+      "id": "tooth",
+      "kind": "icons",
+      "svg": "assets/icons/svg/tooth.svg",
+      "png": "assets/icons/png/tooth.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        46.3148,
+        51.3148,
+        162.3704,
+        162.3704
+      ]
+    },
+    {
+      "id": "brush",
+      "kind": "icons",
+      "svg": "assets/icons/svg/brush.svg",
+      "png": "assets/icons/png/brush.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        43.2963,
+        38.2963,
+        175.4074,
+        175.4074
+      ]
+    },
+    {
+      "id": "cup",
+      "kind": "icons",
+      "svg": "assets/icons/svg/cup.svg",
+      "png": "assets/icons/png/cup.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        46.8333,
+        36.8333,
+        181.3333,
+        181.3333
+      ]
+    },
+    {
+      "id": "cake",
+      "kind": "icons",
+      "svg": "assets/icons/svg/cake.svg",
+      "png": "assets/icons/png/cake.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        31.3148,
+        7.8148,
+        194.3704,
+        194.3704
+      ]
+    },
+    {
+      "id": "book",
+      "kind": "icons",
+      "svg": "assets/icons/svg/book.svg",
+      "png": "assets/icons/png/book.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        34.3704,
+        28.8704,
+        187.2593,
+        187.2593
+      ]
+    },
+    {
+      "id": "worm",
+      "kind": "icons",
+      "svg": "assets/icons/svg/worm.svg",
+      "png": "assets/icons/png/worm.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        29.4815,
+        27.9815,
+        173.037,
+        173.037
+      ]
+    },
+    {
+      "id": "rain",
+      "kind": "icons",
+      "svg": "assets/icons/svg/rain.svg",
+      "png": "assets/icons/png/rain.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        39.7037,
+        24.2037,
+        176.5926,
+        176.5926
+      ]
+    },
+    {
+      "id": "bow",
+      "kind": "icons",
+      "svg": "assets/icons/svg/bow.svg",
+      "png": "assets/icons/png/bow.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        32.0,
+        48.0,
+        192.0,
+        192.0
+      ]
+    },
+    {
+      "id": "door",
+      "kind": "icons",
+      "svg": "assets/icons/svg/door.svg",
+      "png": "assets/icons/png/door.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        27.2593,
+        27.2593,
+        201.4815,
+        201.4815
+      ]
+    },
+    {
+      "id": "bell",
+      "kind": "icons",
+      "svg": "assets/icons/svg/bell.svg",
+      "png": "assets/icons/png/bell.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        45.037,
+        36.037,
+        165.9259,
+        165.9259
+      ]
+    },
+    {
+      "id": "truck",
+      "kind": "icons",
+      "svg": "assets/icons/svg/truck.svg",
+      "png": "assets/icons/png/truck.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        21.6111,
+        22.1111,
+        209.7778,
+        209.7778
+      ]
+    },
+    {
+      "id": "ear",
+      "kind": "icons",
+      "svg": "assets/icons/svg/ear.svg",
+      "png": "assets/icons/png/ear.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        44.5926,
+        30.0926,
+        190.8148,
+        190.8148
+      ]
+    },
+    {
+      "id": "phone",
+      "kind": "icons",
+      "svg": "assets/icons/svg/phone.svg",
+      "png": "assets/icons/png/phone.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        29.6296,
+        29.6296,
+        196.7407,
+        196.7407
+      ]
+    },
+    {
+      "id": "note",
+      "kind": "icons",
+      "svg": "assets/icons/svg/note.svg",
+      "png": "assets/icons/png/note.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        53.3148,
+        38.3148,
+        162.3704,
+        162.3704
+      ]
+    },
+    {
+      "id": "honey",
+      "kind": "icons",
+      "svg": "assets/icons/svg/honey.svg",
+      "png": "assets/icons/png/honey.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        62.463,
+        33.463,
+        186.0741,
+        186.0741
+      ]
+    },
+    {
+      "id": "bee",
+      "kind": "icons",
+      "svg": "assets/icons/svg/bee.svg",
+      "png": "assets/icons/png/bee.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        34.2778,
+        15.2778,
+        188.4444,
+        188.4444
+      ]
+    },
+    {
+      "id": "shell",
+      "kind": "icons",
+      "svg": "assets/icons/svg/shell.svg",
+      "png": "assets/icons/png/shell.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        40.2963,
+        37.7963,
+        175.4074,
+        175.4074
+      ]
+    },
+    {
+      "id": "gold",
+      "kind": "icons",
+      "svg": "assets/icons/svg/gold.svg",
+      "png": "assets/icons/png/gold.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        35.537,
+        24.537,
+        197.9259,
+        197.9259
+      ]
+    },
+    {
+      "id": "pin",
+      "kind": "icons",
+      "svg": "assets/icons/svg/pin.svg",
+      "png": "assets/icons/png/pin.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        42.7037,
+        44.2037,
+        176.5926,
+        176.5926
+      ]
+    },
+    {
+      "id": "wheel",
+      "kind": "icons",
+      "svg": "assets/icons/svg/wheel.svg",
+      "png": "assets/icons/png/wheel.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        42.6667,
+        42.6667,
+        170.6667,
+        170.6667
+      ]
+    },
+    {
+      "id": "house",
+      "kind": "icons",
+      "svg": "assets/icons/svg/house.svg",
+      "png": "assets/icons/png/house.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        30.8148,
+        11.8148,
+        194.3704,
+        194.3704
+      ]
+    },
+    {
+      "id": "boat",
+      "kind": "icons",
+      "svg": "assets/icons/svg/boat.svg",
+      "png": "assets/icons/png/boat.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        20.7407,
+        24.2407,
+        214.5185,
+        214.5185
+      ]
+    },
+    {
+      "id": "water",
+      "kind": "icons",
+      "svg": "assets/icons/svg/water.svg",
+      "png": "assets/icons/png/water.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        44.4444,
+        42.9444,
+        167.1111,
+        167.1111
+      ]
+    },
+    {
+      "id": "melon",
+      "kind": "icons",
+      "svg": "assets/icons/svg/melon.svg",
+      "png": "assets/icons/png/melon.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        29.6296,
+        39.6296,
+        196.7407,
+        196.7407
+      ]
+    },
+    {
+      "id": "coat",
+      "kind": "icons",
+      "svg": "assets/icons/svg/coat.svg",
+      "png": "assets/icons/png/coat.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        23.1111,
+        8.6111,
+        209.7778,
+        209.7778
+      ]
+    },
+    {
+      "id": "man",
+      "kind": "icons",
+      "svg": "assets/icons/svg/man.svg",
+      "png": "assets/icons/png/man.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        32.0,
+        30.0,
+        192.0,
+        192.0
+      ]
+    },
+    {
+      "id": "light",
+      "kind": "icons",
+      "svg": "assets/icons/svg/light.svg",
+      "png": "assets/icons/png/light.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        39.1111,
+        25.1111,
+        177.7778,
+        177.7778
+      ]
+    },
+    {
+      "id": "shield",
+      "kind": "icons",
+      "svg": "assets/icons/svg/shield.svg",
+      "png": "assets/icons/png/shield.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        61.6296,
+        64.6296,
+        132.7407,
+        132.7407
+      ]
+    },
+    {
+      "id": "lock",
+      "kind": "icons",
+      "svg": "assets/icons/svg/lock.svg",
+      "png": "assets/icons/png/lock.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        65.1852,
+        57.1852,
+        125.6296,
+        125.6296
+      ]
+    },
+    {
+      "id": "usb",
+      "kind": "icons",
+      "svg": "assets/icons/svg/usb.svg",
+      "png": "assets/icons/png/usb.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        45.6296,
+        42.1296,
+        164.7407,
+        164.7407
+      ]
+    },
+    {
+      "id": "laptop",
+      "kind": "icons",
+      "svg": "assets/icons/svg/laptop.svg",
+      "png": "assets/icons/png/laptop.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        24.8889,
+        21.3889,
+        206.2222,
+        206.2222
+      ]
+    },
+    {
+      "id": "digit-2",
+      "kind": "characters",
+      "svg": "assets/characters/svg/digit-2.svg",
+      "png": "assets/characters/png/digit-2.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        63.4074,
+        62.9074,
+        129.1852,
+        129.1852
+      ]
+    },
+    {
+      "id": "digit-3",
+      "kind": "characters",
+      "svg": "assets/characters/svg/digit-3.svg",
+      "png": "assets/characters/png/digit-3.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        61.7222,
+        62.7222,
+        131.5556,
+        131.5556
+      ]
+    },
+    {
+      "id": "digit-4",
+      "kind": "characters",
+      "svg": "assets/characters/svg/digit-4.svg",
+      "png": "assets/characters/png/digit-4.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        64.0,
+        64.0,
+        128.0,
+        128.0
+      ]
+    },
+    {
+      "id": "digit-5",
+      "kind": "characters",
+      "svg": "assets/characters/svg/digit-5.svg",
+      "png": "assets/characters/png/digit-5.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        62.8148,
+        63.8148,
+        130.3704,
+        130.3704
+      ]
+    },
+    {
+      "id": "digit-6",
+      "kind": "characters",
+      "svg": "assets/characters/svg/digit-6.svg",
+      "png": "assets/characters/png/digit-6.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        62.2222,
+        62.7222,
+        131.5556,
+        131.5556
+      ]
+    },
+    {
+      "id": "digit-7",
+      "kind": "characters",
+      "svg": "assets/characters/svg/digit-7.svg",
+      "png": "assets/characters/png/digit-7.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        63.5,
+        64.0,
+        128.0,
+        128.0
+      ]
+    },
+    {
+      "id": "digit-8",
+      "kind": "characters",
+      "svg": "assets/characters/svg/digit-8.svg",
+      "png": "assets/characters/png/digit-8.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        62.2222,
+        62.7222,
+        131.5556,
+        131.5556
+      ]
+    },
+    {
+      "id": "digit-9",
+      "kind": "characters",
+      "svg": "assets/characters/svg/digit-9.svg",
+      "png": "assets/characters/png/digit-9.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        61.7222,
+        62.7222,
+        131.5556,
+        131.5556
+      ]
+    },
+    {
+      "id": "symbol-exclamation",
+      "kind": "characters",
+      "svg": "assets/characters/svg/symbol-exclamation.svg",
+      "png": "assets/characters/png/symbol-exclamation.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        62.3148,
+        63.8148,
+        130.3704,
+        130.3704
+      ]
+    },
+    {
+      "id": "symbol-hash",
+      "kind": "characters",
+      "svg": "assets/characters/svg/symbol-hash.svg",
+      "png": "assets/characters/png/symbol-hash.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        64.5926,
+        65.0926,
+        126.8148,
+        126.8148
+      ]
+    },
+    {
+      "id": "symbol-at",
+      "kind": "characters",
+      "svg": "assets/characters/svg/symbol-at.svg",
+      "png": "assets/characters/png/symbol-at.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        55.7037,
+        61.7037,
+        144.5926,
+        144.5926
+      ]
+    },
+    {
+      "id": "operator-plus",
+      "kind": "characters",
+      "svg": "assets/characters/svg/operator-plus.svg",
+      "png": "assets/characters/png/operator-plus.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        84.1481,
+        85.1481,
+        87.7037,
+        87.7037
+      ]
+    },
+    {
+      "id": "operator-arrow",
+      "kind": "characters",
+      "svg": "assets/characters/svg/operator-arrow.svg",
+      "png": "assets/characters/png/operator-arrow.png",
+      "width": 256,
+      "height": 256,
+      "viewBox": [
+        47.1296,
+        45.6296,
+        164.7407,
+        164.7407
+      ]
+    }
+  ],
+  "puzzles": [
+    {
+      "id": "puzzle-001",
+      "category": "picture_password",
+      "title": "Crack the picture password",
+      "instruction": "Read the top row, then the bottom row. Add the number and symbol.",
+      "inputMode": "text",
+      "inputCharacters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#@",
+      "difficulty": "easy",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "sun"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "flower"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "7",
+            "assetId": "digit-7"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "!",
+            "assetId": "symbol-exclamation"
+          }
+        }
+      ],
+      "clues": [
+        {
+          "type": "icon",
+          "assetId": "sun"
+        },
+        {
+          "type": "icon",
+          "assetId": "flower"
+        },
+        {
+          "type": "character",
+          "value": "7",
+          "assetId": "digit-7"
+        },
+        {
+          "type": "character",
+          "value": "!",
+          "assetId": "symbol-exclamation"
+        }
+      ],
+      "operators": [
+        {
+          "value": "+",
+          "x": 670,
+          "y": 335,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 670,
+          "y": 1235,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 680,
+          "y": 780,
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "puzzle-002",
+      "category": "picture_password",
+      "title": "Crack the picture password",
+      "instruction": "Read the top row, then the bottom row. Add the number and symbol.",
+      "inputMode": "text",
+      "inputCharacters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#@",
+      "difficulty": "easy",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "fire"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "wall"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "4",
+            "assetId": "digit-4"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "!",
+            "assetId": "symbol-exclamation"
+          }
+        }
+      ],
+      "clues": [
+        {
+          "type": "icon",
+          "assetId": "fire"
+        },
+        {
+          "type": "icon",
+          "assetId": "wall"
+        },
+        {
+          "type": "character",
+          "value": "4",
+          "assetId": "digit-4"
+        },
+        {
+          "type": "character",
+          "value": "!",
+          "assetId": "symbol-exclamation"
+        }
+      ],
+      "operators": [
+        {
+          "value": "+",
+          "x": 670,
+          "y": 335,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 670,
+          "y": 1235,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 680,
+          "y": 780,
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "puzzle-003",
+      "category": "picture_password",
+      "title": "Crack the picture password",
+      "instruction": "Read the top row, then the bottom row. Add the number and symbol.",
+      "inputMode": "text",
+      "inputCharacters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#@",
+      "difficulty": "easy",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "star"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "fish"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "3",
+            "assetId": "digit-3"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "#",
+            "assetId": "symbol-hash"
+          }
+        }
+      ],
+      "clues": [
+        {
+          "type": "icon",
+          "assetId": "star"
+        },
+        {
+          "type": "icon",
+          "assetId": "fish"
+        },
+        {
+          "type": "character",
+          "value": "3",
+          "assetId": "digit-3"
+        },
+        {
+          "type": "character",
+          "value": "#",
+          "assetId": "symbol-hash"
+        }
+      ],
+      "operators": [
+        {
+          "value": "+",
+          "x": 670,
+          "y": 335,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 670,
+          "y": 1235,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 680,
+          "y": 780,
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "puzzle-004",
+      "category": "picture_password",
+      "title": "Crack the picture password",
+      "instruction": "Read the top row, then the bottom row. Add the number and symbol.",
+      "inputMode": "text",
+      "inputCharacters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#@",
+      "difficulty": "easy",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "key"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "board"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "6",
+            "assetId": "digit-6"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "@",
+            "assetId": "symbol-at"
+          }
+        }
+      ],
+      "clues": [
+        {
+          "type": "icon",
+          "assetId": "key"
+        },
+        {
+          "type": "icon",
+          "assetId": "board"
+        },
+        {
+          "type": "character",
+          "value": "6",
+          "assetId": "digit-6"
+        },
+        {
+          "type": "character",
+          "value": "@",
+          "assetId": "symbol-at"
+        }
+      ],
+      "operators": [
+        {
+          "value": "+",
+          "x": 670,
+          "y": 335,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 670,
+          "y": 1235,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 680,
+          "y": 780,
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "puzzle-005",
+      "category": "picture_password",
+      "title": "Crack the picture password",
+      "instruction": "Read the top row, then the bottom row. Add the number and symbol.",
+      "inputMode": "text",
+      "inputCharacters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#@",
+      "difficulty": "easy",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "snow"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "ball"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "2",
+            "assetId": "digit-2"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "#",
+            "assetId": "symbol-hash"
+          }
+        }
+      ],
+      "clues": [
+        {
+          "type": "icon",
+          "assetId": "snow"
+        },
+        {
+          "type": "icon",
+          "assetId": "ball"
+        },
+        {
+          "type": "character",
+          "value": "2",
+          "assetId": "digit-2"
+        },
+        {
+          "type": "character",
+          "value": "#",
+          "assetId": "symbol-hash"
+        }
+      ],
+      "operators": [
+        {
+          "value": "+",
+          "x": 670,
+          "y": 335,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 670,
+          "y": 1235,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 680,
+          "y": 780,
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "puzzle-006",
+      "category": "picture_password",
+      "title": "Crack the picture password",
+      "instruction": "Read the top row, then the bottom row. Add the number and symbol.",
+      "inputMode": "text",
+      "inputCharacters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#@",
+      "difficulty": "easy",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "sun"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "glasses"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "8",
+            "assetId": "digit-8"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "!",
+            "assetId": "symbol-exclamation"
+          }
+        }
+      ],
+      "clues": [
+        {
+          "type": "icon",
+          "assetId": "sun"
+        },
+        {
+          "type": "icon",
+          "assetId": "glasses"
+        },
+        {
+          "type": "character",
+          "value": "8",
+          "assetId": "digit-8"
+        },
+        {
+          "type": "character",
+          "value": "!",
+          "assetId": "symbol-exclamation"
+        }
+      ],
+      "operators": [
+        {
+          "value": "+",
+          "x": 670,
+          "y": 335,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 670,
+          "y": 1235,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 680,
+          "y": 780,
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "puzzle-007",
+      "category": "picture_password",
+      "title": "Crack the picture password",
+      "instruction": "Read the top row, then the bottom row. Add the number and symbol.",
+      "inputMode": "text",
+      "inputCharacters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#@",
+      "difficulty": "easy",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "foot"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "ball"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "5",
+            "assetId": "digit-5"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "@",
+            "assetId": "symbol-at"
+          }
+        }
+      ],
+      "clues": [
+        {
+          "type": "icon",
+          "assetId": "foot"
+        },
+        {
+          "type": "icon",
+          "assetId": "ball"
+        },
+        {
+          "type": "character",
+          "value": "5",
+          "assetId": "digit-5"
+        },
+        {
+          "type": "character",
+          "value": "@",
+          "assetId": "symbol-at"
+        }
+      ],
+      "operators": [
+        {
+          "value": "+",
+          "x": 670,
+          "y": 335,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 670,
+          "y": 1235,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 680,
+          "y": 780,
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "puzzle-008",
+      "category": "picture_password",
+      "title": "Crack the picture password",
+      "instruction": "Read the top row, then the bottom row. Add the number and symbol.",
+      "inputMode": "text",
+      "inputCharacters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#@",
+      "difficulty": "easy",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "tooth"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "brush"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "9",
+            "assetId": "digit-9"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "#",
+            "assetId": "symbol-hash"
+          }
+        }
+      ],
+      "clues": [
+        {
+          "type": "icon",
+          "assetId": "tooth"
+        },
+        {
+          "type": "icon",
+          "assetId": "brush"
+        },
+        {
+          "type": "character",
+          "value": "9",
+          "assetId": "digit-9"
+        },
+        {
+          "type": "character",
+          "value": "#",
+          "assetId": "symbol-hash"
+        }
+      ],
+      "operators": [
+        {
+          "value": "+",
+          "x": 670,
+          "y": 335,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 670,
+          "y": 1235,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 680,
+          "y": 780,
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "puzzle-009",
+      "category": "picture_password",
+      "title": "Crack the picture password",
+      "instruction": "Read the top row, then the bottom row. Add the number and symbol.",
+      "inputMode": "text",
+      "inputCharacters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#@",
+      "difficulty": "medium",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "cup"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "cake"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "4",
+            "assetId": "digit-4"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "@",
+            "assetId": "symbol-at"
+          }
+        }
+      ],
+      "clues": [
+        {
+          "type": "icon",
+          "assetId": "cup"
+        },
+        {
+          "type": "icon",
+          "assetId": "cake"
+        },
+        {
+          "type": "character",
+          "value": "4",
+          "assetId": "digit-4"
+        },
+        {
+          "type": "character",
+          "value": "@",
+          "assetId": "symbol-at"
+        }
+      ],
+      "operators": [
+        {
+          "value": "+",
+          "x": 670,
+          "y": 335,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 670,
+          "y": 1235,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 680,
+          "y": 780,
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "puzzle-010",
+      "category": "picture_password",
+      "title": "Crack the picture password",
+      "instruction": "Read the top row, then the bottom row. Add the number and symbol.",
+      "inputMode": "text",
+      "inputCharacters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#@",
+      "difficulty": "medium",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "book"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "worm"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "6",
+            "assetId": "digit-6"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "!",
+            "assetId": "symbol-exclamation"
+          }
+        }
+      ],
+      "clues": [
+        {
+          "type": "icon",
+          "assetId": "book"
+        },
+        {
+          "type": "icon",
+          "assetId": "worm"
+        },
+        {
+          "type": "character",
+          "value": "6",
+          "assetId": "digit-6"
+        },
+        {
+          "type": "character",
+          "value": "!",
+          "assetId": "symbol-exclamation"
+        }
+      ],
+      "operators": [
+        {
+          "value": "+",
+          "x": 670,
+          "y": 335,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 670,
+          "y": 1235,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 680,
+          "y": 780,
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "puzzle-011",
+      "category": "picture_password",
+      "title": "Crack the picture password",
+      "instruction": "Read the top row, then the bottom row. Add the number and symbol.",
+      "inputMode": "text",
+      "inputCharacters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#@",
+      "difficulty": "medium",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "rain"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "bow"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "8",
+            "assetId": "digit-8"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "#",
+            "assetId": "symbol-hash"
+          }
+        }
+      ],
+      "clues": [
+        {
+          "type": "icon",
+          "assetId": "rain"
+        },
+        {
+          "type": "icon",
+          "assetId": "bow"
+        },
+        {
+          "type": "character",
+          "value": "8",
+          "assetId": "digit-8"
+        },
+        {
+          "type": "character",
+          "value": "#",
+          "assetId": "symbol-hash"
+        }
+      ],
+      "operators": [
+        {
+          "value": "+",
+          "x": 670,
+          "y": 335,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 670,
+          "y": 1235,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 680,
+          "y": 780,
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "puzzle-012",
+      "category": "picture_password",
+      "title": "Crack the picture password",
+      "instruction": "Read the top row, then the bottom row. Add the number and symbol.",
+      "inputMode": "text",
+      "inputCharacters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#@",
+      "difficulty": "medium",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "door"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "bell"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "2",
+            "assetId": "digit-2"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "@",
+            "assetId": "symbol-at"
+          }
+        }
+      ],
+      "clues": [
+        {
+          "type": "icon",
+          "assetId": "door"
+        },
+        {
+          "type": "icon",
+          "assetId": "bell"
+        },
+        {
+          "type": "character",
+          "value": "2",
+          "assetId": "digit-2"
+        },
+        {
+          "type": "character",
+          "value": "@",
+          "assetId": "symbol-at"
+        }
+      ],
+      "operators": [
+        {
+          "value": "+",
+          "x": 670,
+          "y": 335,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 670,
+          "y": 1235,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 680,
+          "y": 780,
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "puzzle-013",
+      "category": "picture_password",
+      "title": "Crack the picture password",
+      "instruction": "Read the top row, then the bottom row. Add the number and symbol.",
+      "inputMode": "text",
+      "inputCharacters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#@",
+      "difficulty": "medium",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "fire"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "truck"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "7",
+            "assetId": "digit-7"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "#",
+            "assetId": "symbol-hash"
+          }
+        }
+      ],
+      "clues": [
+        {
+          "type": "icon",
+          "assetId": "fire"
+        },
+        {
+          "type": "icon",
+          "assetId": "truck"
+        },
+        {
+          "type": "character",
+          "value": "7",
+          "assetId": "digit-7"
+        },
+        {
+          "type": "character",
+          "value": "#",
+          "assetId": "symbol-hash"
+        }
+      ],
+      "operators": [
+        {
+          "value": "+",
+          "x": 670,
+          "y": 335,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 670,
+          "y": 1235,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 680,
+          "y": 780,
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "puzzle-014",
+      "category": "picture_password",
+      "title": "Crack the picture password",
+      "instruction": "Read the top row, then the bottom row. Add the number and symbol.",
+      "inputMode": "text",
+      "inputCharacters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#@",
+      "difficulty": "medium",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "ear"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "phone"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "5",
+            "assetId": "digit-5"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "!",
+            "assetId": "symbol-exclamation"
+          }
+        }
+      ],
+      "clues": [
+        {
+          "type": "icon",
+          "assetId": "ear"
+        },
+        {
+          "type": "icon",
+          "assetId": "phone"
+        },
+        {
+          "type": "character",
+          "value": "5",
+          "assetId": "digit-5"
+        },
+        {
+          "type": "character",
+          "value": "!",
+          "assetId": "symbol-exclamation"
+        }
+      ],
+      "operators": [
+        {
+          "value": "+",
+          "x": 670,
+          "y": 335,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 670,
+          "y": 1235,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 680,
+          "y": 780,
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "puzzle-015",
+      "category": "picture_password",
+      "title": "Crack the picture password",
+      "instruction": "Read the top row, then the bottom row. Add the number and symbol.",
+      "inputMode": "text",
+      "inputCharacters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#@",
+      "difficulty": "medium",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "note"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "book"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "3",
+            "assetId": "digit-3"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "@",
+            "assetId": "symbol-at"
+          }
+        }
+      ],
+      "clues": [
+        {
+          "type": "icon",
+          "assetId": "note"
+        },
+        {
+          "type": "icon",
+          "assetId": "book"
+        },
+        {
+          "type": "character",
+          "value": "3",
+          "assetId": "digit-3"
+        },
+        {
+          "type": "character",
+          "value": "@",
+          "assetId": "symbol-at"
+        }
+      ],
+      "operators": [
+        {
+          "value": "+",
+          "x": 670,
+          "y": 335,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 670,
+          "y": 1235,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 680,
+          "y": 780,
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "puzzle-016",
+      "category": "picture_password",
+      "title": "Crack the picture password",
+      "instruction": "Read the top row, then the bottom row. Add the number and symbol.",
+      "inputMode": "text",
+      "inputCharacters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#@",
+      "difficulty": "medium",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "honey"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "bee"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "9",
+            "assetId": "digit-9"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "!",
+            "assetId": "symbol-exclamation"
+          }
+        }
+      ],
+      "clues": [
+        {
+          "type": "icon",
+          "assetId": "honey"
+        },
+        {
+          "type": "icon",
+          "assetId": "bee"
+        },
+        {
+          "type": "character",
+          "value": "9",
+          "assetId": "digit-9"
+        },
+        {
+          "type": "character",
+          "value": "!",
+          "assetId": "symbol-exclamation"
+        }
+      ],
+      "operators": [
+        {
+          "value": "+",
+          "x": 670,
+          "y": 335,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 670,
+          "y": 1235,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 680,
+          "y": 780,
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "puzzle-017",
+      "category": "picture_password",
+      "title": "Crack the picture password",
+      "instruction": "Read the top row, then the bottom row. Add the number and symbol.",
+      "inputMode": "text",
+      "inputCharacters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#@",
+      "difficulty": "medium",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "shell"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "fish"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "6",
+            "assetId": "digit-6"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "#",
+            "assetId": "symbol-hash"
+          }
+        }
+      ],
+      "clues": [
+        {
+          "type": "icon",
+          "assetId": "shell"
+        },
+        {
+          "type": "icon",
+          "assetId": "fish"
+        },
+        {
+          "type": "character",
+          "value": "6",
+          "assetId": "digit-6"
+        },
+        {
+          "type": "character",
+          "value": "#",
+          "assetId": "symbol-hash"
+        }
+      ],
+      "operators": [
+        {
+          "value": "+",
+          "x": 670,
+          "y": 335,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 670,
+          "y": 1235,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 680,
+          "y": 780,
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "puzzle-018",
+      "category": "picture_password",
+      "title": "Crack the picture password",
+      "instruction": "Read the top row, then the bottom row. Add the number and symbol.",
+      "inputMode": "text",
+      "inputCharacters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#@",
+      "difficulty": "medium",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "gold"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "fish"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "4",
+            "assetId": "digit-4"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "!",
+            "assetId": "symbol-exclamation"
+          }
+        }
+      ],
+      "clues": [
+        {
+          "type": "icon",
+          "assetId": "gold"
+        },
+        {
+          "type": "icon",
+          "assetId": "fish"
+        },
+        {
+          "type": "character",
+          "value": "4",
+          "assetId": "digit-4"
+        },
+        {
+          "type": "character",
+          "value": "!",
+          "assetId": "symbol-exclamation"
+        }
+      ],
+      "operators": [
+        {
+          "value": "+",
+          "x": 670,
+          "y": 335,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 670,
+          "y": 1235,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 680,
+          "y": 780,
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "puzzle-019",
+      "category": "picture_password",
+      "title": "Crack the picture password",
+      "instruction": "Read the top row, then the bottom row. Add the number and symbol.",
+      "inputMode": "text",
+      "inputCharacters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#@",
+      "difficulty": "medium",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "cup"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "board"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "7",
+            "assetId": "digit-7"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "@",
+            "assetId": "symbol-at"
+          }
+        }
+      ],
+      "clues": [
+        {
+          "type": "icon",
+          "assetId": "cup"
+        },
+        {
+          "type": "icon",
+          "assetId": "board"
+        },
+        {
+          "type": "character",
+          "value": "7",
+          "assetId": "digit-7"
+        },
+        {
+          "type": "character",
+          "value": "@",
+          "assetId": "symbol-at"
+        }
+      ],
+      "operators": [
+        {
+          "value": "+",
+          "x": 670,
+          "y": 335,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 670,
+          "y": 1235,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 680,
+          "y": 780,
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "puzzle-020",
+      "category": "picture_password",
+      "title": "Crack the picture password",
+      "instruction": "Read the top row, then the bottom row. Add the number and symbol.",
+      "inputMode": "text",
+      "inputCharacters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#@",
+      "difficulty": "medium",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "pin"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "wheel"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "2",
+            "assetId": "digit-2"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "!",
+            "assetId": "symbol-exclamation"
+          }
+        }
+      ],
+      "clues": [
+        {
+          "type": "icon",
+          "assetId": "pin"
+        },
+        {
+          "type": "icon",
+          "assetId": "wheel"
+        },
+        {
+          "type": "character",
+          "value": "2",
+          "assetId": "digit-2"
+        },
+        {
+          "type": "character",
+          "value": "!",
+          "assetId": "symbol-exclamation"
+        }
+      ],
+      "operators": [
+        {
+          "value": "+",
+          "x": 670,
+          "y": 335,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 670,
+          "y": 1235,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 680,
+          "y": 780,
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "puzzle-021",
+      "category": "picture_password",
+      "title": "Crack the picture password",
+      "instruction": "Read the top row, then the bottom row. Add the number and symbol.",
+      "inputMode": "text",
+      "inputCharacters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#@",
+      "difficulty": "medium",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "house"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "boat"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "8",
+            "assetId": "digit-8"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "@",
+            "assetId": "symbol-at"
+          }
+        }
+      ],
+      "clues": [
+        {
+          "type": "icon",
+          "assetId": "house"
+        },
+        {
+          "type": "icon",
+          "assetId": "boat"
+        },
+        {
+          "type": "character",
+          "value": "8",
+          "assetId": "digit-8"
+        },
+        {
+          "type": "character",
+          "value": "@",
+          "assetId": "symbol-at"
+        }
+      ],
+      "operators": [
+        {
+          "value": "+",
+          "x": 670,
+          "y": 335,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 670,
+          "y": 1235,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 680,
+          "y": 780,
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "puzzle-022",
+      "category": "picture_password",
+      "title": "Crack the picture password",
+      "instruction": "Read the top row, then the bottom row. Add the number and symbol.",
+      "inputMode": "text",
+      "inputCharacters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#@",
+      "difficulty": "medium",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "water"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "melon"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "5",
+            "assetId": "digit-5"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "#",
+            "assetId": "symbol-hash"
+          }
+        }
+      ],
+      "clues": [
+        {
+          "type": "icon",
+          "assetId": "water"
+        },
+        {
+          "type": "icon",
+          "assetId": "melon"
+        },
+        {
+          "type": "character",
+          "value": "5",
+          "assetId": "digit-5"
+        },
+        {
+          "type": "character",
+          "value": "#",
+          "assetId": "symbol-hash"
+        }
+      ],
+      "operators": [
+        {
+          "value": "+",
+          "x": 670,
+          "y": 335,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 670,
+          "y": 1235,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 680,
+          "y": 780,
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "puzzle-023",
+      "category": "picture_password",
+      "title": "Crack the picture password",
+      "instruction": "Read the top row, then the bottom row. Add the number and symbol.",
+      "inputMode": "text",
+      "inputCharacters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#@",
+      "difficulty": "medium",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "rain"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "coat"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "3",
+            "assetId": "digit-3"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "!",
+            "assetId": "symbol-exclamation"
+          }
+        }
+      ],
+      "clues": [
+        {
+          "type": "icon",
+          "assetId": "rain"
+        },
+        {
+          "type": "icon",
+          "assetId": "coat"
+        },
+        {
+          "type": "character",
+          "value": "3",
+          "assetId": "digit-3"
+        },
+        {
+          "type": "character",
+          "value": "!",
+          "assetId": "symbol-exclamation"
+        }
+      ],
+      "operators": [
+        {
+          "value": "+",
+          "x": 670,
+          "y": 335,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 670,
+          "y": 1235,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 680,
+          "y": 780,
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "puzzle-024",
+      "category": "picture_password",
+      "title": "Crack the picture password",
+      "instruction": "Read the top row, then the bottom row. Add the number and symbol.",
+      "inputMode": "text",
+      "inputCharacters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#@",
+      "difficulty": "medium",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "snow"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "man"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "9",
+            "assetId": "digit-9"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "@",
+            "assetId": "symbol-at"
+          }
+        }
+      ],
+      "clues": [
+        {
+          "type": "icon",
+          "assetId": "snow"
+        },
+        {
+          "type": "icon",
+          "assetId": "man"
+        },
+        {
+          "type": "character",
+          "value": "9",
+          "assetId": "digit-9"
+        },
+        {
+          "type": "character",
+          "value": "@",
+          "assetId": "symbol-at"
+        }
+      ],
+      "operators": [
+        {
+          "value": "+",
+          "x": 670,
+          "y": 335,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 670,
+          "y": 1235,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 680,
+          "y": 780,
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "puzzle-025",
+      "category": "picture_password",
+      "title": "Crack the picture password",
+      "instruction": "Read the top row, then the bottom row. Add the number and symbol.",
+      "inputMode": "text",
+      "inputCharacters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#@",
+      "difficulty": "medium",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "light"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 20,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "icon",
+            "assetId": "house"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 0,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "6",
+            "assetId": "digit-6"
+          }
+        },
+        {
+          "component": "clue-tile",
+          "x": 900,
+          "y": 920,
+          "width": 560,
+          "height": 722.207,
+          "content": {
+            "type": "character",
+            "value": "@",
+            "assetId": "symbol-at"
+          }
+        }
+      ],
+      "clues": [
+        {
+          "type": "icon",
+          "assetId": "light"
+        },
+        {
+          "type": "icon",
+          "assetId": "house"
+        },
+        {
+          "type": "character",
+          "value": "6",
+          "assetId": "digit-6"
+        },
+        {
+          "type": "character",
+          "value": "@",
+          "assetId": "symbol-at"
+        }
+      ],
+      "operators": [
+        {
+          "value": "+",
+          "x": 670,
+          "y": 335,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 670,
+          "y": 1235,
+          "width": 120,
+          "height": 120
+        },
+        {
+          "value": "+",
+          "x": 680,
+          "y": 780,
+          "width": 100,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "id": "puzzle-026",
+      "category": "security_count",
+      "title": "Count the security symbols",
+      "instruction": "Count only the symbols inside the frame. Use the order below, then add #.",
+      "inputMode": "text",
+      "inputCharacters": "0123456789!#@",
+      "difficulty": "easy",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 146.793,
+          "y": 147.188,
+          "width": 290,
+          "height": 290
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 586.952,
+          "y": 158.852,
+          "width": 290,
+          "height": 290
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 1025.096,
+          "y": 158.496,
+          "width": 290,
+          "height": 290
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 157.035,
+          "y": 585.058,
+          "width": 290,
+          "height": 290
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 585.6,
+          "y": 573.865,
+          "width": 290,
+          "height": 290
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 1018.877,
+          "y": 589.854,
+          "width": 290,
+          "height": 290
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 139.905,
+          "y": 1000.191,
+          "width": 290,
+          "height": 290
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 591.614,
+          "y": 1011.336,
+          "width": 290,
+          "height": 290
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 1026.351,
+          "y": 996.369,
+          "width": 290,
+          "height": 290
+        }
+      ],
+      "countFrame": {
+        "x": 0,
+        "y": 0,
+        "width": 1460,
+        "height": 1450,
+        "radius": 42
+      },
+      "legend": {
+        "x": 0,
+        "y": 1670,
+        "width": 1460,
+        "height": 123,
+        "order": [
+          "key",
+          "shield",
+          "lock"
+        ],
+        "suffix": "#"
+      }
+    },
+    {
+      "id": "puzzle-027",
+      "category": "security_count",
+      "title": "Count the security symbols",
+      "instruction": "Count only the symbols inside the frame. Use the order below, then add !.",
+      "inputMode": "text",
+      "inputCharacters": "0123456789!#@",
+      "difficulty": "easy",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 168.192,
+          "y": 118.14,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 600.001,
+          "y": 122.399,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 1029.157,
+          "y": 124.298,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 171.145,
+          "y": 425.779,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 601.095,
+          "y": 430.826,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 1026.478,
+          "y": 444.112,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 172.989,
+          "y": 752.069,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 589.509,
+          "y": 743.961,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 1031.714,
+          "y": 755.167,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 161.919,
+          "y": 1065.565,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 588.574,
+          "y": 1070.927,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 1031.222,
+          "y": 1063.013,
+          "width": 262.5,
+          "height": 262.5
+        }
+      ],
+      "countFrame": {
+        "x": 0,
+        "y": 0,
+        "width": 1460,
+        "height": 1450,
+        "radius": 42
+      },
+      "legend": {
+        "x": 0,
+        "y": 1670,
+        "width": 1460,
+        "height": 123,
+        "order": [
+          "lock",
+          "key",
+          "shield"
+        ],
+        "suffix": "!"
+      }
+    },
+    {
+      "id": "puzzle-028",
+      "category": "security_count",
+      "title": "Count the security symbols",
+      "instruction": "Count only the symbols inside the frame. Use the order below, then add @.",
+      "inputMode": "text",
+      "inputCharacters": "0123456789!#@",
+      "difficulty": "easy",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 158.087,
+          "y": 116.06,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 592.335,
+          "y": 120.133,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 1030.881,
+          "y": 115.967,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 175.473,
+          "y": 444.047,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 588.785,
+          "y": 431.351,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 1030.088,
+          "y": 441.769,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 172.429,
+          "y": 752.195,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 597.145,
+          "y": 751.329,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 1043.951,
+          "y": 743.023,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 159.685,
+          "y": 1075.073,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 602.679,
+          "y": 1074.711,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 1029.594,
+          "y": 1071.352,
+          "width": 262.5,
+          "height": 262.5
+        }
+      ],
+      "countFrame": {
+        "x": 0,
+        "y": 0,
+        "width": 1460,
+        "height": 1450,
+        "radius": 42
+      },
+      "legend": {
+        "x": 0,
+        "y": 1670,
+        "width": 1460,
+        "height": 123,
+        "order": [
+          "usb",
+          "lock",
+          "key"
+        ],
+        "suffix": "@"
+      }
+    },
+    {
+      "id": "puzzle-029",
+      "category": "security_count",
+      "title": "Count the security symbols",
+      "instruction": "Count only the symbols inside the frame. Use the order below, then add #.",
+      "inputMode": "text",
+      "inputCharacters": "0123456789!#@",
+      "difficulty": "easy",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 161.025,
+          "y": 112.908,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 594.311,
+          "y": 112.407,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 1026.138,
+          "y": 115.608,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 170.64,
+          "y": 436.746,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 589.515,
+          "y": 440.252,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 1020.339,
+          "y": 425.012,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 159.996,
+          "y": 754.789,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 599.343,
+          "y": 753.759,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 1039.267,
+          "y": 743.378,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 154.7,
+          "y": 1069.846,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 601.392,
+          "y": 1070.612,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 1042.03,
+          "y": 1077.729,
+          "width": 262.5,
+          "height": 262.5
+        }
+      ],
+      "countFrame": {
+        "x": 0,
+        "y": 0,
+        "width": 1460,
+        "height": 1450,
+        "radius": 42
+      },
+      "legend": {
+        "x": 0,
+        "y": 1670,
+        "width": 1460,
+        "height": 123,
+        "order": [
+          "shield",
+          "usb",
+          "lock"
+        ],
+        "suffix": "#"
+      }
+    },
+    {
+      "id": "puzzle-030",
+      "category": "security_count",
+      "title": "Count the security symbols",
+      "instruction": "Count only the symbols inside the frame. Use the order below, then add !.",
+      "inputMode": "text",
+      "inputCharacters": "0123456789!#@",
+      "difficulty": "easy",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 177.11,
+          "y": 113.908,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 587.841,
+          "y": 126.279,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 1021.558,
+          "y": 110.151,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 170.139,
+          "y": 439.086,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 600.099,
+          "y": 442.328,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 1030.455,
+          "y": 427.697,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 169.243,
+          "y": 753.285,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 605.924,
+          "y": 746.965,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 1041.742,
+          "y": 747.511,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 377.879,
+          "y": 1074.955,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 808.218,
+          "y": 1073.273,
+          "width": 262.5,
+          "height": 262.5
+        }
+      ],
+      "countFrame": {
+        "x": 0,
+        "y": 0,
+        "width": 1460,
+        "height": 1450,
+        "radius": 42
+      },
+      "legend": {
+        "x": 0,
+        "y": 1670,
+        "width": 1460,
+        "height": 123,
+        "order": [
+          "laptop",
+          "key",
+          "shield"
+        ],
+        "suffix": "!"
+      }
+    },
+    {
+      "id": "puzzle-031",
+      "category": "security_count",
+      "title": "Count the security symbols",
+      "instruction": "Count only the symbols inside the frame. Use the order below, then add @.",
+      "inputMode": "text",
+      "inputCharacters": "0123456789!#@",
+      "difficulty": "medium",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 175.827,
+          "y": 115.813,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 588.336,
+          "y": 109.433,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 1032.322,
+          "y": 111.103,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 175.129,
+          "y": 429.913,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 587.15,
+          "y": 432.536,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 1038.058,
+          "y": 437.786,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 176.287,
+          "y": 748.688,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 594.781,
+          "y": 755.176,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 1029.9,
+          "y": 762.441,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 167.738,
+          "y": 1060.608,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 596.093,
+          "y": 1076.354,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 1025.345,
+          "y": 1066.885,
+          "width": 262.5,
+          "height": 262.5
+        }
+      ],
+      "countFrame": {
+        "x": 0,
+        "y": 0,
+        "width": 1460,
+        "height": 1450,
+        "radius": 42
+      },
+      "legend": {
+        "x": 0,
+        "y": 1670,
+        "width": 1460,
+        "height": 123,
+        "order": [
+          "key",
+          "usb",
+          "laptop"
+        ],
+        "suffix": "@"
+      }
+    },
+    {
+      "id": "puzzle-032",
+      "category": "security_count",
+      "title": "Count the security symbols",
+      "instruction": "Count only the symbols inside the frame. Use the order below, then add #.",
+      "inputMode": "text",
+      "inputCharacters": "0123456789!#@",
+      "difficulty": "medium",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 123.435,
+          "y": 117.001,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 450.613,
+          "y": 116.35,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 773.147,
+          "y": 112.365,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 1095.276,
+          "y": 118.62,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 125.286,
+          "y": 432.616,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 437.936,
+          "y": 440.788,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 767.852,
+          "y": 437.114,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 1083.45,
+          "y": 447.242,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 109.354,
+          "y": 762.299,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 445.486,
+          "y": 761.676,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 760.592,
+          "y": 754.457,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 1080.99,
+          "y": 757.186,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 431.243,
+          "y": 1082.725,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 767.454,
+          "y": 1075.677,
+          "width": 255.0,
+          "height": 255.0
+        }
+      ],
+      "countFrame": {
+        "x": 0,
+        "y": 0,
+        "width": 1460,
+        "height": 1450,
+        "radius": 42
+      },
+      "legend": {
+        "x": 0,
+        "y": 1670,
+        "width": 1460,
+        "height": 123,
+        "order": [
+          "shield",
+          "lock",
+          "key"
+        ],
+        "suffix": "#"
+      }
+    },
+    {
+      "id": "puzzle-033",
+      "category": "security_count",
+      "title": "Count the security symbols",
+      "instruction": "Count only the symbols inside the frame. Use the order below, then add !.",
+      "inputMode": "text",
+      "inputCharacters": "0123456789!#@",
+      "difficulty": "medium",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 154.083,
+          "y": 123.33,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 590.849,
+          "y": 119.529,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 1039.648,
+          "y": 124.446,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 167.464,
+          "y": 426.489,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 600.806,
+          "y": 428.146,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 1034.539,
+          "y": 440.005,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 172.98,
+          "y": 755.579,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 592.502,
+          "y": 745.773,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 1022.268,
+          "y": 752.599,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 161.062,
+          "y": 1073.461,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 596.897,
+          "y": 1067.975,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 1020.218,
+          "y": 1064.257,
+          "width": 262.5,
+          "height": 262.5
+        }
+      ],
+      "countFrame": {
+        "x": 0,
+        "y": 0,
+        "width": 1460,
+        "height": 1450,
+        "radius": 42
+      },
+      "legend": {
+        "x": 0,
+        "y": 1670,
+        "width": 1460,
+        "height": 123,
+        "order": [
+          "usb",
+          "shield",
+          "laptop"
+        ],
+        "suffix": "!"
+      }
+    },
+    {
+      "id": "puzzle-034",
+      "category": "security_count",
+      "title": "Count the security symbols",
+      "instruction": "Count only the symbols inside the frame. Use the order below, then add @.",
+      "inputMode": "text",
+      "inputCharacters": "0123456789!#@",
+      "difficulty": "medium",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 159.69,
+          "y": 116.424,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 588.609,
+          "y": 107.983,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 1028.129,
+          "y": 113.34,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 165.894,
+          "y": 436.792,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 608.896,
+          "y": 444.695,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 1043.136,
+          "y": 428.659,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 164.644,
+          "y": 754.021,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 591.754,
+          "y": 760.169,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 1031.831,
+          "y": 759.476,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 175.862,
+          "y": 1077.511,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 587.564,
+          "y": 1067.044,
+          "width": 262.5,
+          "height": 262.5
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 1039.401,
+          "y": 1079.841,
+          "width": 262.5,
+          "height": 262.5
+        }
+      ],
+      "countFrame": {
+        "x": 0,
+        "y": 0,
+        "width": 1460,
+        "height": 1450,
+        "radius": 42
+      },
+      "legend": {
+        "x": 0,
+        "y": 1670,
+        "width": 1460,
+        "height": 123,
+        "order": [
+          "lock",
+          "laptop",
+          "usb"
+        ],
+        "suffix": "@"
+      }
+    },
+    {
+      "id": "puzzle-035",
+      "category": "security_count",
+      "title": "Count the security symbols",
+      "instruction": "Count only the symbols inside the frame. Use the order below, then add #.",
+      "inputMode": "text",
+      "inputCharacters": "0123456789!#@",
+      "difficulty": "medium",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 126.9,
+          "y": 122.378,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 450.244,
+          "y": 128.584,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 769.457,
+          "y": 113.914,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 1094.897,
+          "y": 121.654,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 115.583,
+          "y": 434.876,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 442.706,
+          "y": 441.167,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 756.319,
+          "y": 445.165,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 1098.777,
+          "y": 441.955,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 112.641,
+          "y": 746.349,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 436.918,
+          "y": 748.844,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 767.411,
+          "y": 755.163,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 1085.331,
+          "y": 759.288,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 428.609,
+          "y": 1079.078,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 764.589,
+          "y": 1071.46,
+          "width": 255.0,
+          "height": 255.0
+        }
+      ],
+      "countFrame": {
+        "x": 0,
+        "y": 0,
+        "width": 1460,
+        "height": 1450,
+        "radius": 42
+      },
+      "legend": {
+        "x": 0,
+        "y": 1670,
+        "width": 1460,
+        "height": 123,
+        "order": [
+          "key",
+          "shield",
+          "usb"
+        ],
+        "suffix": "#"
+      }
+    },
+    {
+      "id": "puzzle-036",
+      "category": "security_count",
+      "title": "Count the security symbols",
+      "instruction": "Count only the symbols inside the frame. Use the order below, then add !.",
+      "inputMode": "text",
+      "inputCharacters": "0123456789!#@",
+      "difficulty": "medium",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 109.221,
+          "y": 116.023,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 428.106,
+          "y": 130.374,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 756.401,
+          "y": 127.177,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 1085.64,
+          "y": 122.908,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 103.216,
+          "y": 429.925,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 428.645,
+          "y": 439.454,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 763.822,
+          "y": 435.484,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 1089.737,
+          "y": 433.252,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 106.377,
+          "y": 755.94,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 428.077,
+          "y": 758.016,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 756.363,
+          "y": 751.807,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 1094.86,
+          "y": 765.721,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 266.076,
+          "y": 1072.705,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 601.022,
+          "y": 1071.339,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 925.348,
+          "y": 1079.307,
+          "width": 255.0,
+          "height": 255.0
+        }
+      ],
+      "countFrame": {
+        "x": 0,
+        "y": 0,
+        "width": 1460,
+        "height": 1450,
+        "radius": 42
+      },
+      "legend": {
+        "x": 0,
+        "y": 1670,
+        "width": 1460,
+        "height": 123,
+        "order": [
+          "laptop",
+          "lock",
+          "shield"
+        ],
+        "suffix": "!"
+      }
+    },
+    {
+      "id": "puzzle-037",
+      "category": "security_count",
+      "title": "Count the security symbols",
+      "instruction": "Count only the symbols inside the frame. Use the order below, then add @.",
+      "inputMode": "text",
+      "inputCharacters": "0123456789!#@",
+      "difficulty": "medium",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 123.824,
+          "y": 125.685,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 442.103,
+          "y": 124.052,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 763.252,
+          "y": 124.534,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 1097.305,
+          "y": 123.317,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 122.747,
+          "y": 438.705,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 450.363,
+          "y": 442.812,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 767.197,
+          "y": 440.643,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 1079.589,
+          "y": 433.096,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 112.468,
+          "y": 746.407,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 429.529,
+          "y": 763.598,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 755.704,
+          "y": 761.372,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 1078.354,
+          "y": 763.346,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 444.366,
+          "y": 1075.302,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 768.899,
+          "y": 1075.095,
+          "width": 255.0,
+          "height": 255.0
+        }
+      ],
+      "countFrame": {
+        "x": 0,
+        "y": 0,
+        "width": 1460,
+        "height": 1450,
+        "radius": 42
+      },
+      "legend": {
+        "x": 0,
+        "y": 1670,
+        "width": 1460,
+        "height": 123,
+        "order": [
+          "usb",
+          "key",
+          "lock"
+        ],
+        "suffix": "@"
+      }
+    },
+    {
+      "id": "puzzle-038",
+      "category": "security_count",
+      "title": "Count the security symbols",
+      "instruction": "Count only the symbols inside the frame. Use the order below, then add #.",
+      "inputMode": "text",
+      "inputCharacters": "0123456789!#@",
+      "difficulty": "medium",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 109.804,
+          "y": 121.148,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 445.9,
+          "y": 125.211,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 765.854,
+          "y": 119.975,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 1085.504,
+          "y": 121.077,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 110.606,
+          "y": 437.028,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 435.917,
+          "y": 432.754,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 775.828,
+          "y": 442.951,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 1096.106,
+          "y": 444.35,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 107.791,
+          "y": 764.001,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 437.269,
+          "y": 761.649,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 757.582,
+          "y": 763.245,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 1097.344,
+          "y": 763.064,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 439.644,
+          "y": 1077.594,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 763.285,
+          "y": 1070.592,
+          "width": 255.0,
+          "height": 255.0
+        }
+      ],
+      "countFrame": {
+        "x": 0,
+        "y": 0,
+        "width": 1460,
+        "height": 1450,
+        "radius": 42
+      },
+      "legend": {
+        "x": 0,
+        "y": 1670,
+        "width": 1460,
+        "height": 123,
+        "order": [
+          "shield",
+          "laptop",
+          "key"
+        ],
+        "suffix": "#"
+      }
+    },
+    {
+      "id": "puzzle-039",
+      "category": "security_count",
+      "title": "Count the security symbols",
+      "instruction": "Count only the symbols inside the frame. Use the order below, then add !.",
+      "inputMode": "text",
+      "inputCharacters": "0123456789!#@",
+      "difficulty": "medium",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 108.663,
+          "y": 126.955,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 428.166,
+          "y": 129.653,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 771.705,
+          "y": 123.856,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 1085.387,
+          "y": 113.524,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 106.286,
+          "y": 441.659,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 428.301,
+          "y": 430.403,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 773.244,
+          "y": 438.025,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 1092.54,
+          "y": 436.134,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 114.207,
+          "y": 758.521,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 450.827,
+          "y": 750.882,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 772.234,
+          "y": 758.95,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 1082.421,
+          "y": 760.54,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 435.289,
+          "y": 1072.466,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 765.244,
+          "y": 1078.006,
+          "width": 255.0,
+          "height": 255.0
+        }
+      ],
+      "countFrame": {
+        "x": 0,
+        "y": 0,
+        "width": 1460,
+        "height": 1450,
+        "radius": 42
+      },
+      "legend": {
+        "x": 0,
+        "y": 1670,
+        "width": 1460,
+        "height": 123,
+        "order": [
+          "lock",
+          "usb",
+          "shield"
+        ],
+        "suffix": "!"
+      }
+    },
+    {
+      "id": "puzzle-040",
+      "category": "security_count",
+      "title": "Count the security symbols",
+      "instruction": "Count only the symbols inside the frame. Use the order below, then add @.",
+      "inputMode": "text",
+      "inputCharacters": "0123456789!#@",
+      "difficulty": "medium",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 118.53,
+          "y": 126.017,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 433.511,
+          "y": 116.627,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 759.716,
+          "y": 119.72,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 1087.922,
+          "y": 119.548,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 124.638,
+          "y": 434.708,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 447.827,
+          "y": 429.865,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 760.824,
+          "y": 446.899,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 1080.799,
+          "y": 438.551,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 105.708,
+          "y": 751.164,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 437.49,
+          "y": 759.572,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 756.019,
+          "y": 754.176,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 1100.804,
+          "y": 756.266,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 121.711,
+          "y": 1075.384,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 428.062,
+          "y": 1078.483,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 773.353,
+          "y": 1079.109,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 1080.609,
+          "y": 1081.343,
+          "width": 255.0,
+          "height": 255.0
+        }
+      ],
+      "countFrame": {
+        "x": 0,
+        "y": 0,
+        "width": 1460,
+        "height": 1450,
+        "radius": 42
+      },
+      "legend": {
+        "x": 0,
+        "y": 1670,
+        "width": 1460,
+        "height": 123,
+        "order": [
+          "key",
+          "laptop",
+          "lock"
+        ],
+        "suffix": "@"
+      }
+    },
+    {
+      "id": "puzzle-041",
+      "category": "security_count",
+      "title": "Count the security symbols",
+      "instruction": "Count only the symbols inside the frame. Use the order below, then add #.",
+      "inputMode": "text",
+      "inputCharacters": "0123456789!#@",
+      "difficulty": "medium",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 112.157,
+          "y": 121.796,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 444.74,
+          "y": 120.849,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 756.105,
+          "y": 117.862,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 1079.286,
+          "y": 118.856,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 113.65,
+          "y": 446.009,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 447.215,
+          "y": 429.742,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 767.828,
+          "y": 448.111,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 1089.522,
+          "y": 442.181,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 113.562,
+          "y": 748.809,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 449.321,
+          "y": 763.042,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 756.957,
+          "y": 746.633,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 1082.65,
+          "y": 752.925,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 288.986,
+          "y": 1080.935,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 611.184,
+          "y": 1064.535,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 927.608,
+          "y": 1079.218,
+          "width": 255.0,
+          "height": 255.0
+        }
+      ],
+      "countFrame": {
+        "x": 0,
+        "y": 0,
+        "width": 1460,
+        "height": 1450,
+        "radius": 42
+      },
+      "legend": {
+        "x": 0,
+        "y": 1670,
+        "width": 1460,
+        "height": 123,
+        "order": [
+          "usb",
+          "shield",
+          "key"
+        ],
+        "suffix": "#"
+      }
+    },
+    {
+      "id": "puzzle-042",
+      "category": "security_count",
+      "title": "Count the security symbols",
+      "instruction": "Count only the symbols inside the frame. Use the order below, then add !.",
+      "inputMode": "text",
+      "inputCharacters": "0123456789!#@",
+      "difficulty": "hard",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 125.146,
+          "y": 127.444,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 433.02,
+          "y": 121.853,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 774.515,
+          "y": 124.879,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 1094.474,
+          "y": 131.146,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 110.476,
+          "y": 441.787,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 435.749,
+          "y": 431.947,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 771.892,
+          "y": 429.511,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 1090.686,
+          "y": 429.069,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 117.671,
+          "y": 752.506,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 451.198,
+          "y": 762.962,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 761.155,
+          "y": 764.49,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 1099.81,
+          "y": 762.827,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 444.368,
+          "y": 1071.182,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 774.655,
+          "y": 1075.104,
+          "width": 255.0,
+          "height": 255.0
+        }
+      ],
+      "countFrame": {
+        "x": 0,
+        "y": 0,
+        "width": 1460,
+        "height": 1450,
+        "radius": 42
+      },
+      "legend": {
+        "x": 0,
+        "y": 1670,
+        "width": 1460,
+        "height": 123,
+        "order": [
+          "lock",
+          "key",
+          "shield",
+          "usb"
+        ],
+        "suffix": "!"
+      }
+    },
+    {
+      "id": "puzzle-043",
+      "category": "security_count",
+      "title": "Count the security symbols",
+      "instruction": "Count only the symbols inside the frame. Use the order below, then add @.",
+      "inputMode": "text",
+      "inputCharacters": "0123456789!#@",
+      "difficulty": "hard",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 120.046,
+          "y": 120.075,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 448.359,
+          "y": 131.151,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 776.357,
+          "y": 122.888,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 1079.025,
+          "y": 121.971,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 111.74,
+          "y": 447.078,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 438.617,
+          "y": 429.93,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 763.62,
+          "y": 432.665,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 1094.657,
+          "y": 444.814,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 106.988,
+          "y": 756.923,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 432.414,
+          "y": 763.594,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 764.141,
+          "y": 748.947,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 1083.325,
+          "y": 749.397,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 438.993,
+          "y": 1079.397,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 776.751,
+          "y": 1068.256,
+          "width": 255.0,
+          "height": 255.0
+        }
+      ],
+      "countFrame": {
+        "x": 0,
+        "y": 0,
+        "width": 1460,
+        "height": 1450,
+        "radius": 42
+      },
+      "legend": {
+        "x": 0,
+        "y": 1670,
+        "width": 1460,
+        "height": 123,
+        "order": [
+          "shield",
+          "usb",
+          "laptop",
+          "key"
+        ],
+        "suffix": "@"
+      }
+    },
+    {
+      "id": "puzzle-044",
+      "category": "security_count",
+      "title": "Count the security symbols",
+      "instruction": "Count only the symbols inside the frame. Use the order below, then add #.",
+      "inputMode": "text",
+      "inputCharacters": "0123456789!#@",
+      "difficulty": "hard",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 122.45,
+          "y": 115.642,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 436.339,
+          "y": 125.216,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 766.933,
+          "y": 123.762,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 1093.164,
+          "y": 118.423,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 110.942,
+          "y": 439.993,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 435.843,
+          "y": 435.183,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 774.122,
+          "y": 446.901,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 1100.391,
+          "y": 444.747,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 116.641,
+          "y": 759.163,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 451.472,
+          "y": 763.529,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 754.531,
+          "y": 765.815,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 1080.19,
+          "y": 757.522,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 442.229,
+          "y": 1064.833,
+          "width": 255.0,
+          "height": 255.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 760.92,
+          "y": 1070.174,
+          "width": 255.0,
+          "height": 255.0
+        }
+      ],
+      "countFrame": {
+        "x": 0,
+        "y": 0,
+        "width": 1460,
+        "height": 1450,
+        "radius": 42
+      },
+      "legend": {
+        "x": 0,
+        "y": 1670,
+        "width": 1460,
+        "height": 123,
+        "order": [
+          "laptop",
+          "lock",
+          "usb",
+          "shield"
+        ],
+        "suffix": "#"
+      }
+    },
+    {
+      "id": "puzzle-045",
+      "category": "security_count",
+      "title": "Count the security symbols",
+      "instruction": "Count only the symbols inside the frame. Use the order below, then add !.",
+      "inputMode": "text",
+      "inputCharacters": "0123456789!#@",
+      "difficulty": "hard",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 154.211,
+          "y": 115.362,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 463.062,
+          "y": 117.695,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 804.524,
+          "y": 118.819,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 1129.079,
+          "y": 114.092,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 149.214,
+          "y": 364.844,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 459.477,
+          "y": 368.617,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 798.619,
+          "y": 364.656,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 1120.362,
+          "y": 366.726,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 142.001,
+          "y": 620.045,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 469.52,
+          "y": 622.651,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 802.742,
+          "y": 625.499,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 1127.258,
+          "y": 631.595,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 141.127,
+          "y": 880.368,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 462.761,
+          "y": 878.459,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 797.005,
+          "y": 888.565,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 1126.351,
+          "y": 875.085,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 467.389,
+          "y": 1143.246,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 786.907,
+          "y": 1132.666,
+          "width": 199.0,
+          "height": 199.0
+        }
+      ],
+      "countFrame": {
+        "x": 0,
+        "y": 0,
+        "width": 1460,
+        "height": 1450,
+        "radius": 42
+      },
+      "legend": {
+        "x": 0,
+        "y": 1670,
+        "width": 1460,
+        "height": 123,
+        "order": [
+          "key",
+          "usb",
+          "lock",
+          "laptop"
+        ],
+        "suffix": "!"
+      }
+    },
+    {
+      "id": "puzzle-046",
+      "category": "security_count",
+      "title": "Count the security symbols",
+      "instruction": "Count only the symbols inside the frame. Use the order below, then add @.",
+      "inputMode": "text",
+      "inputCharacters": "0123456789!#@",
+      "difficulty": "hard",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 136.15,
+          "y": 116.896,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 474.896,
+          "y": 108.278,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 798.509,
+          "y": 126.373,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 1114.66,
+          "y": 114.382,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 136.738,
+          "y": 374.327,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 471.737,
+          "y": 377.742,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 781.139,
+          "y": 371.844,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 1115.513,
+          "y": 370.122,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 147.329,
+          "y": 621.442,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 461.018,
+          "y": 622.144,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 799.259,
+          "y": 629.577,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 1120.215,
+          "y": 634.271,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 141.18,
+          "y": 880.743,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 457.966,
+          "y": 885.212,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 781.568,
+          "y": 872.353,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 1116.004,
+          "y": 883.972,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 621.428,
+          "y": 1127.258,
+          "width": 199.0,
+          "height": 199.0
+        }
+      ],
+      "countFrame": {
+        "x": 0,
+        "y": 0,
+        "width": 1460,
+        "height": 1450,
+        "radius": 42
+      },
+      "legend": {
+        "x": 0,
+        "y": 1670,
+        "width": 1460,
+        "height": 123,
+        "order": [
+          "shield",
+          "laptop",
+          "key",
+          "lock"
+        ],
+        "suffix": "@"
+      }
+    },
+    {
+      "id": "puzzle-047",
+      "category": "security_count",
+      "title": "Count the security symbols",
+      "instruction": "Count only the symbols inside the frame. Use the order below, then add #.",
+      "inputMode": "text",
+      "inputCharacters": "0123456789!#@",
+      "difficulty": "hard",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 147.833,
+          "y": 109.86,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 473.381,
+          "y": 107.745,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 791.133,
+          "y": 110.706,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 1106.243,
+          "y": 118.451,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 132.345,
+          "y": 372.645,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 467.542,
+          "y": 379.847,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 788.497,
+          "y": 378.205,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 1127.807,
+          "y": 374.364,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 131.736,
+          "y": 635.028,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 465.641,
+          "y": 616.119,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 800.061,
+          "y": 620.311,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 1120.841,
+          "y": 627.569,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 136.505,
+          "y": 872.833,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 474.158,
+          "y": 886.023,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 798.839,
+          "y": 886.575,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 1109.469,
+          "y": 876.962,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 460.309,
+          "y": 1125.702,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 783.779,
+          "y": 1135.118,
+          "width": 199.0,
+          "height": 199.0
+        }
+      ],
+      "countFrame": {
+        "x": 0,
+        "y": 0,
+        "width": 1460,
+        "height": 1450,
+        "radius": 42
+      },
+      "legend": {
+        "x": 0,
+        "y": 1670,
+        "width": 1460,
+        "height": 123,
+        "order": [
+          "usb",
+          "lock",
+          "shield",
+          "laptop"
+        ],
+        "suffix": "#"
+      }
+    },
+    {
+      "id": "puzzle-048",
+      "category": "security_count",
+      "title": "Count the security symbols",
+      "instruction": "Count only the symbols inside the frame. Use the order below, then add !.",
+      "inputMode": "text",
+      "inputCharacters": "0123456789!#@",
+      "difficulty": "hard",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 132.561,
+          "y": 114.487,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 460.718,
+          "y": 112.346,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 784.596,
+          "y": 120.181,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 1113.298,
+          "y": 112.671,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 143.928,
+          "y": 380.82,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 463.563,
+          "y": 367.911,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 797.579,
+          "y": 373.471,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 1121.784,
+          "y": 364.669,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 141.713,
+          "y": 630.894,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 461.713,
+          "y": 624.584,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 781.625,
+          "y": 621.193,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 1110.864,
+          "y": 616.36,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 140.488,
+          "y": 884.445,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 465.311,
+          "y": 875.173,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 787.551,
+          "y": 885.241,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 1113.653,
+          "y": 877.908,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 470.006,
+          "y": 1141.168,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 797.675,
+          "y": 1128.283,
+          "width": 199.0,
+          "height": 199.0
+        }
+      ],
+      "countFrame": {
+        "x": 0,
+        "y": 0,
+        "width": 1460,
+        "height": 1450,
+        "radius": 42
+      },
+      "legend": {
+        "x": 0,
+        "y": 1670,
+        "width": 1460,
+        "height": 123,
+        "order": [
+          "lock",
+          "shield",
+          "key",
+          "usb"
+        ],
+        "suffix": "!"
+      }
+    },
+    {
+      "id": "puzzle-049",
+      "category": "security_count",
+      "title": "Count the security symbols",
+      "instruction": "Count only the symbols inside the frame. Use the order below, then add @.",
+      "inputMode": "text",
+      "inputCharacters": "0123456789!#@",
+      "difficulty": "hard",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 140.315,
+          "y": 118.577,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 477.617,
+          "y": 107.823,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 800.851,
+          "y": 116.598,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 1129.63,
+          "y": 118.811,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 135.351,
+          "y": 374.935,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 460.812,
+          "y": 367.319,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 804.173,
+          "y": 367.161,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 1129.353,
+          "y": 368.8,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 144.09,
+          "y": 616.099,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 467.903,
+          "y": 630.159,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 798.477,
+          "y": 631.339,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 1119.739,
+          "y": 630.538,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 139.589,
+          "y": 871.266,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 472.765,
+          "y": 881.322,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 787.478,
+          "y": 871.142,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 1124.743,
+          "y": 873.82,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 475.671,
+          "y": 1140.56,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "shield",
+          "x": 803.687,
+          "y": 1139.94,
+          "width": 199.0,
+          "height": 199.0
+        }
+      ],
+      "countFrame": {
+        "x": 0,
+        "y": 0,
+        "width": 1460,
+        "height": 1450,
+        "radius": 42
+      },
+      "legend": {
+        "x": 0,
+        "y": 1670,
+        "width": 1460,
+        "height": 123,
+        "order": [
+          "laptop",
+          "usb",
+          "key",
+          "shield"
+        ],
+        "suffix": "@"
+      }
+    },
+    {
+      "id": "puzzle-050",
+      "category": "security_count",
+      "title": "Count the security symbols",
+      "instruction": "Count only the symbols inside the frame. Use the order below, then add #.",
+      "inputMode": "text",
+      "inputCharacters": "0123456789!#@",
+      "difficulty": "hard",
+      "canvas": {
+        "width": 1460,
+        "height": 1793
+      },
+      "screenPlacement": {
+        "x": 350,
+        "y": 1010
+      },
+      "components": [
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 151.375,
+          "y": 121.759,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 465.133,
+          "y": 125.845,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 799.113,
+          "y": 113.073,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 1122.366,
+          "y": 121.838,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 146.669,
+          "y": 373.51,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 460.413,
+          "y": 376.66,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 802.874,
+          "y": 378.229,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 1110.728,
+          "y": 367.769,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 148.352,
+          "y": 622.039,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 479.849,
+          "y": 628.267,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 793.73,
+          "y": 633.449,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 1124.174,
+          "y": 635.449,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 150.675,
+          "y": 874.595,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "laptop",
+          "x": 456.375,
+          "y": 878.119,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 788.608,
+          "y": 871.231,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "usb",
+          "x": 1126.996,
+          "y": 885.435,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "lock",
+          "x": 473.961,
+          "y": 1141.619,
+          "width": 199.0,
+          "height": 199.0
+        },
+        {
+          "component": "security-icon",
+          "assetId": "key",
+          "x": 803.065,
+          "y": 1141.082,
+          "width": 199.0,
+          "height": 199.0
+        }
+      ],
+      "countFrame": {
+        "x": 0,
+        "y": 0,
+        "width": 1460,
+        "height": 1450,
+        "radius": 42
+      },
+      "legend": {
+        "x": 0,
+        "y": 1670,
+        "width": 1460,
+        "height": 123,
+        "order": [
+          "key",
+          "lock",
+          "laptop",
+          "usb"
+        ],
+        "suffix": "#"
+      }
+    }
+  ]
+}

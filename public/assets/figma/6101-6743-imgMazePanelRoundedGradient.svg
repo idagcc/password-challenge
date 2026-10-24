@@ -1,0 +1,9 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="1320" height="1250" viewBox="0 0 1320 1250" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path id="Maze panel &#194;&#183; rounded gradient" d="M1256 0H64C28.6538 0 0 28.6538 0 64V1186C0 1221.35 28.6538 1250 64 1250H1256C1291.35 1250 1320 1221.35 1320 1186V64C1320 28.6538 1291.35 0 1256 0Z" fill="url(#paint0_linear_0_345)" fill-opacity="0.6"/>
+<defs>
+<linearGradient id="paint0_linear_0_345" x1="0" y1="0" x2="1320" y2="1320" gradientUnits="userSpaceOnUse">
+<stop stop-color="#89E8F8"/>
+<stop offset="1" stop-color="#0B2F6B"/>
+</linearGradient>
+</defs>
+</svg>

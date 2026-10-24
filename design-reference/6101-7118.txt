@@ -1,0 +1,211 @@
+const imgImage3 = "https://www.figma.com/api/mcp/asset/7a9cbda6-a8e7-4ae5-81d0-20dc1b5fec28.png";
+const imgRectangle3 = "https://www.figma.com/api/mcp/asset/f47e27ce-a824-4e7b-a710-b7769a8fb23f.png";
+const imgCenterBox65Opacity = "https://www.figma.com/api/mcp/asset/ce296b3f-7fa3-45ca-9191-a56ba10872ab.svg";
+const imgInteriorSubtleDarkBlueGradient = "https://www.figma.com/api/mcp/asset/3999db08-ddc2-4069-8c12-26e959cb09b5.svg";
+const imgIndicators = "https://www.figma.com/api/mcp/asset/cc994507-6a31-4912-82dc-c0576357a770.svg";
+const imgStatusCluster = "https://www.figma.com/api/mcp/asset/b489754d-9365-4911-b2d6-ba0f47772ca2.svg";
+const imgStatusCluster1 = "https://www.figma.com/api/mcp/asset/a281f28c-68e7-4e43-8823-d24f0a7eaa11.svg";
+const imgStatusCluster2 = "https://www.figma.com/api/mcp/asset/f5641083-8da8-4a7d-936a-4491c19fa1d5.svg";
+const imgStatusCluster3 = "https://www.figma.com/api/mcp/asset/ea051dad-4f5c-440d-b563-76c708dd6a12.svg";
+const imgCircuitLines = "https://www.figma.com/api/mcp/asset/1355081d-e4b1-458f-acac-2664fe44f987.svg";
+const imgInnerBorders = "https://www.figma.com/api/mcp/asset/0da692a7-9143-4099-a809-d40a30cbdbaa.svg";
+const imgOuterFrame = "https://www.figma.com/api/mcp/asset/1a80da09-45f5-4f11-9dd2-d8f4caba7122.svg";
+const imgHexagonalGrid = "https://www.figma.com/api/mcp/asset/b3393369-3c65-4709-b0be-8ee1561850d3.svg";
+const imgPerimeterLightDiffusion = "https://www.figma.com/api/mcp/asset/a7aa270b-f2fc-4d36-a441-1ba68a1378ed.svg";
+const imgPerimeterLightDiffusion1 = "https://www.figma.com/api/mcp/asset/6c393433-f13b-4580-bb1d-416faa6ca107.svg";
+const imgFrame = "https://www.figma.com/api/mcp/asset/d4d95ac5-866f-44a6-8e41-1b379910f7cc.svg";
+
+export default function Pt07ThankYouAndScore4KPortrait() {
+  return (
+    <div className="relative size-full" data-node-id="6101:7118" data-name="PT07 · Thank you and score · 4K Portrait">
+      <div className="absolute bg-white h-[3840px] left-0 overflow-clip top-0 w-[2160px]" data-node-id="6101:5920" data-name="PT07 · Thank you and score · 4K Portrait · Brand">
+        <div className="absolute h-[3840px] left-0 top-0 w-[2160px]" data-node-id="6101:5921" data-name="image 3">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage3} />
+        </div>
+        <div className="absolute h-[3840px] left-0 top-0 w-[2160px]" data-node-id="6101:5925">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" height="3840" src={imgRectangle3} width="2160" />
+        </div>
+        <div className="absolute contents h-[1580px] left-[206px] top-[940px] w-[1748px]" data-node-id="6101:5926" data-name="Instruction panel · original brand artwork">
+          <div className="absolute flex h-[1580px] items-center justify-center left-[206px] top-[940px] w-[1748px]" data-node-id="6101:5927">
+            <div className="-rotate-90 flex-none">
+              <div className="h-[1748px] relative w-[1580px]" data-name="Center box · 65% opacity">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCenterBox65Opacity} />
+              </div>
+            </div>
+          </div>
+          <div className="absolute flex h-[1580px] items-center justify-center left-[206px] top-[940px] w-[1748px]" data-node-id="6101:5931">
+            <div className="-rotate-90 flex-none">
+              <div className="blur-[17.143px] border-[#8cfbff] border-[17.143px] border-solid h-[1748px] relative rounded-[157.143px] w-[1580px]" data-name="Cyan light bloom" />
+            </div>
+          </div>
+          <div className="absolute flex h-[1580px] items-center justify-center left-[206px] top-[940px] w-[1748px]" data-node-id="6101:5932">
+            <div className="-rotate-90 flex-none">
+              <div className="blur-[34.286px] border-[#8cfbff] border-[28.571px] border-solid h-[1748px] opacity-85 relative rounded-[157.143px] w-[1580px]" data-name="Diffused electric halo" />
+            </div>
+          </div>
+          <div className="absolute flex h-[1452.47px] items-center justify-center left-[262.07px] top-[1003.77px] w-[1635.863px]" data-node-id="6101:5933">
+            <div className="-rotate-90 flex-none">
+              <div className="blur-[11.429px] border-[#8cfbff] border-[14.286px] border-solid h-[1635.863px] relative rounded-[105.714px] w-[1452.47px]" data-name="Inner light diffusion" />
+            </div>
+          </div>
+          <div className="absolute flex h-[1452.47px] items-center justify-center left-[262.07px] top-[1003.77px] w-[1635.863px]" data-node-id="6101:5934">
+            <div className="-rotate-90 flex-none">
+              <div className="bg-[rgba(0,0,0,0)] border-[#8cfbff] border-[7.143px] border-solid h-[1635.863px] relative rounded-[105.714px] w-[1452.47px]" data-name="Inner crisp light" />
+            </div>
+          </div>
+          <div className="absolute flex h-[1580px] items-center justify-center left-[206px] top-[940px] w-[1748px]" data-node-id="6101:5935">
+            <div className="-rotate-90 flex-none">
+              <div className="bg-[rgba(0,0,0,0)] border-[#00dfff] border-[8.571px] border-solid h-[1748px] relative rounded-[157.143px] w-[1580px]" data-name="Outer crisp light" />
+            </div>
+          </div>
+        </div>
+        <a className="absolute block cursor-pointer h-[255px] left-[640px] top-[2645px] w-[880.051px]" data-node-id="6101:5942" data-name="Next · approved button">
+          <div className="absolute contents left-0 top-0" data-node-id="I6101:5942;13:33" data-name="Approved button artwork · unchanged">
+            <div className="absolute flex h-[208.944px] items-center justify-center left-[27.14px] top-[22.43px] w-[825.712px]" data-node-id="I6101:5942;13:34">
+              <div className="-scale-y-100 flex-none rotate-180">
+                <div className="h-[208.944px] relative w-[825.712px]" data-name="Interior · subtle dark-blue gradient">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgInteriorSubtleDarkBlueGradient} />
+                </div>
+              </div>
+            </div>
+            <div className="absolute flex h-[213.666px] items-center justify-center left-[2.86px] top-[22.43px] w-[874.284px]" data-node-id="I6101:5942;13:35">
+              <div className="-scale-y-100 flex-none rotate-180">
+                <div className="h-[213.666px] relative w-[874.284px]" data-name="Indicators">
+                  <div className="absolute inset-[-0.19%_-0.1%]">
+                    <img alt="" className="block max-w-none size-full" src={imgIndicators} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute contents left-[214.42px] top-[21.38px]" data-node-id="I6101:5942;13:49" data-name="Nodes">
+              <div className="absolute contents left-[214.42px] top-[21.38px]" data-node-id="I6101:5942;13:50" data-name="Terminal status dots">
+                <div className="absolute flex h-[2.125px] items-center justify-center left-[214.42px] top-[231.5px] w-[25.428px]" data-node-id="I6101:5942;13:51">
+                  <div className="-scale-y-100 flex-none rotate-180">
+                    <div className="h-[2.125px] relative w-[25.428px]" data-name="Status cluster">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStatusCluster} />
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute flex h-[2.125px] items-center justify-center left-[214.42px] top-[21.38px] w-[25.428px]" data-node-id="I6101:5942;13:55">
+                  <div className="-scale-y-100 flex-none rotate-180">
+                    <div className="h-[2.125px] relative w-[25.428px]" data-name="Status cluster">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStatusCluster1} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="absolute contents left-[640.13px] top-[21.38px]" data-node-id="I6101:5942;13:59" data-name="Terminal status dots">
+                <div className="absolute flex h-[2.125px] items-center justify-center left-[640.13px] top-[231.5px] w-[25.427px]" data-node-id="I6101:5942;13:60">
+                  <div className="-scale-y-100 flex-none rotate-180">
+                    <div className="h-[2.125px] relative w-[25.427px]" data-name="Status cluster">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStatusCluster2} />
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute flex h-[2.125px] items-center justify-center left-[640.13px] top-[21.38px] w-[25.427px]" data-node-id="I6101:5942;13:64">
+                  <div className="-scale-y-100 flex-none rotate-180">
+                    <div className="h-[2.125px] relative w-[25.427px]" data-name="Status cluster">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStatusCluster3} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute flex h-[131.033px] items-center justify-center left-[275.71px] top-[61.38px] w-[271.429px]" data-node-id="I6101:5942;13:68">
+              <div className="-scale-y-100 flex-none rotate-180">
+                <div className="h-[131.033px] relative w-[271.429px]" data-name="Circuit Lines">
+                  <div className="absolute inset-[-0.28%_0_-0.27%_-0.21%]">
+                    <img alt="" className="block max-w-none size-full" src={imgCircuitLines} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute flex h-[243.178px] items-center justify-center left-[27.15px] top-[5.9px] w-[825.711px]" data-node-id="I6101:5942;13:74">
+              <div className="-scale-y-100 flex-none rotate-180">
+                <div className="h-[243.178px] relative w-[825.711px]" data-name="Inner Borders">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgInnerBorders} />
+                </div>
+              </div>
+            </div>
+            <div className="absolute flex h-[254.985px] items-center justify-center left-0 top-0 w-[879.997px]" data-node-id="I6101:5942;13:89">
+              <div className="-scale-y-100 flex-none rotate-180">
+                <div className="h-[254.985px] relative w-[879.997px]" data-name="Outer Frame">
+                  <div className="absolute inset-[-0.28%_0]">
+                    <img alt="" className="block max-w-none size-full" src={imgOuterFrame} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute flex h-[198.3px] items-center justify-center left-[34.29px] top-[33.08px] w-[811.424px]" data-node-id="I6101:5942;13:106">
+              <div className="-scale-y-100 flex-none rotate-180">
+                <div className="h-[198.3px] relative w-[811.424px]" data-name="Hexagonal Grid">
+                  <div className="absolute inset-[-0.27%_0_-0.14%_0]">
+                    <img alt="" className="block max-w-none size-full" src={imgHexagonalGrid} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute contents left-0 top-0" data-node-id="I6101:5942;13:137" data-name="Neon Glow">
+              <div className="absolute flex h-[254.985px] items-center justify-center left-[445.72px] top-0 w-[434.283px]" data-node-id="I6101:5942;13:138">
+                <div className="-scale-y-100 flex-none rotate-180">
+                  <div className="h-[254.985px] relative w-[434.283px]" data-name="Perimeter light diffusion">
+                    <div className="absolute inset-[-2.43%_-0.91%_-2.43%_-1.33%]">
+                      <img alt="" className="block max-w-none size-full" src={imgPerimeterLightDiffusion} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="absolute flex h-[254.985px] items-center justify-center left-0 top-0 w-[434.285px]" data-node-id="I6101:5942;13:150">
+                <div className="-scale-y-100 flex-none rotate-180">
+                  <div className="h-[254.985px] relative w-[434.285px]" data-name="Perimeter light diffusion">
+                    <div className="absolute inset-[-2.43%_-1.33%_-2.43%_-0.91%]">
+                      <img alt="" className="block max-w-none size-full" src={imgPerimeterLightDiffusion1} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Noto_Kufi_Arabic:Medium'] h-[80px] justify-center leading-[0] left-[440px] not-italic text-[72px] text-center text-white top-[127.49px] w-[650px]" data-node-id="I6101:5942;13:162">
+            <p className="leading-[normal]">Finish</p>
+          </div>
+        </a>
+      </div>
+      <div className="absolute h-[3840px] left-0 overflow-clip top-0 w-[2160px]" data-node-id="6101:7108" data-name="PT07 · Thank you and score · 4K Portrait · Content">
+        <div className="absolute h-[3840px] left-0 overflow-clip top-0 w-[2160px]" data-node-id="6136:8792" data-name="Frame">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame} />
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Bold'] inset-[27.08%_27.99%_64.53%_27.99%] leading-[normal] not-italic text-[170px] text-center text-white whitespace-nowrap" data-node-id="6136:8794">
+            Thank you!
+          </p>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Bold'] inset-[36.2%_33.68%_60.83%_33.68%] leading-[normal] not-italic text-[#5be9ff] text-[60px] text-center whitespace-nowrap" data-node-id="6136:8795">
+            PASSWORD CHALLENGE
+          </p>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Bold'] inset-[39.19%_42.71%_57.84%_42.71%] leading-[normal] not-italic text-[#5be9ff] text-[60px] text-center whitespace-nowrap" data-node-id="6136:8796">
+            COMPLETE
+          </p>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Bold'] inset-[42.84%_38.59%_46.3%_38.59%] leading-[normal] not-italic text-[220px] text-center text-white whitespace-nowrap" data-node-id="6136:8797">
+            4 / 4
+          </p>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Bold'] inset-[51.35%_42.94%_46.28%_42.94%] leading-[normal] not-italic text-[#b8d8f1] text-[48px] text-center whitespace-nowrap" data-node-id="6136:8798">
+            YOUR SCORE
+          </p>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Bold'] inset-[55.94%_36.11%_40.49%_36.11%] leading-[normal] not-italic text-[72px] text-center text-white whitespace-nowrap" data-node-id="6136:8799">
+            Total time: 01:00
+          </p>
+          <p className="[word-break:break-word] absolute font-['Noto_Kufi_Arabic:Regular'] inset-[60.16%_42.96%_36.88%_42.96%] leading-[normal] not-italic text-[60px] text-center text-white whitespace-nowrap" data-node-id="6136:8800">
+            Jordan Lee
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.
