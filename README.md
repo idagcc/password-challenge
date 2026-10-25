@@ -1,6 +1,6 @@
 # Password Challenge
 
-An offline kiosk game built from **Password Challenge • 4K Portrait** (2160 × 3840) in the approved Figma file. It includes name/email registration, instructions, two picture rounds, a counting round, the approved vault maze, empty-answer validation, a result screen, and a persistent top-five leaderboard.
+An offline kiosk game built from **Password Challenge • 4K Portrait** (2160 × 3840) in the approved Figma file. It includes name/email registration, instructions, ten rounds, empty-answer validation, a result screen, and a persistent top-five leaderboard.
 
 ## Repository and downloads
 
@@ -21,8 +21,9 @@ Set Windows sleep/screensaver to Never for the event session. Check that the tou
 - The idle screen shows real completed games. It is empty until the first player finishes; example names from Figma are not seeded.
 - Require a name and valid email, then show instructions. The timer begins only on **Next** into round one.
 - One nonempty submission per round. Both correct and incorrect answers advance; correct answers add one. Empty submissions show the approved validation screen and return to the same round. Spaces and letter case are normalized; digits and punctuation must match.
+- After submission, the entered answer turns green for a correct answer or red for an incorrect answer, with a matching text label. The feedback stays visible for one second before the next round or final result; further edits and submissions are disabled during that pause.
 - Default ranking is **correct answers descending, then total elapsed time ascending**, as shown in the approved Figma instructions. Each answer's correctness, response time and submitted answer are stored, so the final scoring model can be recalculated later.
-- The first game uses the four approved Figma examples. Later games rotate through all 25 picture and 25 counting puzzles from the supplied v3 bank; every game ends with the approved maze. Set `puzzleSelection` to `approved` in `config.json` to use the same four approved puzzles for every player.
+- Every player gets ten rounds: **picture → picture → counting**, repeated three times, then the approved vault maze in round ten. Six picture puzzles and three counting puzzles are randomly selected from their respective 25-question banks without repeats within a game, including for the first player. The single supplied maze remains the same for everyone. Each player's selection is saved when they register and survives server restarts.
 - The supplied Catch the Phish keyboard is used with its original Noto Kufi Arabic Regular 400 font, key sizes, spacing and colours. It has QWERTY letters, a number row, Shift, Space and Backspace. Email adds @, . and .com; answer entry adds !, # and @. Done closes the keyboard; submit using the approved game button. While answering, the game lifts enough to keep the live answer field visible above the keyboard. A physical keyboard also works. Answers are visible as shown in Figma.
 - Inactivity returns to the leaderboard after 120 seconds. Games have a ten-minute maximum. Results return automatically after 25 seconds. Unfinished games are retained for export but excluded from the leaderboard.
 
@@ -58,13 +59,12 @@ Edit **config.json**, stop the server and relaunch to apply changes.
 | `idleTimeoutSeconds` | 120 | Inactivity reset |
 | `resultTimeoutSeconds` | 25 | Automatic Finish |
 | `maxGameSeconds` | 600 | Maximum total game duration |
-| `puzzleSelection` | `rotate` | `rotate` for the full bank; `approved` for the four Figma examples |
 | `scoring.mode` | `correct-then-time` | Provisional ranking; `weighted` enables the formula below |
 | `scoring.correctWeight` | 1000 | Points per correct answer in weighted mode |
 | `scoring.speedWeight` | 100 | Maximum speed bonus |
 | `scoring.speedWindowSeconds` | 240 | Time window for the speed bonus |
 
-Weighted formula: `correct × correctWeight + round(speedWeight × max(0, 1 − elapsedSeconds / speedWindowSeconds) × correct / 4)`. The approved player screen continues to show correct answers out of four. Changing scoring settings recalculates leaderboard ranking from stored raw results. Final weighting is awaiting your decision.
+Weighted formula: `correct × correctWeight + round(speedWeight × max(0, 1 − elapsedSeconds / speedWindowSeconds) × correct / totalRounds)`. The player screen shows correct answers out of ten. Existing four-round sessions retain their original length and scoring denominator. Changing scoring settings recalculates leaderboard ranking from stored raw results. Final weighting is awaiting your decision.
 
 ## Local development
 

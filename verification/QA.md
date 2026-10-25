@@ -1,5 +1,25 @@
 # Password Challenge verification
 
+## Answer colors · 25 October 2026
+
+- Submitted answers remain visible for one second with green text, a green field and “Correct answer” when accepted, or red text, a red field and “Incorrect answer” otherwise. Correctness comes from the server response.
+- Browser checks confirmed both computed text colors, read-only input and disabled Submit during feedback, then a blank neutral input on the next round. Repeated Enter during feedback did not skip or duplicate a round.
+- A complete ten-round browser game with one correct answer and nine incorrect answers showed feedback on the final maze before the expected 1 / 10 result. No browser console errors were recorded.
+- Final screenshots: `correct-answer-green.png` and `incorrect-answer-red.png`. The matching feedback label sits next to the password heading without overlapping the score or panel border.
+- All 12 existing automated tests and the TypeScript/production build passed. Browser tests used a separate temporary database on port 4176.
+
+## Random selection and ten rounds · 25 October 2026
+
+- All 12 automated tests and the TypeScript/production build passed.
+- Every new registration randomly selects six different picture puzzles and three different counting puzzles, including the first registration. Tests exercise fresh draws before either player starts, all 50 bank questions, and saved selections across a new server connection.
+- Round order is picture → picture → counting three times, then the supplied vault maze in round ten. Games stay active through round nine and complete only after the tenth submission. Final-answer retries remain idempotent.
+- Instructions, round counters, correct-answer totals, results and weighted speed bonuses use the game's total round count. Existing four-round sessions still finish and retain their original scoring denominator.
+- Browser play-through completed all ten questions correctly: randomly selected puzzles 013, 004, 031, 006, 005, 030, 019, 002 and 047 from the bank, followed by the maze. The UI showed ROUND 10 / 10, CORRECT 9 / 10, then a 10 / 10 result and a saved leaderboard score of 10. No browser console errors were recorded.
+- The 10 / 10 result text fits its widened container without overflow. Screenshots: `ten-round-maze.png` and `ten-round-result.png`.
+- Browser verification used an isolated temporary database on port 4176. The live event database was not used for test registrations.
+
+## Original four-round verification
+
 - Production build and TypeScript: passed.
 - Nine automated tests: passed, covering answer normalization, registration validation, server-authoritative four-round scoring, timing, duplicate submissions, persisted leaderboard, accuracy/time ordering, all 50 puzzles, timeout rejection, CSV export, private-route protection and the HTTP game flow.
 - Approved Figma play-through in the browser: registration → instructions → four correct answers → 4/4 result → Finish → persisted leaderboard. Empty-answer validation and Back also passed.

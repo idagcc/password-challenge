@@ -12,6 +12,7 @@ test('production HTTP flow, media ranges, private-file protection and operator e
  const base=await new Promise((resolve,reject)=>{const timeout=setTimeout(()=>reject(new Error('Server startup timed out')),15000);let output='';child.stdout.on('data',data=>{output+=data;const m=output.match(/http:\/\/127\.0\.0\.1:\d+/);if(m){clearTimeout(timeout);resolve(m[0]);}});child.once('error',reject);});
  const request=async(path,data)=>fetch(base+path,data?{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)}:{});
  assert.equal((await request('/api/health')).status,200);
+ assert.equal((await(await request('/api/config')).json()).totalRounds,10);
  assert.match(await (await request('/')).text(),/Password Challenge/);
  const videoPath='/assets/media/dge-background-portrait.mp4';
  const video=readFileSync('public'+videoPath);
@@ -31,10 +32,20 @@ test('production HTTP flow, media ranges, private-file protection and operator e
  assert.equal((await request('/api/register',{name:'X',email:'invalid'})).status,400);
  let session=await(await request('/api/register',{name:'HTTP Player',email:'http@example.com'})).json();
  assert.equal(session.email,undefined);assert.equal(session.puzzle.answer,undefined);
+ assert.equal(session.totalRounds,10);
+ const answerKey=JSON.parse(readFileSync('private/answers.json'));
+ const answers=new Map(answerKey.puzzles.map(p=>[p.id,p.answer]));answers.set('vault-maze','CODE5!');
+ const categories=['picture_password','picture_password','security_count','picture_password','picture_password','security_count','picture_password','picture_password','security_count','vault_maze'];
+ const seen=new Set();
  session=await(await request(`/api/sessions/${session.id}/start`,{})).json();
- for(const [round,answer] of ['SUNFLOWER7!','FIREWALL4!','423#','CODE5!'].entries()){
+ for(let round=0;round<10;round++){
+  assert.equal(session.puzzle.category,categories[round]);assert.equal(session.puzzle.answer,undefined);
+  assert.ok(!seen.has(session.puzzle.id));seen.add(session.puzzle.id);
+  const answer=answers.get(session.puzzle.id);
   const r=await request(`/api/sessions/${session.id}/answer`,{round,answer,requestId:`http-${round}`});assert.equal(r.status,200);session=await r.json();assert.equal(session.correct,round+1);
+  assert.equal(session.status,round===9?'completed':'playing');
  }
+ assert.equal(session.puzzle,null);assert.equal(session.round,10);
  const leaders=await(await request('/api/leaderboard')).json();assert.equal(leaders[0].name,'HTTP Player');assert.equal(leaders[0].email,undefined);
  assert.equal((await request('/api/operator/export')).status,401);
  const key=readFileSync(join(dir,'operator-key.txt'),'utf8').trim();

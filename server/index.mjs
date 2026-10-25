@@ -3,7 +3,7 @@ import { readFileSync, existsSync, statSync, createReadStream } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { resolve, extname, join } from 'node:path';
 import { timingSafeEqual } from 'node:crypto';
-import { createGame } from './game.mjs';
+import { createGame, TOTAL_ROUNDS } from './game.mjs';
 const root = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const config = JSON.parse(readFileSync(join(root, 'config.json'), 'utf8'));
 const game = createGame({ root, dataDir: process.env.PASSWORD_DATA_DIR || join(root, 'data'), config });
@@ -23,7 +23,7 @@ const server = createServer(async (req, res) => {
     if (path.startsWith('/api/')) {
       if (req.method !== 'GET' && req.headers.origin && req.headers.origin !== `http://${req.headers.host}`) return json(res, 403, { error: 'Request origin is not allowed.' });
       if (path === '/api/health') return json(res, 200, { ok: true });
-      if (path === '/api/config' && req.method === 'GET') return json(res, 200, { idleTimeoutSeconds: config.idleTimeoutSeconds, resultTimeoutSeconds: config.resultTimeoutSeconds, maxGameSeconds: config.maxGameSeconds, scoringMode: config.scoring.mode });
+      if (path === '/api/config' && req.method === 'GET') return json(res, 200, { idleTimeoutSeconds: config.idleTimeoutSeconds, resultTimeoutSeconds: config.resultTimeoutSeconds, maxGameSeconds: config.maxGameSeconds, scoringMode: config.scoring.mode, totalRounds: TOTAL_ROUNDS });
       if (path === '/api/leaderboard' && req.method === 'GET') return json(res, 200, game.leaderboard());
       if (path === '/api/register' && req.method === 'POST') return json(res, 201, game.register(await body(req)));
       const match = path.match(/^\/api\/sessions\/([a-f0-9-]{36})(?:\/(start|answer))?$/);

@@ -3,6 +3,5 @@
   "idleTimeoutSeconds": 120,
   "resultTimeoutSeconds": 25,
   "maxGameSeconds": 600,
-  "puzzleSelection": "rotate",
   "scoring": { "mode": "correct-then-time", "correctWeight": 1000, "speedWeight": 100, "speedWindowSeconds": 240 }
 }

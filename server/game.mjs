@@ -1,7 +1,23 @@
 import { DatabaseSync } from 'node:sqlite';
-import { randomUUID, randomBytes } from 'node:crypto';
+import { randomUUID, randomBytes, randomInt } from 'node:crypto';
 import { readFileSync, mkdirSync, existsSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
+
+const roundCategories = [
+  'picture_password', 'picture_password', 'security_count',
+  'picture_password', 'picture_password', 'security_count',
+  'picture_password', 'picture_password', 'security_count', 'vault_maze',
+];
+export const TOTAL_ROUNDS = roundCategories.length;
+
+function shuffle(items, randomIndex) {
+  const shuffled = [...items];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = randomIndex(i + 1);
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
 
 export function normalizeAnswer(value) { return String(value ?? '').normalize('NFKC').replace(/\s/g, '').toUpperCase(); }
 export function validatePlayer(name, email) {
@@ -11,11 +27,11 @@ export function validatePlayer(name, email) {
   if (email.length > 254 || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) throw Object.assign(new Error('Enter a valid email address.'), { status: 400 });
   return { name, email };
 }
-export function calculateScore(correct, elapsedMs, scoring) {
-  return correct * scoring.correctWeight + Math.round(scoring.speedWeight * Math.max(0, 1 - elapsedMs / (scoring.speedWindowSeconds * 1000)) * correct / 4);
+export function calculateScore(correct, elapsedMs, scoring, totalRounds = TOTAL_ROUNDS) {
+  return correct * scoring.correctWeight + Math.round(scoring.speedWeight * Math.max(0, 1 - elapsedMs / (scoring.speedWindowSeconds * 1000)) * correct / totalRounds);
 }
 function fail(message, status = 400) { throw Object.assign(new Error(message), { status }); }
-export function createGame({ root, dataDir = join(root, 'data'), now = Date.now, config }) {
+export function createGame({ root, dataDir = join(root, 'data'), now = Date.now, randomIndex = randomInt, config }) {
   mkdirSync(dataDir, { recursive: true });
   const db = new DatabaseSync(join(dataDir, 'password-challenge.sqlite'));
   db.exec(`PRAGMA journal_mode=WAL; PRAGMA synchronous=FULL; PRAGMA foreign_keys=ON;
@@ -31,23 +47,24 @@ export function createGame({ root, dataDir = join(root, 'data'), now = Date.now,
   const puzzleMap = new Map(manifest.puzzles.map(p => [p.id, p]));
   puzzleMap.set('approved-count', { id: 'approved-count', category: 'security_count', title: 'Count the security symbols' });
   puzzleMap.set('vault-maze', { id: 'vault-maze', category: 'vault_maze', title: 'Find the route to the vault' });
+  const pictures = manifest.puzzles.filter(p => p.category === 'picture_password');
+  const counts = manifest.puzzles.filter(p => p.category === 'security_count');
   const session = id => { const s = db.prepare('SELECT * FROM sessions WHERE id = ?').get(id); if (!s) fail('Your session has ended. Please start again.', 404); return s; };
   const answers = id => db.prepare('SELECT round, puzzle_id, correct, response_ms, submitted_at FROM answers WHERE session_id = ? ORDER BY round').all(id);
   const state = id => {
     const s = session(id), a = answers(id), ids = JSON.parse(s.puzzle_ids);
     const elapsedMs = s.started_at ? Math.max(0, (s.completed_at ?? now()) - s.started_at) : 0;
     return { id, name: s.name, status: s.status, round: a.length, correct: a.reduce((n, x) => n + x.correct, 0), elapsedMs,
-      puzzle: s.status === 'completed' ? null : puzzleMap.get(ids[a.length]), totalRounds: 4, answers: a,
-      score: calculateScore(a.reduce((n, x) => n + x.correct, 0), elapsedMs, JSON.parse(s.scoring_config)) };
+      puzzle: s.status === 'completed' ? null : puzzleMap.get(ids[a.length]), totalRounds: ids.length, answers: a,
+      score: calculateScore(a.reduce((n, x) => n + x.correct, 0), elapsedMs, JSON.parse(s.scoring_config), ids.length) };
   };
   const register = (input) => {
     const { name, email } = validatePlayer(input.name, input.email);
-    const count = db.prepare('SELECT count(*) AS n FROM sessions WHERE started_at IS NOT NULL').get().n;
-    const approved = config.puzzleSelection === 'approved' || count === 0;
-    const index = count * 2 % 25;
-    const pictures = manifest.puzzles.filter(p => p.category === 'picture_password');
-    const counts = manifest.puzzles.filter(p => p.category === 'security_count');
-    const ids = approved ? ['puzzle-001', 'puzzle-002', 'approved-count', 'vault-maze'] : [pictures[index].id, pictures[(index + 1) % 25].id, counts[(count - 1) % 25].id, 'vault-maze'];
+    const pools = {
+      picture_password: shuffle(pictures, randomIndex),
+      security_count: shuffle(counts, randomIndex),
+    };
+    const ids = roundCategories.map(category => category === 'vault_maze' ? 'vault-maze' : pools[category].pop().id);
     const id = randomUUID();
     db.prepare('INSERT INTO sessions (id,name,email,created_at,puzzle_ids,scoring_config) VALUES (?,?,?,?,?,?)').run(id, name, email, now(), JSON.stringify(ids), JSON.stringify(config.scoring));
     return state(id);
@@ -68,19 +85,20 @@ export function createGame({ root, dataDir = join(root, 'data'), now = Date.now,
     if (typeof input.answer !== 'string' || input.answer.length > 80) fail('Please enter a shorter answer.');
     const answer = normalizeAnswer(input.answer);
     if (!answer) fail('Your answer is empty.');
-    const puzzleId = JSON.parse(s.puzzle_ids)[round], correct = Number(answerMap.get(puzzleId).includes(answer));
+    const ids = JSON.parse(s.puzzle_ids), puzzleId = ids[round], correct = Number(answerMap.get(puzzleId).includes(answer));
+    const lastRound = round === ids.length - 1;
     const time = now();
     db.exec('BEGIN IMMEDIATE');
     try {
       db.prepare('INSERT INTO answers VALUES (?,?,?,?,?,?,?,?)').run(id, round, puzzleId, answer, correct, Math.max(0, time - s.round_started_at), time, input.requestId);
-      db.prepare('UPDATE sessions SET round_started_at=?, completed_at=?, status=? WHERE id=?').run(time, round === 3 ? time : null, round === 3 ? 'completed' : 'playing', id);
+      db.prepare('UPDATE sessions SET round_started_at=?, completed_at=?, status=? WHERE id=?').run(time, lastRound ? time : null, lastRound ? 'completed' : 'playing', id);
       db.exec('COMMIT');
     } catch (e) { db.exec('ROLLBACK'); throw e; }
     return state(id);
   };
   const leaderboard = () => {
-    const rows = db.prepare(`SELECT s.id,s.name,s.started_at,s.completed_at,SUM(a.correct) correct FROM sessions s JOIN answers a ON a.session_id=s.id WHERE s.status='completed' GROUP BY s.id`).all();
-    return rows.map(r => ({ id: r.id, name: r.name, correct: r.correct, elapsedMs: r.completed_at - r.started_at, score: calculateScore(r.correct, r.completed_at - r.started_at, config.scoring), completedAt: r.completed_at }))
+    const rows = db.prepare(`SELECT s.id,s.name,s.started_at,s.completed_at,s.puzzle_ids,SUM(a.correct) correct FROM sessions s JOIN answers a ON a.session_id=s.id WHERE s.status='completed' GROUP BY s.id`).all();
+    return rows.map(r => ({ id: r.id, name: r.name, correct: r.correct, elapsedMs: r.completed_at - r.started_at, score: calculateScore(r.correct, r.completed_at - r.started_at, config.scoring, JSON.parse(r.puzzle_ids).length), completedAt: r.completed_at }))
       .sort((a, b) => (config.scoring.mode === 'weighted' ? b.score - a.score : b.correct - a.correct) || a.elapsedMs - b.elapsedMs || a.completedAt - b.completedAt)
       .slice(0, 5).map((r, i) => ({ ...r, rank: i + 1 }));
   };
