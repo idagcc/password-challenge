@@ -16,6 +16,8 @@ The repository includes the application source and the production browser build 
 
 Set Windows sleep/screensaver to Never for the event session. Check that the touchscreen orientation, touch mapping and scaling are correct on the actual hardware before the event. The layout fits other window sizes proportionally with side bars; the approved composition is preserved.
 
+To update an existing kiosk, close Edge and run **Stop-Password-Challenge.cmd** first. Back up **data/**, then copy the new package's contents into the existing installation, replacing application files while retaining **data/** and **exports/**. Run **Start-Password-Challenge.cmd** again to load the update. The ZIP contains no player data or operator keys.
+
 ## Playing and scores
 
 - The idle screen shows real completed games. It is empty until the first player finishes; example names from Figma are not seeded.
@@ -75,7 +77,7 @@ npm install
 npm run dev
 ```
 
-Open `http://127.0.0.1:4173`. `npm run build` checks TypeScript and creates the production app; `npm start` serves it. `npm test` runs game/persistence tests. `node scripts/audit-assets.mjs` verifies Figma and bank assets. `npm run package:windows` creates the Windows bundle and verifies the official runtime's SHA-256 checksum. Packaging requires Python 3 and curl on the build machine.
+Open `http://127.0.0.1:4173`. `npm run build` checks TypeScript and creates the production app; `npm start` serves it. `npm test` runs game/persistence tests. `node scripts/audit-assets.mjs` verifies Figma and bank assets. `npm run package:windows` rebuilds the production app, creates the Windows bundle and verifies the official runtime's SHA-256 checksum. Packaging requires Python 3 and curl on the build machine.
 
 Figma source: https://www.figma.com/design/I4RLsJTWCjKWqFiTlUN2YX/Password-Challenge---UI-Flow?node-id=6101-1562
 

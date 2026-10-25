@@ -1,5 +1,13 @@
 # Password Challenge verification
 
+## Windows release refresh · 25 October 2026
+
+- `npm run package:windows` now builds the production app before packaging, so the Windows ZIP includes the current frontend automatically.
+- Rebuilt `Password-Challenge-Windows.zip` with random selection, ten rounds, green/red answer feedback and updated upgrade instructions. All 237 archived files matched the current source, production build, launchers or verified Node.js 22.23.3 Windows x64 runtime.
+- ZIP integrity and SHA-256 checks passed. Archive size: 85,530,908 bytes. SHA-256: `df1673e8c4e9a2fb7b139a1bfb80de3401284bac7834419486145bedd64e46ac`.
+- An extracted copy served successfully using the macOS host runtime. A complete ten-round game scored 10 / 10, saved its leaderboard entry and exported all ten answers. The packaged feedback assets and private-route protection checks passed.
+- All 12 automated tests, the TypeScript/production build and the asset audit passed. The ZIP excludes player databases, operator keys and exports. The Windows executable was checksum-verified but was not executed on this macOS host.
+
 ## Answer colors · 25 October 2026
 
 - Submitted answers remain visible for one second with green text, a green field and “Correct answer” when accepted, or red text, a red field and “Incorrect answer” otherwise. Correctness comes from the server response.
