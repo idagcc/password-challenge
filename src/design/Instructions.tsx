@@ -188,7 +188,6 @@ export default function Instructions({ values = {}, onNext, disabled }: DesignPr
           <p className="figma-125" data-node-id="6136:8780">{values["6136:8780"] ?? "Move through all four rounds."}</p>
           <p className="figma-126" data-node-id="6136:8781">{values["6136:8781"] ?? "04"}</p>
           <p className="figma-127" data-node-id="6136:8782">{values["6136:8782"] ?? "BE ACCURATE AND QUICK"}</p>
-          <p className="figma-128" data-node-id="6136:8783">{values["6136:8783"] ?? "Most correct wins; lowest time breaks a tie."}</p>
         </div>
       </div>
     </div>

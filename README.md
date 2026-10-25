@@ -24,10 +24,10 @@ To update an existing kiosk, close Edge and run **Stop-Password-Challenge.cmd** 
 - Require a name and valid email, then show instructions. The timer begins only on **Next** into round one.
 - One nonempty submission per round. Both correct and incorrect answers advance; correct answers add one. Empty submissions show the approved validation screen and return to the same round. Spaces and letter case are normalized; digits and punctuation must match.
 - After submission, the entered answer turns green for a correct answer or red for an incorrect answer, with a matching text label. The feedback stays visible for one second before the next round or final result; further edits and submissions are disabled during that pause.
-- Default ranking is **correct answers descending, then total elapsed time ascending**, as shown in the approved Figma instructions. Each answer's correctness, response time and submitted answer are stored, so the final scoring model can be recalculated later.
+- Default ranking is **correct answers descending, then total elapsed time ascending**. Each answer's correctness, response time and submitted answer are stored, so the final scoring model can be recalculated later.
 - Every player gets ten rounds: **picture → picture → counting**, repeated three times, then the approved vault maze in round ten. Six picture puzzles and three counting puzzles are randomly selected from their respective 25-question banks without repeats within a game, including for the first player. The single supplied maze remains the same for everyone. Each player's selection is saved when they register and survives server restarts.
 - The supplied Catch the Phish keyboard is used with its original Noto Kufi Arabic Regular 400 font, key sizes, spacing and colours. It has QWERTY letters, a number row, Shift, Space and Backspace. Email adds @, . and .com; answer entry adds !, # and @. Done closes the keyboard; submit using the approved game button. While answering, the game lifts enough to keep the live answer field visible above the keyboard. A physical keyboard also works. Answers are visible as shown in Figma.
-- Inactivity returns to the leaderboard after 120 seconds. Games have a ten-minute maximum. Results return automatically after 25 seconds. Unfinished games are retained for export but excluded from the leaderboard.
+- Inactivity during registration, instructions or an unfinished game returns to the home screen after 30 seconds. Touching the screen or pressing a key restarts this timer. Games have a ten-minute maximum. Results return automatically after 25 seconds. Unfinished games are retained for export but excluded from the leaderboard.
 
 ## Background, motion and sound
 
@@ -58,7 +58,7 @@ Edit **config.json**, stop the server and relaunch to apply changes.
 | Setting | Default | Purpose |
 | --- | --- | --- |
 | `port` | 4173 | Local server port; launcher and export scripts read it |
-| `idleTimeoutSeconds` | 120 | Inactivity reset |
+| `idleTimeoutSeconds` | 30 | Inactivity reset |
 | `resultTimeoutSeconds` | 25 | Automatic Finish |
 | `maxGameSeconds` | 600 | Maximum total game duration |
 | `scoring.mode` | `correct-then-time` | Provisional ranking; `weighted` enables the formula below |

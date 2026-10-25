@@ -11,7 +11,7 @@ import { api, formatTime, type Session, type Leader, type Settings } from './typ
 type Screen = 'idle' | 'registration' | 'instructions' | 'playing' | 'result' | 'validation';
 type Field = 'name' | 'email' | 'answer';
 type AnswerFeedback = { correct: boolean; nextSession: Session; receivedAt: number };
-const defaults: Settings = { idleTimeoutSeconds: 120, resultTimeoutSeconds: 25, maxGameSeconds: 600, scoringMode: 'correct-then-time', totalRounds: 10 };
+const defaults: Settings = { idleTimeoutSeconds: 30, resultTimeoutSeconds: 25, maxGameSeconds: 600, scoringMode: 'correct-then-time', totalRounds: 10 };
 export default function App() {
  const { audioRef, cue } = useGameAudio();
  const [videoReady, setVideoReady] = useState(false);

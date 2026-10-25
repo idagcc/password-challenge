@@ -52,8 +52,7 @@ export const textNodes = {
     "6136:8779": "SUBMIT YOUR ANSWER",
     "6136:8780": "Move through all four rounds.",
     "6136:8781": "04",
-    "6136:8782": "BE ACCURATE AND QUICK",
-    "6136:8783": "Most correct wins; lowest time breaks a tie."
+    "6136:8782": "BE ACCURATE AND QUICK"
   },
   "PictureOne": {
     "6101:6293": "ROUND 01 / 04",

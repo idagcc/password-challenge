@@ -1,6 +1,6 @@
 {
   "port": 4173,
-  "idleTimeoutSeconds": 120,
+  "idleTimeoutSeconds": 30,
   "resultTimeoutSeconds": 25,
   "maxGameSeconds": 600,
   "scoring": { "mode": "correct-then-time", "correctWeight": 1000, "speedWeight": 100, "speedWindowSeconds": 240 }
